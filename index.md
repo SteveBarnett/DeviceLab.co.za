@@ -1,16 +1,22 @@
 # [Nomad Device Lab](index.md)
 
-[mobile.md](mobile.md) | [testing.md](testing.md) | [benefits.md](benefits.md)
+[home](index.md) | [mobile and testing](mobile-and-testing.md) | [our solution](our-solution.md)
 
-Internet access across the world is increasing at a rapid pace. The change is especially noticable with mobile devices. Many people have no fixed-line access to the web, instead relying on their mobile device. Web sites and web apps are being used across a wider range of software and hardware than ever before. [Is mobile web access popular? &raquo;](mobile.html)
+Internet access across the world is increasing at a rapid pace. The change is especially noticable with mobile devices. Many people have no fixed-line access to the web, instead relying on their mobile device. Web sites and web apps are being used across a wider range of software and hardware than ever before.
 
-In order to provide the best product and the most value to users and clients, it's necessary to test across a wide range of platforms: mobile is the most exciting and the most challenging of these. [Why is testing, and testing for mobile, important?](testing.md)
+[Is mobile web access popular?](mobile-and-testing.md#statistics)
 
-Mobile Operating System and Browser emulators offer a reasonable way of testing layout, but can suffer from errors or difference in performance and behaviour. The best way of testing is to get hands-on and use the site as the users will: on actual devices. [Why is testing on actual devices so important? &raquo;]()
+In order to provide the best product and the most value to users and clients, it's necessary to test across a wide range of platforms: mobile is the most exciting and the most challenging of these.
+
+[Why is testing for mobile important?](mobile-and-testing.md#whyistestingformobileimportant)
+
+Mobile Operating System and Browser emulators offer a reasonable way of testing layout, but can suffer from errors or differences in performance and behaviour. The best way of testing is to get hands-on and use the site as the users will: on actual devices.
+
+[Why is testing on actual devices so important?](our-solution.md#whytestonrealdevices)
 
 ## Nomad Device Lab
 
-**Nomad Device Lab** is a traveling, curated, collection of mobile devices that can work with you to do practical and efficient testing. **(each of these linked)**
+**Nomad Device Lab** is a traveling, curated, collection of mobile devices that can work with you to do practical and efficient testing.
 
 * **A travelling lab.** It comes to your office, your environment, to conveniently fit in with your existing workflow.
 * **A curated collection.** The devices in the lab are selected to match market growth and penetration, with a slant towards local trends. The selection is based on research and statistics and is regularly, but not frequently, updated.
@@ -21,7 +27,7 @@ Mobile Operating System and Browser emulators offer a reasonable way of testing 
 
 * **An efficient means of testing.** The lab is brought to you by an experienced front end web developer, who is on hand to assist your team and offer quick, specific, solutions.
 
-[How does using the lab benefit me?](benefits.md)
+[Why is the Nomad Device Lab the best solution?](our-solution.md)
 
 ## Services
 
