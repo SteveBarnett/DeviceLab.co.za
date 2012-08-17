@@ -1,11 +1,48 @@
-## What are the alternatives?
+# [Nomad Device Lab](index.md)
 
-### A device lab in a fixed location
+[mobile.md](mobile.md) | [testing.md](testing.md) | [benefits.md](benefits.md)
 
-* Not as convenient.
-* Travel time added to testing time.
-* Not your usual environment / set up.
-* Difficult to get a whole team together
+Focus on learning and improvement. Helping devs with overwhelming mobile growth and challenges that brings.
+
+### A travelling lab.
+
+It comes to your office, your environment, to conveniently fit in with your existing workflow.
+
+### A curated collection.
+
+The devices in the lab are selected to match market growth and penetration, with a slant towards local trends. The selection is based on research and statistics and is regularly, but not frequently, updated.
+
+### Mobile devices.
+
+Portable, internet-enabled, devices: not traditional desktop computers. The lab contains feature phones, smartphones, tablets, and will contain whatever comes next.
+
+### A practical means of testing.
+
+The number of devices is kept small enough that testing can be done across all the full range in a short period of time.
+
+### An efficient means of testing.
+
+The lab is brought to you by an experienced front end web developer, who is on hand to assist your team and offer quick, specific, solutions.
+
+
+
+## Device selection
+
+It would be impossible to test your site on every device that exists today, and the range and variation is only increasing. Testing on as many devices as possible can quickly become impractical. A pragmatic approach is to test on a representative sample of devices, covering as broad a range as possible.
+
+The focus of development should be on long term functional support for as many devices as possible, followed by optimisation for higher-end devices. Achieving perfection for specific devices or platforms will only be a short term success: the quantity, quality, and variety of internet-enabled devices is increasing at a remarkble pace.
+
+The devices in the lab are selected using high-level device categories: the specific devices in the lab aren't as important as the categories that each belongs to. Some of the categories used are:
+
+* Operating system and installable browsers
+* Screen size, resolution, and ppi
+* Inputs method (touchscreen, touchpad, QWERTY keyboard, dpad)
+* form factor (shape, size)
+* hardware quality
+* manufacturer
+
+
+
 
 ### Community labs (abroad only at the moment)
 

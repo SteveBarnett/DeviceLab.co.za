@@ -1,42 +1,23 @@
-# Nomad device lab
+# [Nomad Device Lab](index.md)
 
-Mobile web access is exploding, and the sites we build should run well and look good on as many platforms as possible. A big part of this is testing: does it work as well for the person sitting at the desk, with a big monitor and a mouse, as it does for the person lying onthe couch, using their touch-screen smartphone
+[mobile.md](mobile.md) | [testing.md](testing.md) | [benefits.md](benefits.md)
 
-How do we do this testing? 
+Internet access across the world is increasing at a rapid pace. The change is especially noticable with mobile devices. Many people have no fixed-line access to the web, instead relying on their mobile device. Web sites and web apps are being used across a wider range of software and hardware than ever before. [Is mobile web access popular? &raquo;](mobile.html)
 
-## Nomad Device Lab is a traveling, curated, collection of mobile devices with an on-site expert that works with you to do practical and efficient testing.
+In order to provide the best product and the most value to users and clients, it's necessary to test across a wide range of platforms: mobile is the most exciting and the most challenging of these. [Why is testing, and testing for mobile, important?](testing.md)
 
-### What does this mean?
+Mobile Operating System and Browser emulators offer a reasonable way of testing layout, but can suffer from errors or difference in performance and behaviour. The best way of testing is to get hands-on and use the site as the users will: on actual devices. [Why is testing on actual devices so important? &raquo;]()
 
-* **mobile**: shorthand for portable devices. feature phones, smartphones, tablets, and whatever comes next. Not traditional desktop computers.
-* **travelling**: your office, your environment.
-* **curated**: devices, selected to match (mostly local) market growth and penetration, based on research and statistics. regularly, but not frequently, updated.
-	* High-level, close-enough, device categories.. focus is on long term functional support for as many devices as possible, not short term perfection for specific devices, along the lines of the 80/20 rule.
-* **practical**: the number of devices is relatively small.
-* **efficient**: me on hand to offer help and quick, specific solutions.
+## Nomad Device Lab
 
+**Nomad Device Lab** is a traveling, curated, collection of mobile devices that can work with you to do practical and efficient testing. **(each of these linked)**
 
-##  why test?
+[Why is each of these things important?](benefits.md)
 
-* makes business sense! for us and client.
-	* increase likelihood of good ROI, good lead generation
-	* make sure design communicates messages clearly and that users are guided to calls to action
-	* can save money: catch mistakes / wrong directions early
-	* You want to deliver value to stakeholders. Widely testing is one way to do this.
-	* Reduces risk to company. Catch more bugs, catch them earlier.
+## Services
 
-### How much, and when?
+Nomad Device Lab offers a range of service based around the lab.
 
-* any testing better than no testing
-* the more you can test the better.
-* needs to be integrated throughout process
-
-
-
-## Why use this lab?
-
-It's not the only solution, but it is the best.
-If presentation encourages more testing, especially mobile, fantastic. If use my service, even better!
-Focus on learning and improvement. Helping devs with overwhelming mobile growth and challenges that brings.
-
-
+* On-site testing sessions, in half-day increments.
+* Reports produced off-site, using the lab, on mobile-specific issues for your project, such as speed, performance, and usability.
+* Consulting on device selection for setting up your own lab

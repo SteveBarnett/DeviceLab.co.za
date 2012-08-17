@@ -1,3 +1,7 @@
+# [Nomad Device Lab](index.md)
+
+[mobile.md](mobile.md) | [testing.md](testing.md) | [benefits.md](benefits.md)
+
 ### Statistics
 
 Mobile is exploding. all mobile stats are showing increase.

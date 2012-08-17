@@ -1,3 +1,22 @@
+# [Nomad Device Lab](index.md)
+
+[mobile.md](mobile.md) | [testing.md](testing.md) | [benefits.md](benefits.md)
+
+##  why test?
+
+* makes business sense! for us and client.
+	* increase likelihood of good ROI, good lead generation
+	* make sure design communicates messages clearly and that users are guided to calls to action
+	* can save money: catch mistakes / wrong directions early
+	* You want to deliver value to stakeholders. Widely testing is one way to do this.
+	* Reduces risk to company. Catch more bugs, catch them earlier.
+
+### How much, and when?
+
+* any testing better than no testing
+* the more you can test the better.
+* needs to be integrated throughout process
+
 ## Why test on mobile?
 
 ### Philosophy
