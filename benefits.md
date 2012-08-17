@@ -4,27 +4,7 @@
 
 Focus on learning and improvement. Helping devs with overwhelming mobile growth and challenges that brings.
 
-### A travelling lab.
-
-It comes to your office, your environment, to conveniently fit in with your existing workflow.
-
-### A curated collection.
-
-The devices in the lab are selected to match market growth and penetration, with a slant towards local trends. The selection is based on research and statistics and is regularly, but not frequently, updated.
-
-### Mobile devices.
-
-Portable, internet-enabled, devices: not traditional desktop computers. The lab contains feature phones, smartphones, tablets, and will contain whatever comes next.
-
-### A practical means of testing.
-
-The number of devices is kept small enough that testing can be done across all the full range in a short period of time.
-
-### An efficient means of testing.
-
-The lab is brought to you by an experienced front end web developer, who is on hand to assist your team and offer quick, specific, solutions.
-
-
+rewrite to focus on benefits of each thing.
 
 ## Device selection
 
