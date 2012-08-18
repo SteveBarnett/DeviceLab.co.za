@@ -1,34 +1,31 @@
 # [Nomad Device Lab](index.md)
 
-[home](index.md) | [mobile and testing](mobile-and-testing.md) | [our solution](our-solution.md)
+[home](index.md) | [mobile statistics](mobile-statistics.md) | [testing on mobile](testing-on-mobile.md) | [our solution](our-solution.md)
 
 # Our solution
 
-The best thing is to test on real devices.
+**Nomad Device Lab** is a traveling, curated, collection of mobile devices that can work with you to do practical and efficient testing.
 
-Focus on learning and improvement. Helping devs with overwhelming mobile growth and challenges that brings.
-
-rewrite to focus on benefits of each thing.
-
+The focus is on [hands-on testing](#whytestonrealdevices) on a [small number of devices, covering a large range of variables](#deviceselection), and on using that testing to learn and improve your knowledge of the various operating systems and browsers.
 
 
 ## Why test on real devices?
 
-* emulators are good, better than not testing on them at all, but not the same. Ports of OS / browser, so chance of error / difference in performance & behaviour. Another layer of abstraction from what the experience the user has, and another potential for bugs.
-* Actual devices give clearest picture of who site will work "in the wild"
-* Use it how your users would.
-* speed / performance differences between emulator and devices. devices still relatively low spec compared to desktop hardware.
-* Physical characteristics of devices
-	* input methods: touch screen fingers (etc) vs mouse pointer
-	* weight, size, form factor, portability (and context, screen size, resolution, ppi, quality.
-	* capabilities: touch, GPS, accelerometer, etc. (more for web apps than sites)
+Testing on real devices gives the clearest picture of how the site will work "in the wild"; it allows for testing in a way that's closest to how real users will interact with the site. The most important benefits of using real devices are the physical characteristics of devices:
 
-so, emulators more of a test of UI elements and layout. Not such a good test of UX, interactions.
+* input methods such as fingers on a touch screen rather (are link targets big enough?);
+* the weight, size, form factor, and portability of a device (is the text legible with the screen up close?);
+* the quaility and condition of the hardware (how well does the site work if the touch screen is not very responsive, is cracked, or dirty?);
+* capabilities: touch, GPS, accelerometer, etc. (can we use the device's extra capabiliites to add extra value for the user?)
 
-* learn more each time you use them. become more efficient over time, know what to look out for. gives team new knowledge.
-* exposure to more platforms, design approaches, OSes, browsers is good.
-* people react better to real world physical and visual stimuli that digital ones.
+More realistic testing isn't the only benefit of using real devices. You learn more each time you use them, and become more efficient over time, knowing what to look out for next time. Exposure to more platforms and design approaches, Operating Systems, and browsers is also beneficial. It serves as a reminder of the wide range of use cases and that the site needs to be as lean and robust as possible to survive in whatever environment it is used in.
 
+[Ask more about testing on real devices](mailto:nomad@devicelab.co.za?subject=Testing%20on%20real%20devices)
+
+
+### Emulators
+
+Testing on emulators can be useful, and is certainly better than not testing for mobile at all, but is not as good as testing on real devices. Emulators are essentially ports of an Operating System / browser, so there is the chance of errors or differences in performance and behaviour. They also add another layer of abstraction from the experience that the user has, and another potential place for bugs. They can be a good first test of layout, but can't replicate a real user experience of the site.
 
 
 ## Device selection
@@ -46,38 +43,11 @@ The devices in the lab are selected using high-level device categories: the spec
 * hardware quality
 * manufacturer
 
+[Ask more about our device selection process](mailto:nomad@devicelab.co.za?subject=Device%20selection%20process).
 
 
-### Community labs (abroad only at the moment)
+## Nomad Device Lab
 
-* Isn't one here yet.
-* Free
-* Devices donated, so selection is haphazrd.
-* Large number of devices.
-* At someone else's office.
+We recommend our [on-site testing](index.md#onsitetesting) service, but also offer [off-site testing](index.md#offsitetesting), and [consulting on device selection for on your own lab](index.md#consulting). 
 
-### Set up own lab
-
-* Money
-	* Purchase and maintainence of devices.
-* Time
-	* Need to keep on top of stats to keep representative selection.
-	* Physical admin: storage, charging, replacing cables, etc.. 
-
-### Use team's own devices
-
-* Device selection
-* Availablity
-* Privacy - emails, data usage, etc.
-* Messing with high scores.
-
-
-### Remote devices
-
-* Manaufacturers offer some Nokia, Samsung (need dev account)
-* Services like Perfecto mobile, DeviceAnywhere. Can get expensive! >=$10 on higher end packages.
-
-### Emulators
-
-* Adobe Shadow - similar to emulator. Only WebKit-based browser. Debugging is great.
-* More detail in next section!
+[Read more about our services](index.md#services), or [get in touch](mailto:nomad@devicelab.co.za) and find out which service is right for you.
