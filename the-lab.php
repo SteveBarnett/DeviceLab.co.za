@@ -1,70 +1,8 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="stylesheets/style.20120522.css" media="screen, handheld"/>
-  <link rel="stylesheet" href="stylesheets/enhanced.20120522.css" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.20120522.css" /> <![endif]-->
-  
-  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-  <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
-       Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
-       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/modernizr.custom.20120522.js"></script>
-
-  <!-- Typekit -->
-  <script type="text/javascript">
-    (function() {
-      var config = {
-        kitId: 'XXXXX',
-        scriptTimeout: 3000
-      };
-      var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-    })();
-  </script>
-
-
-  <!-- For author information in search results. Add Google+ profile URL. http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986 --> 
-  <link rel="author" href="" />
-
-</head>
-
-<body>
-<!-- "Skip to main content," to id, and tabindex="-1" on target -->
-<!-- terrillthompson.com/blog/161 -->
-<a href="#main" id="top">Skip to main content</a>
-
-	<header role="banner" id="header">
-		<h1><a href="index.html">Nomad Device Lab</a></h1>
-	</header>
-
-	<nav role="navigation" id="nav" class="navigation">
-		<ul>
-			<li><a href="index.html">home</a></li>
-			<li><a href="mobile-statistics.html">mobile statistics</a></li>
-			<li><a href="testing-on-mobile.html">testing on mobile</a></li>
-			<li><a href="the-lab.html">the lab</a></li>
-		</ul>
-	</nav>
-
-	<div role="main" id="main" tabindex="-1">
+<?php
+$title = 'The Lab | Nomad Device Lab';
+$active = 'the-lab';
+require('_header.php');
+?>
 
 <h1 id="thelab">The Lab</h1>
 
@@ -124,37 +62,5 @@
 
 <p>If you would like to host the lab for a day or half day session, please <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#110;&#x6f;&#109;&#x61;&#100;&#x40;&#100;&#x65;&#118;&#x69;&#99;&#101;&#x6c;&#97;&#98;&#46;&#99;&#x6f;&#46;&#x7a;&#x61;&#63;&#x73;&#x75;&#x62;&#x6a;&#x65;&#99;&#x74;&#61;&#73;&#x25;&#50;&#x30;&#x77;&#111;&#117;&#108;&#100;&#x25;&#50;&#x30;&#108;&#x69;&#x6b;&#101;&#37;&#50;&#x30;&#116;&#x6f;&#37;&#x32;&#x30;&#104;&#x6f;&#115;&#x74;&#37;&#50;&#x30;&#x74;&#x68;&#101;&#x25;&#50;&#48;&#108;&#97;&#98;&#37;&#50;&#x30;&#x66;&#111;&#114;&#x25;&#50;&#x30;&#x61;&#37;&#x32;&#x30;&#115;&#x65;&#x73;&#115;&#x69;&#x6f;&#110;">&#103;&#101;&#x74; &#105;&#110; &#x74;&#x6f;&#117;&#x63;&#104;</a>.</p>
 
-</div><!-- /#main -->
-
-  <footer role="contentinfo" id="footer">
-
-  </footer>
-
-
-  <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/script.js"></script>
-  <!-- end scripts -->
-
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-
-  <a href="#top">Back to top of page &uarr;</a>
-
-</body>
-</html>
+<?php
+require('_footer.php');
