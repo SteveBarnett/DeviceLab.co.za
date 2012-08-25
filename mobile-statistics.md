@@ -44,6 +44,10 @@ What about locally? Are many South Africans using their phones for web access?
 
 **6** million mobile web
 
+**33%** of mobile owners access the web
+
+**20%** of population own smartphone (BB, Symbian 40% ish each)
+
 ## 2012
 
 
@@ -76,6 +80,10 @@ Testing on mobile is also [good for our clients](testing-on-mobile.md#business).
 
 ## Statistics sources
 
+* [Luke W](http://www.lukew.com/ff/)
+* [CLoud Four Blog | A “Comprehensive” Guide to Mobile Statistics](http://blog.cloudfour.com/a-comprehensive-guide-to-mobile-statistics/)
+
+
 * [Digital Trends / mobile](http://www.digitaltrends.com/mobile/)
 * [Canalys](http://www.canalys.com/)
 * [mobiThinking](http://mobithinking.com/)
@@ -89,3 +97,4 @@ Testing on mobile is also [good for our clients](testing-on-mobile.md#business).
 * [world wide worx](http://www.worldwideworx.com/)
 * [Strategy Analytics Blog](http://blogs.strategyanalytics.com/)
 * [Chitika Insights](http://insights.chitika.com/)
+* [Strategy Worx](http://www.strategyworx.co.za/)
