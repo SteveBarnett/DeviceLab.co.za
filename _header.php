@@ -46,7 +46,7 @@
 
 </head>
 
-<body>
+<body class="<?php echo $active; ?>">
 <!-- "Skip to main content," to id, and tabindex="-1" on target -->
 <!-- terrillthompson.com/blog/161 -->
 <a href="#main" id="top">Skip to main content</a>

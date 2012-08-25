@@ -215,6 +215,10 @@ td { vertical-align: top; }
    Author: Steve Barnett | Naga
    ========================================================================== */
 
+:not(a):focus {
+   outline: none; 
+}
+
 /* ==|== Links ==== */
 
 
