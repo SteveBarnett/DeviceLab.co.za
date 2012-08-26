@@ -11,81 +11,137 @@ require('_header.php');
 
   <p>Mobile is showing continued and rapid growth across a wide range of metrics: sales, internet usage (especially search), advertising, e-commerce, and social networking. Many users don&#8217;t have access to a fixed-line or a desktop computer, so their mobile device is their only access to the internet. Below are some statistics as a guide to this. More detailed information is available from the sites in the <a href="#statisticssources">sources section</a>.</p>
 
-  <p>First we look at the <a href="#global">Global</a> situation, then at <a href="#southafrica">South Africa</a> more specifically. Finally we look at some <a href="#2012">very recent statistics</a>, and the percentage of users for whom <a href="#mobileonlyusers">mobile is their main or only form of web access</a>. The figures should be taken as guidelines only.</p>
-
 </section>
 
 <section>
 
   <article>
-    <header>
-      <h2 id="global">2011 - Global</h2>
-    </header>
 
-    <p>Across the world, mobile devices sales and use for internet access is increasing. Here are some key numbers from the end of 2011.</p>
+    <table summary="Comparison of number of cell, web, and mobile web users across the world, and in South Africa">          
+    <caption>Cell and web stats: World and South Africa</caption>
 
-    <p class="stat"><strong>7</strong> billion people</p>
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">People</th>
+          <th scope="col">Cell Users</th>
+          <th scope="col">Internet Users</th>
+          <th scope="col">Mobile Web Users</th>
+        </tr>
+      </thead>
 
-    <h3 id="subscriptions">Subscriptions</h3>
+      <tbody>
+        <tr>
+          <th scope="row">World (billions)</th>
+          <td>7</td>
+          <td>6</td>
+          <td>2.3</td>
+          <td>1.2</td>
+        </tr>
 
-    <p class="stat"><strong>6</strong> billion cellular</p>
+        <tr>
+          <th scope="row">South Africa (millions)</th>
+          <td>50</td>
+          <td>40</td>
+          <td>10</td>
+          <td>6</td>
+        </tr>
+      </tbody>
 
-    <p class="stat"><strong class="stat2">1.2</strong> billion mobile broadband</p>
-
-    <p>Internet access: 66% mobile, 33% fixed-line</p>
-
-    <h3 id="sales">Sales</h3>
-
-    <p class="stat"><strong class="stat3">488</strong> million smartphones</p>
-
-    <p class="stat"><strong class="stat3">415</strong> million PCs</p>
-
-    <p class="stat">Phone split: 66% Feature phones, 33% smartphones</p>
+    </table>
 
   </article>
 
   <article>
-    <header>
-     <h2 id="southafrica">2011 - South Africa</h2>
-    </header>
 
-    <p>Mobile Internet usage in South Africa is differently balanced to the rest of the world.</p>
+    <table summary="Balance of web traffic between mobile and desktop access">          
+    <caption>Mobile versus desktop web access: World and South Africa</caption>
 
-    <h3 id="users">Users</h3>
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">Mobile</th>
+          <th scope="col">Desktop</th>
+        </tr>
+      </thead>
 
-    <p class="stat"><strong class="stat2">40</strong> million cellphone</p>
+      <tbody>
+        <tr>
+          <th scope="row">World (%)</th>
+          <td>11</td>
+          <td>89</td>
+        </tr>
 
-    <p class="stat"><strong class="stat2">10</strong> million Internet</p>
+        <tr>
+          <th scope="row">South Africa (%)</th>
+          <td>12</td>
+          <td>88</td>
+        </tr>
+      </tbody>
 
-    <p class="stat"><strong>6</strong> million mobile web</p>
+    </table>
 
   </article>
 
+  <article>
+
+    <table summary="Number of users who only access the web using a mobile device">          
+    <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
+
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">Mobile only</th>
+          <th scope="col">Desktop too</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">World (%)</th>
+          <td>25</td>
+          <td>75</td>
+        </tr>
+
+        <tr>
+          <th scope="row">South Africa (%)</th>
+          <td>57</td>
+          <td>43</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+  </article>
 
   <article>
-    <header>
-      <h2 id="2012">2012</h2>
-    </header>
 
-    <p>Web traffic: 11% mobile, 89% desktop</p>
+    <table summary="Balance of featurephone to smartphones">          
+    <caption>Feature phones vs smartphones: World and South Africa</caption>
 
-    <h3 id="mobileonlyusers">Mobile only users</h3>
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">Feature phones</th>
+          <th scope="col">Smartphones</th>
+        </tr>
+      </thead>
 
-    <p>World: 25% mobile only; 75% also use desktop.</p>
+      <tbody>
+        <tr>
+          <th scope="row">World (%)</th>
+          <td>66</td>
+          <td>34</td>
+        </tr>
 
-    <p>Africa: 50% mobile only; 50% also use desktop.</p>
+        <tr>
+          <th scope="row">South Africa (%)</th>
+          <td>80</td>
+          <td>20</td>
+        </tr>
+      </tbody>
 
-    <p>South Africa: 57% mobile only; 43% also use desktop.</p>
-
-    <p>US: 25% mobile only; 75% also use desktop.</p>
-
-    <p>UK: 22% mobile only; 78% also use desktop.</p>
-
-    <h3 id="southafrica">South Africa</h3>
-
-    <p>Phone split: 80% Feature phones, 20% smartphone</p>
-
-    <p>Smartphone operating system split: BlackBerry 40%, Symbian 40%, Other 20%</p>
+    </table>
 
   </article>
 

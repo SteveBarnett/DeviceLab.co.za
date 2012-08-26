@@ -416,6 +416,12 @@ article {
     width: 2em;
   }
 
+  table {
+    @include table-scaffolding;
+    @include inner-table-borders(1px, lighten($secondaryColor, 50%));
+    width: 100%;
+  }
+
 }
 
 

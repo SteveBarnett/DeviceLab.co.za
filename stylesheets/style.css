@@ -574,6 +574,44 @@ article header {
 .mobile-statistics .stat3 {
   width: 2em;
 }
+/* line 419, ../sass/style.scss */
+.mobile-statistics table {
+  width: 100%;
+}
+/* line 2, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+.mobile-statistics table th {
+  text-align: center;
+  font-weight: bold;
+}
+/* line 6, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+.mobile-statistics table td,
+.mobile-statistics table th {
+  padding: 2px;
+}
+/* line 8, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_scaffolding.scss */
+.mobile-statistics table td.numeric,
+.mobile-statistics table th.numeric {
+  text-align: right;
+}
+/* line 14, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+.mobile-statistics table th, .mobile-statistics table td {
+  border-right: 1px solid #abe0f4;
+  border-bottom: 1px solid #abe0f4;
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+/* line 21, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+.mobile-statistics table th:last-child, .mobile-statistics table th.last, .mobile-statistics table td:last-child, .mobile-statistics table td.last {
+  border-right-width: 0px;
+}
+/* line 29, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+.mobile-statistics table tbody tr:last-child th, .mobile-statistics table tbody tr:last-child td, .mobile-statistics table tfoot tr:last-child th, .mobile-statistics table tfoot tr:last-child td {
+  border-bottom-width: 0px;
+}
+/* line 32, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/tables/_borders.scss */
+.mobile-statistics table tbody tr.last th, .mobile-statistics table tbody tr.last td, .mobile-statistics table tfoot tr.last th, .mobile-statistics table tfoot tr.last td {
+  border-bottom-width: 0px;
+}
 
 /* ==|== role complementary ==== */
 /* ==|== role contentinfo ==== */
@@ -593,7 +631,7 @@ article header {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 470, ../sass/style.scss */
+/* line 476, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -606,20 +644,20 @@ article header {
   *line-height: 0;
 }
 
-/* line 471, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 474, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 477, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -632,7 +670,7 @@ article header {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 480, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -643,24 +681,24 @@ article header {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 483, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 486, ../sass/style.scss */
+/* line 492, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 487, ../sass/style.scss */
+/* line 493, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 488, ../sass/style.scss */
+/* line 494, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -670,7 +708,7 @@ article header {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 498, ../sass/style.scss */
+  /* line 504, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -681,45 +719,45 @@ article header {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 499, ../sass/style.scss */
+  /* line 505, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 500, ../sass/style.scss */
+  /* line 506, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 501, ../sass/style.scss */
+  /* line 507, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 502, ../sass/style.scss */
+  /* line 508, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 503, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 504, ../sass/style.scss */
+  /* line 510, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 505, ../sass/style.scss */
+  /* line 511, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 506, ../sass/style.scss */
+  /* line 512, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -728,13 +766,13 @@ article header {
     margin: 0.5cm;
 }
 
-  /* line 508, ../sass/style.scss */
+  /* line 514, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 509, ../sass/style.scss */
+  /* line 515, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }
