@@ -1,7 +1,44 @@
-// $primaryColor: #;
-// $secondaryColor: #;
+$primaryColor: #D06218; // orange
+$secondaryColor:darken(#23ADE3,20%); // blue
 // $tertiaryColor: #;
-// $black: #;
-// $white: #;
+$black: #333;
+$white: #fff;
 
+$smallscreenmargin: 0.5em;
 $breakpointL: '60em';
+
+$headings: 'futura-pt';
+$paragraphs: 'pragmatica-web';
+
+
+@mixin link-colours($link, $visited, $hover, $focus, $active) {
+	&:link {
+		color: $link;
+	}
+	&:visited {
+		color: $visited;
+	}
+	&:hover {
+		color: $hover;
+	}
+	&:focus {
+		color: $focus;
+	}
+	&:active {
+		color: $active;
+	}
+}
+
+@mixin horder ($color) {
+	border-bottom: solid 0.25em $color; 
+}
+
+// h5bp's visuallyhidden
+@mixin hide {
+	border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;
+}
+
+@mixin realign {
+	margin-left: -$smallscreenmargin;
+	padding: 1em 0 0.25em $smallscreenmargin;
+}

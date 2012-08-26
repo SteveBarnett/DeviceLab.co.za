@@ -4,6 +4,17 @@
 
   </footer>
 
+  <nav role="navigation" id="nav" class="navigation">
+    <header>
+      <h3>Main Navigation</h3>
+    </header>
+    <ul>
+      <li<?php if($active == 'index') echo ' class="active"'; ?>><a href="index.php">home</a></li>
+      <li<?php if($active == 'mobile-statistics') echo ' class="active"'; ?>><a href="mobile-statistics.php">mobile statistics</a></li>
+      <li<?php if($active == 'testing-on-mobile') echo ' class="active"'; ?>><a href="testing-on-mobile.php">testing on mobile</a></li>
+      <li<?php if($active == 'the-lab') echo ' class="active"'; ?>><a href="the-lab.php">the lab</a></li>
+    </ul>
+  </nav>
 
   <!-- JavaScript at the bottom for fast page loading -->
 

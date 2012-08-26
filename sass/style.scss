@@ -215,13 +215,32 @@ td { vertical-align: top; }
    Author: Steve Barnett | Naga
    ========================================================================== */
 
+@import "compass";
+@import "config";
+
 :not(a):focus {
    outline: none; 
 }
 
+body {
+  font-family: $paragraphs, sans-serif;
+}
+
 /* ==|== Links ==== */
 
+a {
+  @include link-colours($secondaryColor, $secondaryColor, darken($secondaryColor, 30%), $primaryColor, $primaryColor);
+  &:hover {
+    text-decoration: none;
+  }
+}
 
+// .readmore {
+//   padding-bottom: 1em;
+//   @include horder($primaryColor);
+//   @include realign;
+//   margin-bottom: 1em;
+// }
 
 /* ==|== Typography ==== */
 
@@ -229,7 +248,43 @@ td { vertical-align: top; }
 
 /* ==|== Headings ==== */
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings, sans-serif;
+  font-weight: normal;
+  // @include horder($primaryColor);
+  margin: 0;
+}
 
+// h2 {
+//     background: $primaryColor;
+//     color: $white;
+//     @include realign;
+//     // @include border-top-right-radius(0.25em);
+//     @include border-bottom-right-radius(0.25em);
+
+//     // color: $primaryColor;
+//     // text-shadow: 1px 1px 1px darken($primaryColor, 20%);
+// }
+
+header {
+  color: $primaryColor;
+  text-transform: uppercase;
+
+}
+
+article {
+  header {
+    color: $black;
+    // text-transform: none;
+    // font-weight: bold;
+  }
+}
+
+.page-title {
+  border-bottom: solid 0.1em $primaryColor;
+  // @include realign;
+  padding: 1em 0 0 0;
+}
 
 /* ==|== Lists ==== */
 
@@ -249,14 +304,119 @@ td { vertical-align: top; }
 
 /* ==|== role navigation ==== */
 
+#top {
+  @include hide;
+}
 
+#jump {
+  // position: relative;
+  // padding-right: 1em;
+
+  color: $white;
+  text-decoration: none;
+
+  position: absolute;
+  top: 0em;
+  right: 1.5em;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0.4em;
+      right: -1em;
+      width:12px;
+      height:2px;
+      border-top: 6px double $white;
+      border-bottom: 2px solid $white;
+    }
+}
 
 /* ==|== role banner ==== */
+
+#header {
+
+  background: $primaryColor;
+  // // margin: 0 -$smallscreenmargin;
+  // padding: 0.5em 1em 0;
+  // @include border-bottom-left-radius(0.25em);
+  // @include border-bottom-right-radius(0.25em);
+
+}
+
+.site-title {
+  a {
+    color: $white;
+    text-decoration: none;
+  } 
+  margin-right: 2em;
+  padding-left: $smallscreenmargin;
+  text-transform: uppercase;
+  font-size: 1em;
+}
 
 
 
 /* ==|== role main ==== */
 
+#main {
+  margin: 0 $smallscreenmargin;
+}
+
+.whereitsgoing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    // background: $primaryColor;
+    // padding: 0.5em;
+    // // display: block;
+    // margin-bottom: 1em;
+    // color: #fff;
+  }
+
+  a {
+    display: block;
+    background: $secondaryColor;
+    padding: 0.5em;
+    color: #fff;
+    @include border-radius(0.25em);
+    &:hover {
+      background: darken($secondaryColor, 20%);
+    }
+  }
+
+}
+
+// /* stats */
+
+.mobile-statistics {
+
+  .stat {
+    text-align: center;
+  }
+
+  strong,
+  .stat2,
+  .stat3 {
+    display: block;
+    font: 3em normal "jubilat",sans-serif;
+    background: darken($secondaryColor, 20%);
+    color: $white;
+    @include border-radius(3em);
+    width: 1.25em;
+    margin: 0 auto;
+  }
+
+  .stat2 {
+    width: 2em;
+  }
+
+  .stat3 {
+    width: 2em;
+  }
+
+}
 
 
 /* ==|== role complementary ==== */

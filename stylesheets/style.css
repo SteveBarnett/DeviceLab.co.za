@@ -399,21 +399,182 @@ td {
 /* ==|== primary styles =====================================================
    Author: Steve Barnett | Naga
    ========================================================================== */
-/* line 218, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 :not(a):focus {
   outline: none;
 }
 
+/* line 225, ../sass/style.scss */
+body {
+  font-family: "pragmatica-web", sans-serif;
+}
+
 /* ==|== Links ==== */
+/* line 15, ../sass/_config.scss */
+a:link {
+  color: #126b8e;
+}
+/* line 18, ../sass/_config.scss */
+a:visited {
+  color: #126b8e;
+}
+/* line 21, ../sass/_config.scss */
+a:hover {
+  color: #010506;
+}
+/* line 24, ../sass/_config.scss */
+a:focus {
+  color: #d06218;
+}
+/* line 27, ../sass/_config.scss */
+a:active {
+  color: #d06218;
+}
+/* line 233, ../sass/style.scss */
+a:hover {
+  text-decoration: none;
+}
+
 /* ==|== Typography ==== */
 /* ==|== Headings ==== */
+/* line 251, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "futura-pt", sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 269, ../sass/style.scss */
+header {
+  color: #d06218;
+  text-transform: uppercase;
+}
+
+/* line 276, ../sass/style.scss */
+article header {
+  color: #333333;
+}
+
+/* line 283, ../sass/style.scss */
+.page-title {
+  border-bottom: solid 0.1em #d06218;
+  padding: 1em 0 0 0;
+}
+
 /* ==|== Lists ==== */
 /* ==|== Figures ==== */
 /* ==|== Forms ==== */
 /* ==|== Tables ==== */
 /* ==|== role navigation ==== */
+/* line 307, ../sass/style.scss */
+#top {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 311, ../sass/style.scss */
+#jump {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 0em;
+  right: 1.5em;
+}
+/* line 322, ../sass/style.scss */
+#jump:after {
+  content: "";
+  position: absolute;
+  top: 0.4em;
+  right: -1em;
+  width: 12px;
+  height: 2px;
+  border-top: 6px double white;
+  border-bottom: 2px solid white;
+}
+
 /* ==|== role banner ==== */
+/* line 336, ../sass/style.scss */
+#header {
+  background: #d06218;
+}
+
+/* line 346, ../sass/style.scss */
+.site-title {
+  margin-right: 2em;
+  padding-left: 0.5em;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+/* line 347, ../sass/style.scss */
+.site-title a {
+  color: white;
+  text-decoration: none;
+}
+
 /* ==|== role main ==== */
+/* line 361, ../sass/style.scss */
+#main {
+  margin: 0 0.5em;
+}
+
+/* line 365, ../sass/style.scss */
+.whereitsgoing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 378, ../sass/style.scss */
+.whereitsgoing a {
+  display: block;
+  background: #126b8e;
+  padding: 0.5em;
+  color: #fff;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+}
+/* line 384, ../sass/style.scss */
+.whereitsgoing a:hover {
+  background: #072733;
+}
+
+/* line 395, ../sass/style.scss */
+.mobile-statistics .stat {
+  text-align: center;
+}
+/* line 401, ../sass/style.scss */
+.mobile-statistics strong,
+.mobile-statistics .stat2,
+.mobile-statistics .stat3 {
+  display: block;
+  font: 3em normal "jubilat",sans-serif;
+  background: #072733;
+  color: white;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  -ms-border-radius: 3em;
+  -o-border-radius: 3em;
+  border-radius: 3em;
+  width: 1.25em;
+  margin: 0 auto;
+}
+/* line 411, ../sass/style.scss */
+.mobile-statistics .stat2 {
+  width: 2em;
+}
+/* line 415, ../sass/style.scss */
+.mobile-statistics .stat3 {
+  width: 2em;
+}
+
 /* ==|== role complementary ==== */
 /* ==|== role contentinfo ==== */
 /* ==|== Layout ==== */
@@ -432,7 +593,7 @@ td {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 310, ../sass/style.scss */
+/* line 470, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -445,20 +606,20 @@ td {
   *line-height: 0;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 471, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 314, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 317, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -471,7 +632,7 @@ td {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 320, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -482,24 +643,24 @@ td {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 323, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 326, ../sass/style.scss */
+/* line 486, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 327, ../sass/style.scss */
+/* line 487, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 328, ../sass/style.scss */
+/* line 488, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -509,7 +670,7 @@ td {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 338, ../sass/style.scss */
+  /* line 498, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -520,45 +681,45 @@ td {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 339, ../sass/style.scss */
+  /* line 499, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 340, ../sass/style.scss */
+  /* line 500, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 341, ../sass/style.scss */
+  /* line 501, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 342, ../sass/style.scss */
+  /* line 502, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 343, ../sass/style.scss */
+  /* line 503, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 344, ../sass/style.scss */
+  /* line 504, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 345, ../sass/style.scss */
+  /* line 505, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 346, ../sass/style.scss */
+  /* line 506, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -567,13 +728,13 @@ td {
     margin: 0.5cm;
 }
 
-  /* line 348, ../sass/style.scss */
+  /* line 508, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 349, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }

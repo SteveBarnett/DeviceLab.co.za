@@ -33,13 +33,12 @@
   <script type="text/javascript">
     (function() {
       var config = {
-        kitId: 'XXXXX',
+        kitId: 'xha5hpw',
         scriptTimeout: 3000
       };
       var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
     })();
   </script>
-
 
   <!-- For author information in search results. Add Google+ profile URL. http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986 --> 
   <link rel="author" href="" />
@@ -52,16 +51,9 @@
 <a href="#main" id="top">Skip to main content</a>
 
 	<header role="banner" id="header">
-		<h1><a href="index.php">Nomad Device Lab</a></h1>
+		<h1 class="site-title"><a href="index.php">Nomad Device Lab</a></h1>
 	</header>
 
-	<nav role="navigation" id="nav" class="navigation">
-		<ul>
-			<li<?php if($active == 'index') echo ' class="active"'; ?>><a href="index.php">home</a></li>
-			<li<?php if($active == 'mobile-statistics') echo ' class="active"'; ?>><a href="mobile-statistics.php">mobile statistics</a></li>
-			<li<?php if($active == 'testing-on-mobile') echo ' class="active"'; ?>><a href="testing-on-mobile.php">testing on mobile</a></li>
-			<li<?php if($active == 'the-lab') echo ' class="active"'; ?>><a href="the-lab.php">the lab</a></li>
-		</ul>
-	</nav>
+  <a id="jump" href="#nav">Menu</a>
 
 	<div role="main" id="main" tabindex="-1">
