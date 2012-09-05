@@ -17,6 +17,7 @@
     </ul>
   </nav>
 
+<?php /*
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- scripts concatenated and minified via build script -->
@@ -32,6 +33,6 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-
+*/ ?>
 </body>
 </html>
