@@ -255,28 +255,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-// h2 {
-//     background: $primaryColor;
-//     color: $white;
-//     @include realign;
-//     // @include border-top-right-radius(0.25em);
-//     @include border-bottom-right-radius(0.25em);
-
-//     // color: $primaryColor;
-//     // text-shadow: 1px 1px 1px darken($primaryColor, 20%);
-// }
-
 header {
   color: $primaryColor;
   text-transform: uppercase;
-
+  font-weight: normal;
 }
 
 article {
   header {
     color: $black;
     // text-transform: none;
-    // font-weight: bold;
+    font-weight: bold;
   }
 }
 
@@ -284,6 +273,15 @@ article {
   border-bottom: solid 0.1em $primaryColor;
   // @include realign;
   padding: 1em 0 0 0;
+  text-transform: capitalize;
+}
+
+.philosophy {
+  article {
+    header {
+      text-align: center;
+    }
+  }
 }
 
 /* ==|== Lists ==== */
@@ -300,12 +298,32 @@ article {
 
 /* ==|== Tables ==== */
 
+  table {
+    @include table-scaffolding;
+    @include inner-table-borders(1px, lighten($secondaryColor, 50%));
+    width: 100%;
+  }
 
+  td {
+    text-align: center;
+  }
+
+  caption {
+    margin: 1em 0 0.5em;
+    text-transform: uppercase;
+  }
+
+  // .mobile-statistics table {
+  //   thead, tbody {
+  //   @include visuallyhidden;
+  //   }
+  // }
 
 /* ==|== role navigation ==== */
 
 #top {
-  @include hide;
+  margin: 0 $smallscreenmargin;
+  @include visuallyhidden;
 }
 
 #jump {
@@ -329,6 +347,17 @@ article {
       border-top: 6px double $white;
       border-bottom: 2px solid $white;
     }
+}
+
+.navigation {
+  header {
+    @include visuallyhidden;
+  }
+  background: $primaryColor;
+  a {
+    margin: 0 $smallscreenmargin;
+    color: $white;
+  }
 }
 
 /* ==|== role banner ==== */
@@ -358,7 +387,7 @@ article {
 
 /* ==|== role main ==== */
 
-#main {
+.maincontent {
   margin: 0 $smallscreenmargin;
 }
 
@@ -375,54 +404,64 @@ article {
     // color: #fff;
   }
 
-  a {
-    display: block;
-    background: $secondaryColor;
-    padding: 0.5em;
-    color: #fff;
-    @include border-radius(0.25em);
-    &:hover {
-      background: darken($secondaryColor, 20%);
-    }
-  }
+  // a {
+  //   display: block;
+  //   background: $secondaryColor;
+  //   padding: 0.5em;
+  //   color: #fff;
+  //   @include border-radius(0.25em);
+  //   &:hover {
+  //     background: darken($secondaryColor, 20%);
+  //   }
+  // }
 
 }
+
+/* home: features */
+
+.features {
+  text-align: center;
+  @include no-mp;
+
+
+  strong {
+    display: block;
+  }
+
+  p {
+    text-align: left;
+  }
+}
+
 
 // /* stats */
 
 .mobile-statistics {
 
-  .stat {
-    text-align: center;
-  }
-
-  strong,
-  .stat2,
-  .stat3 {
-    display: block;
-    font: 3em normal "jubilat",sans-serif;
-    background: darken($secondaryColor, 20%);
-    color: $white;
-    @include border-radius(3em);
-    width: 1.25em;
-    margin: 0 auto;
-  }
-
-  .stat2 {
-    width: 2em;
-  }
-
-  .stat3 {
-    width: 2em;
-  }
-
-  table {
-    @include table-scaffolding;
-    @include inner-table-borders(1px, lighten($secondaryColor, 50%));
-    width: 100%;
-  }
 
 }
+
+.stats {
+  tr {
+    @include visuallyhidden;
+  }
+}
+
+.charts {
+  text-align: center;
+
+  img {
+    margin-bottom: 1em;
+  }
+}
+
+.chart-label {
+  &:after {
+  content: "↓";
+  margin-left: 0.5em
+  }
+}
+
 
 
 /* ==|== role complementary ==== */

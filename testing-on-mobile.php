@@ -9,13 +9,13 @@ require('_header.php');
     <h1 id="testingonmobile" class="page-title">Testing on mobile</h1>
   </header>
 
-  <p><a href="mobile-statistics.php">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important.</p>
+  <p><a href="mobile-statistics.php">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important, and challenging.</p>
 
   <p>For developers, it&#8217;s <a href="#philosophy">exciting, challenging, and offers new problems to solve</a>. Testing on mobile is needs to be more aggressive than testing on desktop. You may find more bugs than you would for desktop, but fixing them means <a href="#business">better value for the client</a>, and an end product that will be more robust and long-lasting. Testing on mobile before desktop allows you to catch these bugs earlier in the process, reducing risk to the company, and saving time and money later in the development cycle.</p>
 
 </section>
 
-<section>
+<section class="philosophy">
   <header>
     <h2 id="philosophy">Philosophy</h2>
   </header>
@@ -25,6 +25,8 @@ require('_header.php');
   <article>
     <header>
       <h3 id="oneweb">One Web</h3>
+
+      <img src="img/one-web.png" alt="" />
     </header>
 
   <p>People should be able to access all of your web site quickly and easily, regardless of the device they’re using, the type of connection they are on, or any disabilities they have. This is not only right thing to do, but makes good business sense.</p>
@@ -36,6 +38,8 @@ require('_header.php');
   <article>
     <header>
      <h3 id="futurefriendly">Future Friendly</h3>
+
+     <img src="img/future-friendly.png" alt="" />
     </header>
 
   <p>The current landscape of featurephones, smartphones, and tablets is only the beginning. The number and variety of internet-connected devices is increasing, and the future holds devices that we haven&#8217;t even imagined yet. The best way to handle this is to act in a <a href="http://futurefriendly.co.za">Future Friendly</a> way: <a href="http://futurefriend.ly/#hope">acknowledge and embrace unpredictability</a>.</p>
@@ -47,6 +51,8 @@ require('_header.php');
   <article>
     <header>
       <h3 id="mobilefirst">Mobile First</h3>
+
+      <img src="img/mobile-first.png" alt="" />
    </header>
 
   <p>Starting a development process thinking about mobile forces focus, especially on items such as information hierarchy and user goals. The smaller screens of mobile devices and the varying contexts they are used in makes focus on key content and taskss.</p>

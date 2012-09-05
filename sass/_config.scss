@@ -42,3 +42,12 @@ $paragraphs: 'pragmatica-web';
 	margin-left: -$smallscreenmargin;
 	padding: 1em 0 0.25em $smallscreenmargin;
 }
+
+@mixin no-mp {
+	margin: 0;
+	padding: 0
+}
+
+@mixin visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+@mixin ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }

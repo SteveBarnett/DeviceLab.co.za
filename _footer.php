@@ -13,6 +13,7 @@
       <li<?php if($active == 'mobile-statistics') echo ' class="active"'; ?>><a href="mobile-statistics.php">mobile statistics</a></li>
       <li<?php if($active == 'testing-on-mobile') echo ' class="active"'; ?>><a href="testing-on-mobile.php">testing on mobile</a></li>
       <li<?php if($active == 'the-lab') echo ' class="active"'; ?>><a href="the-lab.php">the lab</a></li>
+      <li><a href="#top">Back to top of page &uarr;</a></li>
     </ul>
   </nav>
 
@@ -31,15 +32,6 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-
-  <a href="#top">Back to top of page &uarr;</a>
 
 </body>
 </html>

@@ -14,6 +14,8 @@ require('_header.php');
 
   <p>The focus is on <a href="#whytestonrealdevices">hands-on testing</a> on a <a href="#deviceselection">small number of devices, covering a large range of variables</a>, and on using that testing to learn and improve your knowledge of the various operating systems and browsers.</p>
 
+  <p>Having the lab open to the community, and sharing knowledge, means you'll find fixes for your bugs more quickly, and that you'll know what to look out for next time.</p>
+
 </section>
 
 <section>
@@ -44,6 +46,8 @@ require('_header.php');
     </header>
 
     <p>Testing on emulators can be useful, and is certainly better than not testing for mobile at all, but is not as good as testing on real devices. Emulators are essentially ports of an Operating System / browser, so there is the chance of errors or differences in performance and behaviour. They also add another layer of abstraction from the experience that the user has, and another potential place for bugs to occur. They can be a good first test of layout, but can&#8217;t replicate a real user experience.</p>
+
+    <img src="img/real-devices.png" alt="" />
 
   </article>
 

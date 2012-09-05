@@ -13,9 +13,9 @@ require('_header.php');
 
 </section>
 
-<section>
+<section class="stats">
 
-  <article>
+  <article id="number-of-users">
 
     <table summary="Comparison of number of cell, web, and mobile web users across the world, and in South Africa">          
     <caption>Cell and web stats: World and South Africa</caption>
@@ -50,9 +50,19 @@ require('_header.php');
 
     </table>
 
+    <div class="charts">
+
+      <p class="chart-label">World</p>
+      <img src="img/cell-and-web-stats-world.png" alt="" />
+
+      <p class="chart-label">South Africa</p>
+      <img src="img/cell-and-web-stats-sa.png" alt="" />
+
+    </div>
+
   </article>
 
-  <article>
+  <article id="mobile-vs-desktop">
 
     <table summary="Balance of web traffic between mobile and desktop access">          
     <caption>Mobile versus desktop web access: World and South Africa</caption>
@@ -81,9 +91,19 @@ require('_header.php');
 
     </table>
 
+    <div class="charts">
+
+      <p class="chart-label">World</p>
+      <img src="img/web-access-world.png" alt="" />
+
+      <p class="chart-label">South Africa</p>
+      <img src="img/web-access-sa.png" alt="" />
+
+    </div>
+
   </article>
 
-  <article>
+  <article id="mobile-only-users">
 
     <table summary="Number of users who only access the web using a mobile device">          
     <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
@@ -112,9 +132,19 @@ require('_header.php');
 
     </table>
 
+    <div class="charts">
+
+      <p class="chart-label">World</p>
+      <img src="img/mobile-only-world.png" alt="" />
+      
+      <p class="chart-label">South Africa</p>
+      <img src="img/mobile-only-sa.png" alt="" />
+
+    </div>
+
   </article>
 
-  <article>
+  <article id="featurephones-vs-smartphones">
 
     <table summary="Balance of featurephone to smartphones">          
     <caption>Feature phones vs smartphones: World and South Africa</caption>
@@ -143,6 +173,16 @@ require('_header.php');
 
     </table>
 
+    <div class="charts">
+
+      <p class="chart-label">World</p>
+      <img src="img/featurephones-smartphone-world.png" alt="" />
+
+      <p class="chart-label">South Africa</p>
+      <img src="img/featurephones-smartphone-sa.png" alt="" />
+
+    </div>
+
   </article>
 
 </section>
@@ -152,7 +192,7 @@ require('_header.php');
     <h2 id="whatweshoulddoaboutit">What we should do about it</h2>
   </header>
 
-  <p>Given that mobile web access is increasingly popular, what is the next step for developers? <a href="testing-on-mobile.php">Testing on mobile</a>.</p>
+  <p>Given that mobile web access is increasingly popular, we should be building site that work well on mobile devices. The big question is: <a href="testing-on-mobile.php">how do we do rigorous testing on mobile?</a></p>
 
   <p>Doing so is <a href="testing-on-mobile.php#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites. [Why is testing on mobile good for developers?</p>
 
@@ -188,6 +228,9 @@ require('_header.php');
     <li><a href="http://blogs.strategyanalytics.com/">Strategy Analytics Blog</a></li>
     <li><a href="http://insights.chitika.com/">Chitika Insights</a></li>
     <li><a href="http://www.strategyworx.co.za/">Strategy Worx</a></li>
+    <li><a href="http://www.comscore.com/">comScore</a></li>
+    <li><a href="http://www.itu.int/ITU-D/ict/">ICT</a></li>
+
   </ul>
 
 </section>
