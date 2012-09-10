@@ -196,7 +196,7 @@ require('_header.php');
 
   <p>Doing so is <a href="testing-on-mobile.php#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites. [Why is testing on mobile good for developers?</p>
 
-  <p>Testing on mobile is also <a href="testing-on-mobile.php#business">good for our clients</a>. If their customers aren&#8217;t already using their site on mobile, they will be soon. Mobile offers a new channel, and new opportuniites for businesses to connect with their existing customers and to pull in new ones.</p>
+  <p>Testing on mobile is also <a href="testing-on-mobile.php#business">good for our clients</a>. If their customers aren&#8217;t already using their site on mobile, they will be soon. Mobile offers a new channel, and new opportunities for businesses to connect with their existing customers and to pull in new ones.</p>
 
 </section>
 

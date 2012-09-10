@@ -16,7 +16,7 @@ require('_header.php');
 <ol class="whereitsgoing">
 
   <li>
-    <p>Internet access across the world is increasing at a rapid pace. The change is especially noticable with mobile devices. Many people have no fixed-line access to the web, instead relying on their mobile device. Web sites and web apps are being used across a wider range of software and hardware than ever before.</p>
+    <p>Internet access across the world is increasing at a rapid pace. The change is especially noticeable with mobile devices. Many people have no fixed-line access to the web, instead relying on their mobile device. Web sites and web apps are being used across a wider range of software and hardware than ever before.</p>
 
     <p><a href="mobile-statistics.php">Read more about the popularity of mobile web access.</a></p>
   </li>

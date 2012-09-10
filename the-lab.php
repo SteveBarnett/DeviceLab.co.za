@@ -32,7 +32,7 @@ require('_header.php');
     <li><strong>input methods</strong> such as fingers on a touch screen rather (are link targets big enough?);</li>
     <li>the weight, size, <strong>form factor</strong>, and portability of a device (is the text well-sized with the screen up close?);</li>
     <li>the <strong>quality and condition</strong> of the hardware (how well does the site work if the touch screen is not very responsive, is cracked, or dirty?);</li>
-    <li><strong>capabilities</strong>: touch, GPS, accelerometer, etc. (can we use the device&#8217;s extra capabiliites to add extra value for the user?)</li>
+    <li><strong>capabilities</strong>: touch, GPS, accelerometer, etc. (can we use the device&#8217;s extra capabilities to add extra value for the user?)</li>
     </ul>
 
     <p>More realistic testing isn&#8217;t the only benefit of using real devices. You learn more each time you use them, and become more efficient by knowing what to look out for next time. Exposure to more platforms and design approaches, Operating Systems, and browsers is also beneficial. It serves as a reminder of the wide range of use cases and that the site needs to be as lean and robust as possible to survive in whatever environment it is used in.</p>
