@@ -15,7 +15,7 @@ require('_header.php');
 
 <section class="stats">
 
-  <article id="number-of-users">
+  <article id="number-of-users" class="stat">
 
     <table summary="Comparison of number of cell, web, and mobile web users across the world, and in South Africa">          
     <caption>Cell and web stats: World and South Africa</caption>
@@ -50,10 +50,14 @@ require('_header.php');
 
     </table>
 
-    <div class="charts">
+    <div class="chart">
 
       <p class="chart-label">World</p>
       <img src="img/cell-and-web-stats-world.png" alt="" />
+
+    </div>
+
+    <div class="chart">
 
       <p class="chart-label">South Africa</p>
       <img src="img/cell-and-web-stats-sa.png" alt="" />
@@ -62,7 +66,7 @@ require('_header.php');
 
   </article>
 
-  <article id="mobile-vs-desktop">
+  <article id="mobile-vs-desktop" class="stat">
 
     <table summary="Balance of web traffic between mobile and desktop access">          
     <caption>Mobile versus desktop web access: World and South Africa</caption>
@@ -91,10 +95,14 @@ require('_header.php');
 
     </table>
 
-    <div class="charts">
+    <div class="chart">
 
       <p class="chart-label">World</p>
       <img src="img/web-access-world.png" alt="" />
+  
+    </div>
+
+    <div class="chart">
 
       <p class="chart-label">South Africa</p>
       <img src="img/web-access-sa.png" alt="" />
@@ -103,7 +111,7 @@ require('_header.php');
 
   </article>
 
-  <article id="mobile-only-users">
+  <article id="mobile-only-users" class="stat">
 
     <table summary="Number of users who only access the web using a mobile device">          
     <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
@@ -132,11 +140,15 @@ require('_header.php');
 
     </table>
 
-    <div class="charts">
+    <div class="chart">
 
       <p class="chart-label">World</p>
       <img src="img/mobile-only-world.png" alt="" />
-      
+   
+    </div>
+
+    <div class="chart">
+
       <p class="chart-label">South Africa</p>
       <img src="img/mobile-only-sa.png" alt="" />
 
@@ -144,7 +156,7 @@ require('_header.php');
 
   </article>
 
-  <article id="featurephones-vs-smartphones">
+  <article id="featurephones-vs-smartphones" class="stat">
 
     <table summary="Balance of featurephone to smartphones">          
     <caption>Feature phones vs smartphones: World and South Africa</caption>
@@ -173,10 +185,14 @@ require('_header.php');
 
     </table>
 
-    <div class="charts">
+    <div class="chart">
 
       <p class="chart-label">World</p>
       <img src="img/featurephones-smartphone-world.png" alt="" />
+
+    </div>
+
+    <div class="chart">
 
       <p class="chart-label">South Africa</p>
       <img src="img/featurephones-smartphone-sa.png" alt="" />
@@ -213,7 +229,7 @@ require('_header.php');
 
   <p>A brief list of sources used for the statistics above:</p>
 
-  <ul>
+  <ul class="stats-sources">
     <li><a href="http://www.digitaltrends.com/mobile/">Digital Trends / mobile</a></li>
     <li><a href="http://www.canalys.com/">Canalys</a></li>
     <li><a href="http://mobithinking.com/">mobiThinking</a></li>

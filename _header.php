@@ -48,10 +48,13 @@
 <body class="<?php echo $active; ?>">
 <!-- "Skip to main content," to id, and tabindex="-1" on target -->
 <!-- terrillthompson.com/blog/161 -->
-<a href="#main" id="top">Skip to main content</a>
+<a href="#main" id="top" class="visuallyhidden">Skip to main content</a>
 
 	<header role="banner" id="header">
-		<h1 class="site-title"><a href="index.php">Nomad Device Lab</a></h1>
+    <a href="index.php">
+      <img src="img/logo.gif" />
+		  <h1 class="site-title">Nomad Device Lab</h1>
+    </a>
 	</header>
 
   <a id="jump" href="#nav">Menu</a>

@@ -406,74 +406,136 @@ td {
 
 /* line 225, ../sass/style.scss */
 body {
-  font-family: "pragmatica-web", sans-serif;
+  font-family: "pt-sans", sans-serif;
 }
 
 /* ==|== Links ==== */
-/* line 15, ../sass/_config.scss */
+/* line 17, ../sass/_config.scss */
 a:link {
   color: #126b8e;
 }
-/* line 18, ../sass/_config.scss */
+/* line 20, ../sass/_config.scss */
 a:visited {
   color: #126b8e;
 }
-/* line 21, ../sass/_config.scss */
+/* line 23, ../sass/_config.scss */
 a:hover {
   color: #010506;
 }
-/* line 24, ../sass/_config.scss */
+/* line 26, ../sass/_config.scss */
 a:focus {
   color: #d06218;
 }
-/* line 27, ../sass/_config.scss */
+/* line 29, ../sass/_config.scss */
 a:active {
   color: #d06218;
 }
-/* line 233, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 a:hover {
   text-decoration: none;
 }
 
+/* line 243, ../sass/style.scss */
+.cta-email {
+  margin: 1em 0;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: #04161d;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #072733), color-stop(33%, #04161d), color-stop(66%, #04161d), color-stop(100%, #072733));
+  background-image: -webkit-linear-gradient(left, #072733, #04161d 33%, #04161d 66%, #072733);
+  background-image: -moz-linear-gradient(left, #072733, #04161d 33%, #04161d 66%, #072733);
+  background-image: -o-linear-gradient(left, #072733, #04161d 33%, #04161d 66%, #072733);
+  background-image: linear-gradient(left, #072733, #04161d 33%, #04161d 66%, #072733);
+}
+/* line 17, ../sass/_config.scss */
+.cta-email:link {
+  color: #072733;
+}
+/* line 20, ../sass/_config.scss */
+.cta-email:visited {
+  color: #072733;
+}
+/* line 23, ../sass/_config.scss */
+.cta-email:hover {
+  color: black;
+}
+/* line 26, ../sass/_config.scss */
+.cta-email:focus {
+  color: #a24c13;
+}
+/* line 29, ../sass/_config.scss */
+.cta-email:active {
+  color: #a24c13;
+}
+/* line 17, ../sass/_config.scss */
+.cta-email:link {
+  color: white;
+}
+/* line 20, ../sass/_config.scss */
+.cta-email:visited {
+  color: white;
+}
+/* line 23, ../sass/_config.scss */
+.cta-email:hover {
+  color: white;
+}
+/* line 26, ../sass/_config.scss */
+.cta-email:focus {
+  color: white;
+}
+/* line 29, ../sass/_config.scss */
+.cta-email:active {
+  color: white;
+}
+
 /* ==|== Typography ==== */
 /* ==|== Headings ==== */
-/* line 251, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt", sans-serif;
   font-weight: normal;
   margin: 0;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 header {
   color: #d06218;
   text-transform: uppercase;
   font-weight: normal;
 }
 
-/* line 265, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 article header {
   color: #333333;
   font-weight: bold;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .page-title {
   border-bottom: solid 0.1em #d06218;
   padding: 1em 0 0 0;
   text-transform: capitalize;
 }
 
-/* line 281, ../sass/style.scss */
-.philosophy article header {
+/* line 301, ../sass/style.scss */
+.reasons article header {
   text-align: center;
 }
 
 /* ==|== Lists ==== */
 /* ==|== Figures ==== */
+/* line 314, ../sass/style.scss */
+img {
+  max-width: 100%;
+}
+
 /* ==|== Forms ==== */
 /* ==|== Tables ==== */
-/* line 301, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 table {
   width: 100%;
 }
@@ -512,40 +574,32 @@ table tbody tr.last th, table tbody tr.last td, table tfoot tr.last th, table tf
   border-bottom-width: 0px;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 td {
   text-align: center;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 caption {
   margin: 1em 0 0.5em;
   text-transform: uppercase;
 }
 
 /* ==|== role navigation ==== */
-/* line 324, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 #top {
   margin: 0 0.5em;
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 #jump {
-  color: white;
   text-decoration: none;
   position: absolute;
-  top: 0em;
-  right: 1.5em;
+  top: 0.5em;
+  right: 2em;
+  color: white;
 }
-/* line 340, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 #jump:after {
   content: "";
   position: absolute;
@@ -557,11 +611,12 @@ caption {
   border-bottom: 2px solid white;
 }
 
-/* line 352, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .navigation {
   background: #d06218;
+  text-transform: uppercase;
 }
-/* line 353, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .navigation header {
   border: 0;
   clip: rect(0 0 0 0);
@@ -572,38 +627,81 @@ caption {
   position: absolute;
   width: 1px;
 }
-/* line 357, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .navigation a {
-  margin: 0 0.5em;
-  color: white;
-}
-
-/* ==|== role banner ==== */
-/* line 365, ../sass/style.scss */
-#header {
-  background: #d06218;
-}
-
-/* line 375, ../sass/style.scss */
-.site-title {
-  margin-right: 2em;
-  padding-left: 0.5em;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-/* line 376, ../sass/style.scss */
-.site-title a {
   color: white;
   text-decoration: none;
-}
-
-/* ==|== role main ==== */
-/* line 390, ../sass/style.scss */
-.maincontent {
-  margin: 0 0.5em;
+  display: block;
+  padding: 0.5em;
+  border-top: solid 1px #ed9961;
+  border-bottom: solid 1px #75370d;
 }
 
 /* line 394, ../sass/style.scss */
+.nav-active {
+  background: #a24c13;
+}
+
+/* ==|== role banner ==== */
+/* line 400, ../sass/style.scss */
+#header {
+  margin: 0.5em;
+  text-align: center;
+  padding: 1em;
+  background: #126b8e;
+  -webkit-box-shadow: #0c4961 0 0.25em 0.5em inset;
+  -moz-box-shadow: #0c4961 0 0.25em 0.5em inset;
+  box-shadow: #0c4961 0 0.25em 0.5em inset;
+  color: white;
+  border-radius: 1em;
+}
+/* line 410, ../sass/style.scss */
+#header a {
+  margin-top: 1em;
+  display: block;
+  text-decoration: none;
+}
+/* line 17, ../sass/_config.scss */
+#header a:link {
+  color: white;
+}
+/* line 20, ../sass/_config.scss */
+#header a:visited {
+  color: white;
+}
+/* line 23, ../sass/_config.scss */
+#header a:hover {
+  color: white;
+}
+/* line 26, ../sass/_config.scss */
+#header a:focus {
+  color: #d06218;
+}
+/* line 29, ../sass/_config.scss */
+#header a:active {
+  color: #d06218;
+}
+/* line 418, ../sass/style.scss */
+#header img {
+  border-radius: 1em;
+  -webkit-box-shadow: #0c4961 0 0.25em 0.5em;
+  -moz-box-shadow: #0c4961 0 0.25em 0.5em;
+  box-shadow: #0c4961 0 0.25em 0.5em;
+}
+
+/* line 426, ../sass/style.scss */
+.site-title {
+  margin: 0.25em 0 0;
+}
+
+/* ==|== role main ==== */
+/* line 434, ../sass/style.scss */
+.maincontent {
+  margin: 0 0.5em;
+  clear: both;
+}
+
+/* line 439, ../sass/style.scss */
 .whereitsgoing {
   list-style: none;
   margin: 0;
@@ -611,22 +709,62 @@ caption {
 }
 
 /* home: features */
-/* line 422, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 .features {
   text-align: center;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-/* line 427, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 .features strong {
   display: block;
 }
-/* line 431, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .features p {
   text-align: left;
 }
 
-/* line 445, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
+.feature-precis, .reasons article header {
+  padding: 1em;
+  background: #126b8e;
+  -webkit-box-shadow: #0c4961 0 0.25em 0.5em inset;
+  -moz-box-shadow: #0c4961 0 0.25em 0.5em inset;
+  box-shadow: #0c4961 0 0.25em 0.5em inset;
+  color: white;
+  border-radius: 1em;
+}
+/* line 469, ../sass/style.scss */
+.feature-precis strong, .reasons article header strong {
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+/* line 475, ../sass/style.scss */
+.feature-precis img, .reasons article header img {
+  border-radius: 1em;
+  -webkit-box-shadow: #0c4961 0 0.25em 0.5em;
+  -moz-box-shadow: #0c4961 0 0.25em 0.5em;
+  box-shadow: #0c4961 0 0.25em 0.5em;
+}
+
+/* line 481, ../sass/style.scss */
+.tagline {
+  color: white;
+  background: #d06218;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d06218), color-stop(100%, #b95715));
+  background-image: -webkit-linear-gradient(#d06218, #b95715);
+  background-image: -moz-linear-gradient(#d06218, #b95715);
+  background-image: -o-linear-gradient(#d06218, #b95715);
+  background-image: linear-gradient(#d06218, #b95715);
+  border: solid 1px #a24c13;
+}
+
+/* line 492, ../sass/style.scss */
 .stats tr {
   border: 0;
   clip: rect(0 0 0 0);
@@ -638,19 +776,31 @@ caption {
   width: 1px;
 }
 
-/* line 450, ../sass/style.scss */
-.charts {
+/* line 497, ../sass/style.scss */
+.chart {
   text-align: center;
 }
-/* line 453, ../sass/style.scss */
-.charts img {
+/* line 500, ../sass/style.scss */
+.chart img {
   margin-bottom: 1em;
 }
 
-/* line 459, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 .chart-label:after {
   content: "↓";
   margin-left: 0.5em;
+}
+
+/* line 512, ../sass/style.scss */
+.realdevices {
+  text-align: center;
+}
+
+/* line 517, ../sass/style.scss */
+.device strong {
+  color: #d06218;
+  font-weight: normal;
+  text-transform: capitalize;
 }
 
 /* ==|== role complementary ==== */
@@ -671,7 +821,7 @@ caption {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 515, ../sass/style.scss */
+/* line 573, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -684,20 +834,20 @@ caption {
   *line-height: 0;
 }
 
-/* line 516, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 519, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 522, ../sass/style.scss */
+/* line 580, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -710,7 +860,7 @@ caption {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 525, ../sass/style.scss */
+/* line 583, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -721,24 +871,24 @@ caption {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 528, ../sass/style.scss */
+/* line 586, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 531, ../sass/style.scss */
+/* line 589, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 532, ../sass/style.scss */
+/* line 590, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 533, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -748,7 +898,7 @@ caption {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 543, ../sass/style.scss */
+  /* line 601, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -759,45 +909,45 @@ caption {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 544, ../sass/style.scss */
+  /* line 602, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 545, ../sass/style.scss */
+  /* line 603, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 546, ../sass/style.scss */
+  /* line 604, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 547, ../sass/style.scss */
+  /* line 605, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 548, ../sass/style.scss */
+  /* line 606, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 549, ../sass/style.scss */
+  /* line 607, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 550, ../sass/style.scss */
+  /* line 608, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 551, ../sass/style.scss */
+  /* line 609, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -806,13 +956,13 @@ caption {
     margin: 0.5cm;
 }
 
-  /* line 553, ../sass/style.scss */
+  /* line 611, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 554, ../sass/style.scss */
+  /* line 612, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }

@@ -1,3 +1,6 @@
+@import "compass";
+@import "config";
+
 /* ==|== Links ==== */
 
 
@@ -28,15 +31,36 @@
 
 /* ==|== role navigation ==== */
 
+#jump, #back {
+	display: none;
+}
 
+.navigation {
+	position: absolute;
+	top: 0.5em;
+	right: $smallscreenmargin;
+	width: 27%;
+}
 
 /* ==|== role banner ==== */
 
-
+#header {
+	width: 66%;
+}
 
 /* ==|== role main ==== */
 
+.feature {
+	@include fourwayfloats;
+}
 
+.stat {
+	@include alternatingfloats;
+}
+
+.stats-sources {
+	@include column-count(3);
+}
 
 /* ==|== role complementary ==== */
 

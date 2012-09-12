@@ -226,6 +226,10 @@ body {
   font-family: $paragraphs, sans-serif;
 }
 
+section {
+  // border-top: dashed 1em $primaryColor;
+}
+
 /* ==|== Links ==== */
 
 a {
@@ -235,12 +239,30 @@ a {
   }
 }
 
-// .readmore {
-//   padding-bottom: 1em;
-//   @include horder($primaryColor);
-//   @include realign;
-//   margin-bottom: 1em;
-// }
+
+.cta-email {
+
+  @include link-colours(darken($secondaryColor,20%), darken($secondaryColor,20%), darken($secondaryColor, 50%), darken($primaryColor,10%), darken($primaryColor,10%));
+  margin: 1em 0;
+  // border: solid 1px $secondaryColor;
+  border-radius: 0.25em;
+  // text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  // @include background-image(linear-gradient(top, $white, lighten($secondaryColor, 60%)));
+  // @include single-text-shadow(0, 1px, 0px, false, lighten($primaryColor,50%));
+  background: darken($secondaryColor, 25%);
+  @include link-colours(white, white, white, white, white);
+  @include background-image(linear-gradient(left,
+    darken($secondaryColor, 20%),
+    darken($secondaryColor, 25%) 33%,
+    darken($secondaryColor, 25%) 66%,
+    darken($secondaryColor, 20%))
+  );
+}
 
 /* ==|== Typography ==== */
 
@@ -264,22 +286,21 @@ header {
 article {
   header {
     color: $black;
-    // text-transform: none;
     font-weight: bold;
   }
 }
 
 .page-title {
   border-bottom: solid 0.1em $primaryColor;
-  // @include realign;
   padding: 1em 0 0 0;
   text-transform: capitalize;
 }
 
-.philosophy {
+.reasons {
   article {
     header {
       text-align: center;
+      @extend .feature-precis;
     }
   }
 }
@@ -290,7 +311,9 @@ article {
 
 /* ==|== Figures ==== */
 
-
+img {
+  max-width: 100%;
+}
 
 /* ==|== Forms ==== */
 
@@ -323,19 +346,19 @@ article {
 
 #top {
   margin: 0 $smallscreenmargin;
-  @include visuallyhidden;
 }
 
 #jump {
   // position: relative;
   // padding-right: 1em;
 
-  color: $white;
+  
   text-decoration: none;
 
   position: absolute;
-  top: 0em;
-  right: 1.5em;
+  top: 0.5em;
+  right: 2em;
+  color: $white;
 
     &:after {
       content: "";
@@ -353,34 +376,55 @@ article {
   header {
     @include visuallyhidden;
   }
+
   background: $primaryColor;
+  text-transform: uppercase;
+
   a {
-    margin: 0 $smallscreenmargin;
+    // margin: 0 $smallscreenmargin;
     color: $white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    border-top: solid 1px lighten($primaryColor, 20%);
+    border-bottom: solid 1px darken($primaryColor, 20%);
   }
+}
+
+.nav-active {
+  background: darken($primaryColor, 10%);
 }
 
 /* ==|== role banner ==== */
 
 #header {
 
-  background: $primaryColor;
-  // // margin: 0 -$smallscreenmargin;
-  // padding: 0.5em 1em 0;
-  // @include border-bottom-left-radius(0.25em);
-  // @include border-bottom-right-radius(0.25em);
+  margin: $smallscreenmargin;
+  text-align: center;
+  padding: 1em;
+  background: $secondaryColor;
+  @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
+  color: $white;
+  border-radius: 1em;
+
+  a {
+    margin-top: 1em;
+    display: block;
+    @include link-colours($white, $white, $white, $primaryColor, $primaryColor);
+    text-decoration: none;
+  }
+
+
+  img {
+    // border: solid 0.25em $black;
+    border-radius: 1em;
+    @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em);
+  }
 
 }
 
 .site-title {
-  a {
-    color: $white;
-    text-decoration: none;
-  } 
-  margin-right: 2em;
-  padding-left: $smallscreenmargin;
-  text-transform: uppercase;
-  font-size: 1em;
+  margin: 0.25em 0 0;
 }
 
 
@@ -389,32 +433,13 @@ article {
 
 .maincontent {
   margin: 0 $smallscreenmargin;
+  clear: both;
 }
 
 .whereitsgoing {
   list-style: none;
   margin: 0;
   padding: 0;
-
-  li {
-    // background: $primaryColor;
-    // padding: 0.5em;
-    // // display: block;
-    // margin-bottom: 1em;
-    // color: #fff;
-  }
-
-  // a {
-  //   display: block;
-  //   background: $secondaryColor;
-  //   padding: 0.5em;
-  //   color: #fff;
-  //   @include border-radius(0.25em);
-  //   &:hover {
-  //     background: darken($secondaryColor, 20%);
-  //   }
-  // }
-
 }
 
 /* home: features */
@@ -422,7 +447,7 @@ article {
 .features {
   text-align: center;
   @include no-mp;
-
+  list-style: none;
 
   strong {
     display: block;
@@ -434,12 +459,34 @@ article {
 }
 
 
-// /* stats */
-
-.mobile-statistics {
-
-
+.feature-precis {
+  padding: 1em;
+  background: $secondaryColor;
+  @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
+  color: $white;
+  border-radius: 1em;
+  // max-width: 20em;
+  strong {
+    color: $white;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 1em;
+  }
+  img {
+    border-radius: 1em;
+    @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em);
+  }
 }
+
+.tagline {
+  color: $white;
+  background: $primaryColor;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  @include background-image(linear-gradient($primaryColor, darken($primaryColor,5%)));
+  border: solid 1px darken($primaryColor, 10%);
+}
+
 
 .stats {
   tr {
@@ -447,7 +494,7 @@ article {
   }
 }
 
-.charts {
+.chart {
   text-align: center;
 
   img {
@@ -462,6 +509,17 @@ article {
   }
 }
 
+.realdevices {
+  text-align: center;
+}
+
+.device {
+  strong {
+    color: $primaryColor;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+}
 
 
 /* ==|== role complementary ==== */

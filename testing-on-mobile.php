@@ -15,7 +15,9 @@ require('_header.php');
 
 </section>
 
-<section class="philosophy">
+<div class="reasons-list">
+
+<section class="reasons">
   <header>
     <h2 id="philosophy">Philosophy</h2>
   </header>
@@ -24,9 +26,8 @@ require('_header.php');
 
   <article>
     <header>
-      <h3 id="oneweb">One Web</h3>
-
       <img src="img/one-web.png" alt="" />
+      <h3 id="oneweb">One Web</h3>
     </header>
 
   <p>People should be able to access all of your web site quickly and easily, regardless of the device they’re using, the type of connection they are on, or any disabilities they have. This is not only right thing to do, but makes good business sense.</p>
@@ -37,9 +38,8 @@ require('_header.php');
 
   <article>
     <header>
-     <h3 id="futurefriendly">Future Friendly</h3>
-
      <img src="img/future-friendly.png" alt="" />
+     <h3 id="futurefriendly">Future Friendly</h3>
     </header>
 
   <p>The current landscape of featurephones, smartphones, and tablets is only the beginning. The number and variety of internet-connected devices is increasing, and the future holds devices that we haven&#8217;t even imagined yet. The best way to handle this is to act in a <a href="http://futurefriendly.co.za">Future Friendly</a> way: <a href="http://futurefriend.ly/#hope">acknowledge and embrace unpredictability</a>.</p>
@@ -50,22 +50,21 @@ require('_header.php');
 
   <article>
     <header>
-      <h3 id="mobilefirst">Mobile First</h3>
-
       <img src="img/mobile-first.png" alt="" />
+      <h3 id="mobilefirst">Mobile First</h3>
    </header>
 
   <p>Starting a development process thinking about mobile forces focus, especially on items such as information hierarchy and user goals. The smaller screens of mobile devices and the varying contexts they are used in makes focus on key content and taskss.</p>
 
   <p>Mobile also has capabilities that desktop machines do not: GPS, orientation, touch input, accelerometer, and so on. These open up possibilities for creativity and interacting with content that didn’t exist before.</p>
 
-  <p><a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#110;&#111;&#x6d;&#x61;&#100;&#x40;&#x64;&#101;&#118;&#105;&#x63;&#x65;&#x6c;&#97;&#98;&#x2e;&#99;&#x6f;&#x2e;&#x7a;&#97;&#x3f;&#x73;&#117;&#98;&#106;&#x65;&#99;&#x74;&#61;&#68;&#101;&#x76;&#x69;&#99;&#101;&#37;&#x32;&#x30;&#76;&#x61;&#98;&#x3a;&#37;&#x32;&#x30;&#80;&#104;&#x69;&#x6c;&#111;&#115;&#x6f;&#112;&#x68;&#x79;">&#84;&#97;&#x6c;&#107; &#x74;&#x6f; &#117;&#115; &#97;&#x62;&#x6f;&#x75;&#x74; &#x74;&#104;&#x65; &#79;&#110;&#x65; &#87;&#101;&#98;&#x2c; &#98;&#101;&#105;&#x6e;&#x67; &#x46;&#x75;&#116;&#x75;&#x72;&#101; &#70;&#x72;&#105;&#x65;&#x6e;&#x64;&#x6c;&#x79;&#44; &#111;&#114; &#x67;&#111;&#x69;&#110;&#103; &#x4d;&#111;&#x62;&#x69;&#108;&#x65; &#x46;&#105;&#114;&#115;&#116;</a>.</p>
+  <p><a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#110;&#111;&#x6d;&#x61;&#100;&#x40;&#x64;&#101;&#118;&#105;&#x63;&#x65;&#x6c;&#97;&#98;&#x2e;&#99;&#x6f;&#x2e;&#x7a;&#97;&#x3f;&#x73;&#117;&#98;&#106;&#x65;&#99;&#x74;&#61;&#68;&#101;&#x76;&#x69;&#99;&#101;&#37;&#x32;&#x30;&#76;&#x61;&#98;&#x3a;&#37;&#x32;&#x30;&#80;&#104;&#x69;&#x6c;&#111;&#115;&#x6f;&#112;&#x68;&#x79;" class="cta-email">&#84;&#97;&#x6c;&#107; &#x74;&#x6f; &#117;&#115; &#97;&#x62;&#x6f;&#x75;&#x74; &#x74;&#104;&#x65; &#79;&#110;&#x65; &#87;&#101;&#98;&#x2c; &#98;&#101;&#105;&#x6e;&#x67; &#x46;&#x75;&#116;&#x75;&#x72;&#101; &#70;&#x72;&#105;&#x65;&#x6e;&#x64;&#x6c;&#x79;&#44; &#111;&#114; &#x67;&#111;&#x69;&#110;&#103; &#x4d;&#111;&#x62;&#x69;&#108;&#x65; &#x46;&#105;&#114;&#115;&#116;</a></p>
 
   </article>
 
 </section>
 
-<section>
+<section class="reasons">
   <header>
     <h2 id="business">Business</h2>
   </header>
@@ -110,6 +109,8 @@ require('_header.php');
   </article>
 
 </section>
+
+</div>
 
 <section>
   <header>

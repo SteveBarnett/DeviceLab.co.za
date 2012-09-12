@@ -1,6 +1,12 @@
+@import "compass";
+@import "config";
+
 /* ==|== Links ==== */
 
-
+.cta-email {
+	max-width: 30em;
+	margin: 1em auto;
+}
 
 /* ==|== Typography ==== */
 
@@ -28,15 +34,83 @@
 
 /* ==|== role navigation ==== */
 
-
+#jump {
+	top: 2em;
+	right: 3em;
+	font-size: 1.5em;
+	 &:after {
+      top: 0.3em;
+      left: 3em;
+      width:24px;
+      height:4px;
+      border-top: 12px double $white;
+      border-bottom: 4px solid $white;
+    }
+}
 
 /* ==|== role banner ==== */
 
+#header {
 
+	a {
+		float: left;
+		width: 66%;
+		margin-top: 0;
+	}
+
+	img {
+		float: left;
+	}
+
+	@include clearfix;
+}
+
+.site-title {
+	margin-top: 0.75em;
+}
 
 /* ==|== role main ==== */
 
+.features {
+	@include clearfix;
+}
 
+.feature {
+	@include alternatingfloats;
+}
+
+
+.chart {
+	@include alternatingfloats;
+}
+
+.stats {
+	@include clearfix;
+}
+
+.stats-sources {
+	@include column-count(2);
+}
+
+.devices {
+	@include clearfix;
+}
+
+.device {
+	@include alternatingfloats;
+	margin-bottom: 1em;
+	strong {
+		display: block;
+	}
+}
+
+.reasons-list {
+	@include clearfix;
+}
+
+.reasons {
+	@include alternatingfloats;
+}
 
 /* ==|== role complementary ==== */
 
