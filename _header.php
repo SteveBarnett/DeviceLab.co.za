@@ -18,8 +18,8 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="stylesheets/style.20120905.css" media="screen, handheld"/>
-  <link rel="stylesheet" href="stylesheets/enhanced.20120522.css" media="screen  and (min-width: 40.5em)"/>
+  <link rel="stylesheet" href="stylesheets/style.20120913.css" media="screen, handheld"/>
+  <link rel="stylesheet" href="stylesheets/enhanced.20120913.css" media="screen  and (min-width: 40.5em)"/>
   <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.20120522.css" /> <![endif]-->
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
