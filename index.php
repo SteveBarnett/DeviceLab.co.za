@@ -48,8 +48,6 @@ require('_header.php');
     <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited, so please contact the lab or the host for that day.</p>
 
     <p>If you would like to host the lab for a day or half day session, we'd love to hear from you.</p>
-
-    <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6e;&#111;&#x6d;&#97;&#x64;&#64;&#100;&#x65;&#x76;&#x69;&#x63;&#x65;&#108;&#97;&#x62;&#x2e;&#99;&#x6f;&#x2e;&#122;&#97;" class="cta-email">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#116; &#x74;&#x68;&#101; &#x6c;&#x61;&#98;</a>
     
   </li>
 
@@ -78,6 +76,8 @@ require('_header.php');
   </li>
 
     </ul>
+
+  <p><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6e;&#111;&#x6d;&#97;&#x64;&#64;&#100;&#x65;&#x76;&#x69;&#x63;&#x65;&#108;&#97;&#x62;&#x2e;&#99;&#x6f;&#x2e;&#122;&#97;" class="cta-email">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#116; &#x74;&#x68;&#101; &#x6c;&#x61;&#98;</a></p>
 
   <p><a href="the-lab.php">Find out more about the lab</a></p>
 

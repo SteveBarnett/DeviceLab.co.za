@@ -1,6 +1,13 @@
 @import "compass";
 @import "config";
 
+body {
+	position: relative;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+
 /* ==|== Links ==== */
 
 
@@ -40,6 +47,13 @@
 	top: 0.5em;
 	right: $smallscreenmargin;
 	width: 27%;
+
+	a {
+		background: $white;
+		border: none;
+		@include link-colours($secondaryColor, $secondaryColor, darken($secondaryColor, 30%), $primaryColor, $primaryColor);
+		padding: 0.25em;
+	}
 }
 
 /* ==|== role banner ==== */

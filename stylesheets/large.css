@@ -1,3 +1,10 @@
+/* line 4, ../sass/large.scss */
+body {
+  position: relative;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
 /* ==|== Links ==== */
 /* ==|== Typography ==== */
 /* ==|== Headings ==== */
@@ -6,21 +13,47 @@
 /* ==|== Forms ==== */
 /* ==|== Tables ==== */
 /* ==|== role navigation ==== */
-/* line 34, ../sass/large.scss */
+/* line 41, ../sass/large.scss */
 #jump, #back {
   display: none;
 }
 
-/* line 38, ../sass/large.scss */
+/* line 45, ../sass/large.scss */
 .navigation {
   position: absolute;
   top: 0.5em;
   right: 0.5em;
   width: 27%;
 }
+/* line 51, ../sass/large.scss */
+.navigation a {
+  background: white;
+  border: none;
+  padding: 0.25em;
+}
+/* line 17, ../sass/_config.scss */
+.navigation a:link {
+  color: #126b8e;
+}
+/* line 20, ../sass/_config.scss */
+.navigation a:visited {
+  color: #126b8e;
+}
+/* line 23, ../sass/_config.scss */
+.navigation a:hover {
+  color: #010506;
+}
+/* line 26, ../sass/_config.scss */
+.navigation a:focus {
+  color: #d06218;
+}
+/* line 29, ../sass/_config.scss */
+.navigation a:active {
+  color: #d06218;
+}
 
 /* ==|== role banner ==== */
-/* line 47, ../sass/large.scss */
+/* line 61, ../sass/large.scss */
 #header {
   width: 66%;
 }
@@ -54,7 +87,7 @@
   clear: right;
 }
 
-/* line 61, ../sass/large.scss */
+/* line 75, ../sass/large.scss */
 .stats-sources {
   -webkit-column-count: 3;
   -moz-column-count: 3;
