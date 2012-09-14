@@ -88,12 +88,21 @@ require('_header.php');
     <h2 id="labsinothercities">Labs in other cities</h2>
   </header>
 
-  <ul>
-  <li><a href="http://clearleft.com/testlab/">Test Lab</a> at <a href="http://clearleft.com/">Clearleft</a> in Brighton.</li>
-  <li><a href="http://www.80beans.com/en/blog/2012/08/07/introducing-our-open-test-lab-for-mobile-device-testing">Open Test Lab</a> at <a href="http://www.80beans.com/en">80beans</a> in Amsterdam</li>
-  <li><a href="http://co-up.de/2012/07/31/open-device-lab.html">Open Device Lab</a> at <a href="http://co-up.de/">co.up</a> in Berlin.</li>
-  <li><a href="http://viljamis.com/blog/2012/helsinki-open-device-lab/">Open Device Lab</a> at <a href="http://kiskolabs.com/">Kisko Labs</a> in Helsinki.</li>
-  <li><a href="http://cole007.net/blog/111/setting-up-a-mobile-testing-suite">Mobile Testing Suite</a> at <a href="http://www.theoldchurchschool.co.uk/">The Old Church School</a> in Frome.</li>
+  <ul class="labs">
+    <li class="lab"><a href="http://clearleft.com/testlab/">Test Lab</a> at <a href="http://clearleft.com/">Clearleft</a> in Brighton.</li>
+    <li class="lab"><a href="http://www.80beans.com/en/blog/2012/08/07/introducing-our-open-test-lab-for-mobile-device-testing">Open Test Lab</a> at <a href="http://www.80beans.com/en">80beans</a> in Amsterdam</li>
+    <li class="lab"><a href="http://co-up.de/2012/07/31/open-device-lab.html">Open Device Lab</a> at <a href="http://co-up.de/">co.up</a> in Berlin.</li>
+    <li class="lab"><a href="http://opendevicelab.com/">Open Device Lab</a> at <a href="http://kiskolabs.com/">Kisko Labs</a> in Helsinki.</li>
+    <li class="lab"><a href="http://cole007.net/blog/111/setting-up-a-mobile-testing-suite">Mobile Testing Suite</a> at <a href="http://www.theoldchurchschool.co.uk/">The Old Church School</a> in Frome.</li>
+
+    <li class="lab"><a href="http://suhajdab.github.com/modl/">Open Device Lab</a> in Malmö.</li>
+    <li class="lab"><a href="http://fliptation.ch/#lab">Test Lab</a> at <a href="http://fliptation.ch/">Fliptation</a> in Zurich</li>
+    <li class="lab"><a href="http://www.ajcomputers.com/news/introducing-open-test-lab-mobile-device-testing/">Open Test Lab</a> at <a href="http://www.ajcomputers.com/">A&J Computers</a> in Marietta, GA.</li>
+    <li class="lab"><a href="http://www.exeter-web.org/device-library">Device Library</a> at <a href="http://www.exeter-web.org/">Exter Web</a> in Exeter.</li>
+    <li class="lab"><a href="http://mobileportland.com/device-lab">Device Lab</a> at <a href="http://mobileportland.com/">Mobile Portland</a> in Portland.</li>
+    <li class="lab"><a href="http://shaundunne.github.com/deviceLibrary/"><London Device Lab/a> at Mozilla <a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Open Space</a> in London.</li>
+    <li class="lab"><a href="http://www.netvlies.nl/openbaar-testlab">Public Test Lab</a> at <a href="http://www.netvlies.nl/">Netvlies</a> in Breda.</li>
+
   </ul>
 
   <p>Know of any more?</p>

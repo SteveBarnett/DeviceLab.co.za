@@ -381,7 +381,6 @@ img {
   text-transform: uppercase;
 
   a {
-    // margin: 0 $smallscreenmargin;
     color: $white;
     text-decoration: none;
     display: block;
@@ -393,6 +392,10 @@ img {
 
 .nav-active {
   background: darken($primaryColor, 10%);
+}
+
+#back {
+  margin: 0;
 }
 
 /* ==|== role banner ==== */

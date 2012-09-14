@@ -112,6 +112,15 @@
 	@include alternatingfloats;
 }
 
+.labs {
+	@include clearfix;
+}
+
+.lab {
+	@include alternatingfloats;	
+}
+
+
 /* ==|== role complementary ==== */
 
 

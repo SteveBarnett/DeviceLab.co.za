@@ -38,11 +38,11 @@ body {
 
 /* ==|== role navigation ==== */
 
-#jump, #back {
+#jump {
 	display: none;
 }
 
-.navigation {
+#nav {
 	position: absolute;
 	top: 0.5em;
 	right: $smallscreenmargin;
@@ -52,7 +52,7 @@ body {
 		background: $white;
 		border: none;
 		@include link-colours($secondaryColor, $secondaryColor, darken($secondaryColor, 30%), $primaryColor, $primaryColor);
-		padding: 0.25em;
+		padding: 0.05em;
 	}
 }
 

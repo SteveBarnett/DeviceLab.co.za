@@ -14,41 +14,41 @@ body {
 /* ==|== Tables ==== */
 /* ==|== role navigation ==== */
 /* line 41, ../sass/large.scss */
-#jump, #back {
+#jump {
   display: none;
 }
 
 /* line 45, ../sass/large.scss */
-.navigation {
+#nav {
   position: absolute;
   top: 0.5em;
   right: 0.5em;
   width: 27%;
 }
 /* line 51, ../sass/large.scss */
-.navigation a {
+#nav a {
   background: white;
   border: none;
-  padding: 0.25em;
+  padding: 0.05em;
 }
 /* line 17, ../sass/_config.scss */
-.navigation a:link {
+#nav a:link {
   color: #126b8e;
 }
 /* line 20, ../sass/_config.scss */
-.navigation a:visited {
+#nav a:visited {
   color: #126b8e;
 }
 /* line 23, ../sass/_config.scss */
-.navigation a:hover {
+#nav a:hover {
   color: #010506;
 }
 /* line 26, ../sass/_config.scss */
-.navigation a:focus {
+#nav a:focus {
   color: #d06218;
 }
 /* line 29, ../sass/_config.scss */
-.navigation a:active {
+#nav a:active {
   color: #d06218;
 }
 
