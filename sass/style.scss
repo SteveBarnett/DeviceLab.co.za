@@ -408,7 +408,7 @@ img {
 
   a {
     margin-top: 1em;
-    display: block;
+    // display: block;
     @include link-colours($white, $white, $white, $primaryColor, $primaryColor);
     text-decoration: none;
   }

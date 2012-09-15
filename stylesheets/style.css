@@ -662,7 +662,6 @@ caption {
 /* line 409, ../sass/style.scss */
 #header a {
   margin-top: 1em;
-  display: block;
   text-decoration: none;
 }
 /* line 17, ../sass/_config.scss */
