@@ -127,7 +127,9 @@ if (count($previous) > 0 ) {
         <div class="location"><a href="<?php echo $details['url']; ?>"><?php echo $details['location']; ?></a></div>   
 
         <?php
-          
+
+        if(count($details['attendees'])>0) {
+
           foreach ($details['attendees'] as $attendeeName => $attendeeorg) {
             $attendees .= '<li>' . $attendeeName . ' of <a href="' . $attendeeorg['url'] . '">' . $attendeeorg['org'] . '</a></li>';
           }
@@ -138,6 +140,8 @@ if (count($previous) > 0 ) {
             $attendees .= '</ul>';
           }
           echo $attendees;
+
+        }
         ?>
         
     </li>

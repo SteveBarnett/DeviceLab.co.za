@@ -60,13 +60,18 @@
 
 	img {
 		float: left;
+		width: auto;
+		height: auto;
+		border-radius: 1em;
 	}
 
 	@include clearfix;
 }
 
 .site-title {
+	display: block;
 	margin-top: 0.75em;
+	font-size: 2em;
 }
 
 /* ==|== role main ==== */

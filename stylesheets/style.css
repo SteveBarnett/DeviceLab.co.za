@@ -652,7 +652,7 @@ caption {
 #header {
   margin: 0.5em;
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
   background: #126b8e;
   -webkit-box-shadow: #0c4961 0 0.25em 0.5em inset;
   -moz-box-shadow: #0c4961 0 0.25em 0.5em inset;
@@ -688,25 +688,39 @@ caption {
 }
 /* line 417, ../sass/style.scss */
 #header img {
-  border-radius: 1em;
   -webkit-box-shadow: #0c4961 0 0.25em 0.5em;
   -moz-box-shadow: #0c4961 0 0.25em 0.5em;
   box-shadow: #0c4961 0 0.25em 0.5em;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
 
-/* line 425, ../sass/style.scss */
+@media screen and (min-width: 20em) {
+  /* line 432, ../sass/style.scss */
+  #header a {
+    margin-top: 0;
+  }
+
+  /* line 437, ../sass/style.scss */
+  .site-title {
+    font-size: 1.5em;
+  }
+}
+/* line 443, ../sass/style.scss */
 .site-title {
-  margin: 0.25em 0 0;
+  display: inline;
+  font-size: 1em;
 }
 
 /* ==|== role main ==== */
-/* line 433, ../sass/style.scss */
+/* line 454, ../sass/style.scss */
 .maincontent {
   margin: 0 0.5em;
   clear: both;
 }
 
-/* line 438, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .whereitsgoing {
   list-style: none;
   margin: 0;
@@ -714,23 +728,23 @@ caption {
 }
 
 /* home: features */
-/* line 446, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
 .features {
   text-align: center;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 451, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 .features strong {
   display: block;
 }
-/* line 455, ../sass/style.scss */
+/* line 476, ../sass/style.scss */
 .features p {
   text-align: left;
 }
 
-/* line 461, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 .feature-precis, .reasons article header {
   padding: 1em;
   background: #126b8e;
@@ -740,14 +754,14 @@ caption {
   color: white;
   border-radius: 1em;
 }
-/* line 468, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 .feature-precis strong, .reasons article header strong {
   color: white;
   font-weight: normal;
   text-transform: uppercase;
   margin-top: 1em;
 }
-/* line 474, ../sass/style.scss */
+/* line 495, ../sass/style.scss */
 .feature-precis img, .reasons article header img {
   border-radius: 1em;
   -webkit-box-shadow: #0c4961 0 0.25em 0.5em;
@@ -755,7 +769,7 @@ caption {
   box-shadow: #0c4961 0 0.25em 0.5em;
 }
 
-/* line 480, ../sass/style.scss */
+/* line 501, ../sass/style.scss */
 .tagline, .sessions-next .vevent {
   color: white;
   background: #d06218;
@@ -769,7 +783,7 @@ caption {
   border: solid 1px #a24c13;
 }
 
-/* line 491, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .stats tr {
   border: 0;
   clip: rect(0 0 0 0);
@@ -780,39 +794,39 @@ caption {
   position: absolute;
   width: 1px;
 }
-/* line 496, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 .stats article header {
   display: none;
 }
 
-/* line 502, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .chart {
   text-align: center;
 }
-/* line 505, ../sass/style.scss */
+/* line 526, ../sass/style.scss */
 .chart img {
   margin-bottom: 1em;
 }
 
-/* line 511, ../sass/style.scss */
+/* line 532, ../sass/style.scss */
 .chart-label:after {
   content: "↓";
   margin-left: 0.5em;
 }
 
-/* line 517, ../sass/style.scss */
+/* line 538, ../sass/style.scss */
 .realdevices {
   text-align: center;
 }
 
-/* line 522, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .device strong {
   color: #d06218;
   font-weight: normal;
   text-transform: capitalize;
 }
 
-/* line 531, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 .sessions-next .vevent {
   margin: 1em 0;
 }
@@ -837,31 +851,31 @@ caption {
   color: #d06218;
 }
 
-/* line 547, ../sass/style.scss */
+/* line 568, ../sass/style.scss */
 .vevent .summary {
   display: none;
 }
-/* line 550, ../sass/style.scss */
+/* line 571, ../sass/style.scss */
 .vevent abbr {
   border-bottom: none;
 }
-/* line 553, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .vevent .dtstart, .vevent .dtend {
   font-weight: bold;
 }
 
-/* line 561, ../sass/style.scss */
+/* line 582, ../sass/style.scss */
 #morerealistictesting {
   display: none;
 }
 
-/* line 565, ../sass/style.scss */
+/* line 586, ../sass/style.scss */
 ::-moz-selection {
   background: #188dbb;
   color: #fff;
 }
 
-/* line 566, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 ::selection {
   background: #188dbb;
   color: #fff;
@@ -869,7 +883,7 @@ caption {
 
 /* ==|== role complementary ==== */
 /* ==|== role contentinfo ==== */
-/* line 575, ../sass/style.scss */
+/* line 596, ../sass/style.scss */
 #footer {
   margin: 0 0.5em;
   font-size: 0.8em;
@@ -880,11 +894,11 @@ caption {
   background: #126b8e;
   color: white;
 }
-/* line 585, ../sass/style.scss */
+/* line 606, ../sass/style.scss */
 #footer a {
   color: white;
 }
-/* line 594, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 #footer .tel {
   display: none;
 }
@@ -905,7 +919,7 @@ caption {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 642, ../sass/style.scss */
+/* line 663, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -918,20 +932,20 @@ caption {
   *line-height: 0;
 }
 
-/* line 643, ../sass/style.scss */
+/* line 664, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 646, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 649, ../sass/style.scss */
+/* line 670, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -944,7 +958,7 @@ caption {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 652, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -955,24 +969,24 @@ caption {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 655, ../sass/style.scss */
+/* line 676, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 658, ../sass/style.scss */
+/* line 679, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 659, ../sass/style.scss */
+/* line 680, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 660, ../sass/style.scss */
+/* line 681, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -982,7 +996,7 @@ caption {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 670, ../sass/style.scss */
+  /* line 691, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -993,45 +1007,45 @@ caption {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 671, ../sass/style.scss */
+  /* line 692, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 672, ../sass/style.scss */
+  /* line 693, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 673, ../sass/style.scss */
+  /* line 694, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 674, ../sass/style.scss */
+  /* line 695, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 675, ../sass/style.scss */
+  /* line 696, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 676, ../sass/style.scss */
+  /* line 697, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 677, ../sass/style.scss */
+  /* line 698, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 678, ../sass/style.scss */
+  /* line 699, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -1040,13 +1054,13 @@ caption {
     margin: 0.5cm;
 }
 
-  /* line 680, ../sass/style.scss */
+  /* line 701, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 681, ../sass/style.scss */
+  /* line 702, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }

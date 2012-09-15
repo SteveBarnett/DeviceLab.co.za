@@ -400,7 +400,7 @@ img {
 
   margin: $smallscreenmargin;
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
   background: $secondaryColor;
   @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
   color: $white;
@@ -416,15 +416,36 @@ img {
 
   img {
     // border: solid 0.25em $black;
-    border-radius: 1em;
+    // border-radius: 1em;
     @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+}
+
+
+@media screen and (min-width: 20em) {
+
+  #header {
+    a {
+      margin-top: 0;
+    }
+  }
+
+  .site-title {
+    font-size: 1.5em;
   }
 
 }
 
 .site-title {
-  margin: 0.25em 0 0;
+  // margin: 0.25em 0 0;
+  display: inline;
+  font-size: 1em;
 }
+
 
 
 
