@@ -21,10 +21,14 @@ require('_header.php');
 <section>
 
   <header>
-    <h2 id="whytestonrealdevices">Why test on real devices?</h2>
+    <h2 id="whytestonrealdevices">Why test on actual devices?</h2>
   </header>
 
   <article>
+
+  <header>
+    <h3 id="morerealistictesting">More realistic testing</h3>
+  </header>
 
     <p>Testing on real devices gives the clearest picture of how the site will work &#8220;in the wild.&#8221; It allows for testing in a way that&#8217;s closest to how real users will interact with the site. The most important benefits of using real devices are the physical characteristics of devices:</p>
 
@@ -61,7 +65,7 @@ require('_header.php');
 
   <p>It would be impossible to test your site on every device that exists today, and the range and variation is only increasing. Testing on as many devices as possible can quickly become impractical. A pragmatic approach is to test on a representative sample of devices, covering as broad a range as possible.</p>
 
-  <p>The focus of development should be on long term functional support for as many devices as possible, followed by optimisation for higher-end devices. Achieving perfection for specific devices or platforms will only be a short term success: the quantity, quality, and variety of internet-enabled devices is increasing at a remarkble pace.</p>
+  <p>The focus of development should be on long term functional support for as many devices as possible, followed by optimisation for higher-end devices. Achieving perfection for specific devices or platforms will only be a short term success: the quantity, quality, and variety of internet-enabled devices is increasing at a remarkable pace.</p>
 
   <p>The devices in the lab are selected using high-level device categories: the specific devices in the lab aren&#8217;t as important as the categories that each belongs to. Some of the categories used are:</p>
 

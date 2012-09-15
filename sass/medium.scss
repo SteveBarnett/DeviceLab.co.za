@@ -120,10 +120,19 @@
 	@include alternatingfloats;	
 }
 
+.schedule {
+	@include clearfix;
+	section {
+		@include alternatingfloats;	
+	}
+}
+
 
 /* ==|== role complementary ==== */
 
-
+#footer {
+	clear: both;
+}
 
 /* ==|== role contentinfo ==== */
 

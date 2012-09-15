@@ -8,6 +8,8 @@ require('_header.php');
 
 <p>It's Cape Town&#8217;s answer to Clearleft&#8217;s <a href="http://clearleft.com/testlab/">Test Lab</a>; a community device lab, organised by Steve Barnett of <a href="http://naga.co.za">Naga</a>. Read about what <a href="#nomaddevicelab">this device lab is about</a>, and see what others are doing in <a href="#labsinothercities">other cities</a>.</p>
 
+<p>Use of the lab is free, but space is limited. <a href="schedule.php">View the schedule</a> to see when the next session is, and who to contact to book your slot.</p>
+
 <section>
   <header>
     <h2 id="thewebandwhereitsgoing">The Web and where it&#8217;s going</h2>

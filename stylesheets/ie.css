@@ -223,7 +223,40 @@
   clear: right;
 }
 
+/* line 123, ../sass/medium.scss */
+.schedule {
+  *zoom: 1;
+}
+/* line 60, ../sass/_config.scss */
+.schedule:before {
+  content: "";
+  display: table;
+}
+/* line 63, ../sass/_config.scss */
+.schedule:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 71, ../sass/_config.scss */
+.schedule section:nth-of-type(n) {
+  float: left;
+  width: 48%;
+  clear: left;
+}
+/* line 77, ../sass/_config.scss */
+.schedule section:nth-of-type(2n) {
+  float: right;
+  width: 48%;
+  clear: right;
+}
+
 /* ==|== role complementary ==== */
+/* line 133, ../sass/medium.scss */
+#footer {
+  clear: both;
+}
+
 /* ==|== role contentinfo ==== */
 /* ==|== Layout ==== */
 /* line 4, ../sass/large.scss */
@@ -279,9 +312,29 @@ body {
 #nav a:active {
   color: #d06218;
 }
+/* line 17, ../sass/_config.scss */
+#nav .nav-active a:link {
+  color: #010506;
+}
+/* line 20, ../sass/_config.scss */
+#nav .nav-active a:visited {
+  color: #010506;
+}
+/* line 23, ../sass/_config.scss */
+#nav .nav-active a:hover {
+  color: #010506;
+}
+/* line 26, ../sass/_config.scss */
+#nav .nav-active a:focus {
+  color: #d06218;
+}
+/* line 29, ../sass/_config.scss */
+#nav .nav-active a:active {
+  color: #d06218;
+}
 
 /* ==|== role banner ==== */
-/* line 61, ../sass/large.scss */
+/* line 65, ../sass/large.scss */
 #header {
   width: 66%;
 }
@@ -315,7 +368,7 @@ body {
   clear: right;
 }
 
-/* line 75, ../sass/large.scss */
+/* line 79, ../sass/large.scss */
 .stats-sources {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -324,6 +377,35 @@ body {
   column-count: 3;
 }
 
+/* line 86, ../sass/_config.scss */
+.schedule section:nth-of-type(n) {
+  float: left;
+  width: 32%;
+  clear: left;
+}
+/* line 92, ../sass/_config.scss */
+.schedule section:nth-of-type(2n) {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+  clear: none;
+}
+/* line 99, ../sass/_config.scss */
+.schedule section:nth-of-type(3n) {
+  float: right;
+  width: 32%;
+  clear: right;
+}
+/* line 105, ../sass/_config.scss */
+.schedule section:nth-of-type(4n) {
+  clear: left;
+}
+
 /* ==|== role complementary ==== */
+/* line 91, ../sass/large.scss */
+#footer {
+  margin: 1em 0;
+}
+
 /* ==|== role contentinfo ==== */
 /* ==|== Layout ==== */

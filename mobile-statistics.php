@@ -4,18 +4,18 @@ $active = 'mobile-statistics';
 require('_header.php');
 ?>
 
-<section>
+<section class="stats">
   <header>
     <h1 id="mobilestatistics" class="page-title">Mobile Statistics</h1>
   </header>
 
   <p>Mobile is showing continued and rapid growth across a wide range of metrics: sales, internet usage (especially search), advertising, e-commerce, and social networking. Many users don&#8217;t have access to a fixed-line or a desktop computer, so their mobile device is their only access to the internet. Below are some statistics as a guide to this. More detailed information is available from the sites in the <a href="#statisticssources">sources section</a>.</p>
 
-</section>
-
-<section class="stats">
-
   <article id="number-of-users" class="stat">
+
+    <header>
+      <h2>Cell and web stats: World and South Africa</h2>
+    </header>
 
     <table summary="Comparison of number of cell, web, and mobile web users across the world, and in South Africa">          
     <caption>Cell and web stats: World and South Africa</caption>
@@ -68,6 +68,10 @@ require('_header.php');
 
   <article id="mobile-vs-desktop" class="stat">
 
+    <header>
+      <h2>Mobile versus desktop web access: World and South Africa</h2>
+    </header>
+
     <table summary="Balance of web traffic between mobile and desktop access">          
     <caption>Mobile versus desktop web access: World and South Africa</caption>
 
@@ -113,6 +117,10 @@ require('_header.php');
 
   <article id="mobile-only-users" class="stat">
 
+    <header>
+      <h2>Mobile only versus desktop and mobile web access: World and South Africa</h2>
+    </header>
+
     <table summary="Number of users who only access the web using a mobile device">          
     <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
 
@@ -157,6 +165,10 @@ require('_header.php');
   </article>
 
   <article id="featurephones-vs-smartphones" class="stat">
+
+    <header>
+      <h2>Feature phones vs smartphones: World and South Africa</h2>
+    </header>
 
     <table summary="Balance of featurephone to smartphones">          
     <caption>Feature phones vs smartphones: World and South Africa</caption>

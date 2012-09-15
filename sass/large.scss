@@ -54,6 +54,10 @@ body {
 		@include link-colours($secondaryColor, $secondaryColor, darken($secondaryColor, 30%), $primaryColor, $primaryColor);
 		padding: 0.05em;
 	}
+
+	.nav-active a {
+		@include link-colours(darken($secondaryColor, 30%), darken($secondaryColor, 30%), darken($secondaryColor, 30%), $primaryColor, $primaryColor);
+	}
 }
 
 /* ==|== role banner ==== */
@@ -76,9 +80,17 @@ body {
 	@include column-count(3);
 }
 
+.schedule {
+	section {
+		@include threewayfloats;	
+	}
+}
+
 /* ==|== role complementary ==== */
 
-
+#footer {
+	margin: 1em 0;
+}
 
 /* ==|== role contentinfo ==== */
 

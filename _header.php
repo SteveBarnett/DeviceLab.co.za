@@ -9,8 +9,8 @@
   <meta charset="utf-8">
 
   <title><?php echo $title; ?></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Nomad Device Lab is a collection of mobile devices that helps you do better mobile testing.">
+  <meta name="author" content="Steve Barnett, Monad Device Lab">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -18,9 +18,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="stylesheets/style.20120914.css" media="screen, handheld"/>
-  <link rel="stylesheet" href="stylesheets/enhanced.20120914.css" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.20120914.css" /> <![endif]-->
+  <link rel="stylesheet" href="stylesheets/style.20120915.css" media="screen, handheld"/>
+  <link rel="stylesheet" href="stylesheets/enhanced.20120915.css" media="screen  and (min-width: 40.5em)"/>
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.20120915.css" /> <![endif]-->
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -41,7 +41,7 @@
   </script>
 
   <!-- For author information in search results. Add Google+ profile URL. http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986 --> 
-  <link rel="author" href="" />
+  <link rel="author" href="https://plus.google.com/u/0/117361059687801331615"/>
 
 </head>
 
