@@ -45,20 +45,21 @@
   width: auto;
   height: auto;
   border-radius: 1em;
+  margin-right: 1em;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 #header:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 #header:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 71, ../sass/medium.scss */
+/* line 72, ../sass/medium.scss */
 .site-title {
   display: block;
   margin-top: 0.75em;
@@ -66,65 +67,65 @@
 }
 
 /* ==|== role main ==== */
-/* line 79, ../sass/medium.scss */
+/* line 80, ../sass/medium.scss */
 .features {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .features:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .features:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .feature:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .feature:nth-of-type(2n) {
   float: right;
   width: 48%;
   clear: right;
 }
 
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .chart:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .chart:nth-of-type(2n) {
   float: right;
   width: 48%;
   clear: right;
 }
 
-/* line 92, ../sass/medium.scss */
+/* line 93, ../sass/medium.scss */
 .stats {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .stats:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .stats:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 96, ../sass/medium.scss */
+/* line 97, ../sass/medium.scss */
 .stats-sources {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -133,123 +134,123 @@
   column-count: 2;
 }
 
-/* line 100, ../sass/medium.scss */
+/* line 101, ../sass/medium.scss */
 .devices {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .devices:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .devices:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 104, ../sass/medium.scss */
+/* line 105, ../sass/medium.scss */
 .device {
   margin-bottom: 1em;
 }
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .device:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .device:nth-of-type(2n) {
   float: right;
   width: 48%;
   clear: right;
 }
-/* line 107, ../sass/medium.scss */
+/* line 108, ../sass/medium.scss */
 .device strong {
   display: block;
 }
 
-/* line 112, ../sass/medium.scss */
+/* line 113, ../sass/medium.scss */
 .reasons-list {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .reasons-list:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .reasons-list:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .reasons:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .reasons:nth-of-type(2n) {
   float: right;
   width: 48%;
   clear: right;
 }
 
-/* line 120, ../sass/medium.scss */
+/* line 121, ../sass/medium.scss */
 .labs {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .labs:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .labs:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .lab:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .lab:nth-of-type(2n) {
   float: right;
   width: 48%;
   clear: right;
 }
 
-/* line 128, ../sass/medium.scss */
+/* line 129, ../sass/medium.scss */
 .schedule {
   *zoom: 1;
 }
-/* line 60, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 60, ../sass/_config.scss */
 .schedule:before {
   content: "";
   display: table;
 }
-/* line 63, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 63, ../sass/_config.scss */
 .schedule:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 71, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 71, ../sass/_config.scss */
 .schedule section:nth-of-type(n) {
   float: left;
   width: 48%;
   clear: left;
 }
-/* line 77, /Applications/MAMP/htdocs/devicelab.co.za/sass/_config.scss */
+/* line 77, ../sass/_config.scss */
 .schedule section:nth-of-type(2n) {
   float: right;
   width: 48%;
@@ -257,7 +258,7 @@
 }
 
 /* ==|== role complementary ==== */
-/* line 138, ../sass/medium.scss */
+/* line 139, ../sass/medium.scss */
 #footer {
   clear: both;
 }

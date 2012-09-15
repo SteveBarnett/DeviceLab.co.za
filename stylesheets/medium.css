@@ -45,6 +45,7 @@
   width: auto;
   height: auto;
   border-radius: 1em;
+  margin-right: 1em;
 }
 /* line 60, ../sass/_config.scss */
 #header:before {
@@ -58,7 +59,7 @@
   clear: both;
 }
 
-/* line 71, ../sass/medium.scss */
+/* line 72, ../sass/medium.scss */
 .site-title {
   display: block;
   margin-top: 0.75em;
@@ -66,7 +67,7 @@
 }
 
 /* ==|== role main ==== */
-/* line 79, ../sass/medium.scss */
+/* line 80, ../sass/medium.scss */
 .features {
   *zoom: 1;
 }
@@ -108,7 +109,7 @@
   clear: right;
 }
 
-/* line 92, ../sass/medium.scss */
+/* line 93, ../sass/medium.scss */
 .stats {
   *zoom: 1;
 }
@@ -124,7 +125,7 @@
   clear: both;
 }
 
-/* line 96, ../sass/medium.scss */
+/* line 97, ../sass/medium.scss */
 .stats-sources {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -133,7 +134,7 @@
   column-count: 2;
 }
 
-/* line 100, ../sass/medium.scss */
+/* line 101, ../sass/medium.scss */
 .devices {
   *zoom: 1;
 }
@@ -149,7 +150,7 @@
   clear: both;
 }
 
-/* line 104, ../sass/medium.scss */
+/* line 105, ../sass/medium.scss */
 .device {
   margin-bottom: 1em;
 }
@@ -165,12 +166,12 @@
   width: 48%;
   clear: right;
 }
-/* line 107, ../sass/medium.scss */
+/* line 108, ../sass/medium.scss */
 .device strong {
   display: block;
 }
 
-/* line 112, ../sass/medium.scss */
+/* line 113, ../sass/medium.scss */
 .reasons-list {
   *zoom: 1;
 }
@@ -199,7 +200,7 @@
   clear: right;
 }
 
-/* line 120, ../sass/medium.scss */
+/* line 121, ../sass/medium.scss */
 .labs {
   *zoom: 1;
 }
@@ -228,7 +229,7 @@
   clear: right;
 }
 
-/* line 128, ../sass/medium.scss */
+/* line 129, ../sass/medium.scss */
 .schedule {
   *zoom: 1;
 }
@@ -257,7 +258,7 @@
 }
 
 /* ==|== role complementary ==== */
-/* line 138, ../sass/medium.scss */
+/* line 139, ../sass/medium.scss */
 #footer {
   clear: both;
 }

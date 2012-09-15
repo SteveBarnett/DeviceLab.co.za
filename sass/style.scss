@@ -399,7 +399,7 @@ img {
 #header {
 
   margin: $smallscreenmargin;
-  text-align: center;
+  // text-align: center;
   padding: 0.5em;
   background: $secondaryColor;
   @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
@@ -444,6 +444,7 @@ img {
   // margin: 0.25em 0 0;
   display: inline;
   font-size: 1em;
+  // margin-right: 6em;
 }
 
 
