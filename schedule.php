@@ -35,7 +35,7 @@ unset($future[$next_dtstart]);
   <div class="vevent">
     <div class="summary">Nomad Device Lab</div>
 
-    <abbr class="dtstart" title="<?php echo date('c', strtotime($next_dtstart)); ?>"><?php echo date('l j F Y', strtotime($next_dtstart)); ?><br /><?php echo date('ga', $next_dtstart); ?></abbr> – <abbr class="dtend" title="<?php echo date('c', strtotime($schedule[$next_dtstart]['dtend'])); ?>"><?php echo date('ga', strtotime($schedule[$next_dtstart]['dtend'])); ?></abbr>
+    <abbr class="dtstart" title="<?php echo date('c', strtotime($next_dtstart)); ?>"><?php echo date('l j F Y', strtotime($next_dtstart)); ?><br /><?php echo date('ga', strtotime($next_dtstart)); ?></abbr> – <abbr class="dtend" title="<?php echo date('c', strtotime($schedule[$next_dtstart]['dtend'])); ?>"><?php echo date('ga', strtotime($schedule[$next_dtstart]['dtend'])); ?></abbr>
 
     <div class="location"><a href="<?php echo $schedule[$next_dtstart]['url']; ?>"><?php echo $schedule[$next_dtstart]['location']; ?></a></div>   
 
