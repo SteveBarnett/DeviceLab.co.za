@@ -12,10 +12,10 @@
       <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a></p>
 
       <span class="tel">
-        <span class="type">work</span> <span class="value">+27 (0) 21 447 8343</span></span>
+        <span class="type">work</span> <span class="value">+27 (0) 21 447 8343</span>
       </span>
       <span class="tel">
-        <span class="type">cell</span> <span class="value">+27 (0) 78 111 2163</span></span>
+        <span class="type">cell</span> <span class="value">+27 (0) 78 111 2163</span>
       </span>
 
     </div>

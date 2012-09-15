@@ -99,10 +99,10 @@ require('_header.php');
 
     <li class="lab"><a href="http://suhajdab.github.com/modl/">Open Device Lab</a> in Malmö.</li>
     <li class="lab"><a href="http://fliptation.ch/#lab">Test Lab</a> at <a href="http://fliptation.ch/">Fliptation</a> in Zurich</li>
-    <li class="lab"><a href="http://www.ajcomputers.com/news/introducing-open-test-lab-mobile-device-testing/">Open Test Lab</a> at <a href="http://www.ajcomputers.com/">A&J Computers</a> in Marietta, GA.</li>
+    <li class="lab"><a href="http://www.ajcomputers.com/news/introducing-open-test-lab-mobile-device-testing/">Open Test Lab</a> at <a href="http://www.ajcomputers.com/">A&amp;J Computers</a> in Marietta, GA.</li>
     <li class="lab"><a href="http://www.exeter-web.org/device-library">Device Library</a> at <a href="http://www.exeter-web.org/">Exter Web</a> in Exeter.</li>
     <li class="lab"><a href="http://mobileportland.com/device-lab">Device Lab</a> at <a href="http://mobileportland.com/">Mobile Portland</a> in Portland.</li>
-    <li class="lab"><a href="http://shaundunne.github.com/deviceLibrary/"><London Device Lab/a> at Mozilla <a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Open Space</a> in London.</li>
+    <li class="lab"><a href="http://shaundunne.github.com/deviceLibrary/">London Device Lab</a> at Mozilla <a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Open Space</a> in London.</li>
     <li class="lab"><a href="http://www.netvlies.nl/openbaar-testlab">Public Test Lab</a> at <a href="http://www.netvlies.nl/">Netvlies</a> in Breda.</li>
 
   </ul>

@@ -52,7 +52,7 @@
 
 	<header role="banner" id="header">
     <a href="index.php">
-      <img src="img/logo.gif" />
+      <img src="img/logo.gif" alt="" />
 		  <h1 class="site-title">Nomad Device Lab</h1>
     </a>
 	</header>

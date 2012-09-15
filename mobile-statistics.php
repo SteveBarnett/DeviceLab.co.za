@@ -17,7 +17,7 @@ require('_header.php');
       <h2>Cell and web stats: World and South Africa</h2>
     </header>
 
-    <table summary="Comparison of number of cell, web, and mobile web users across the world, and in South Africa">          
+    <table>          
     <caption>Cell and web stats: World and South Africa</caption>
 
       <thead>
@@ -72,7 +72,7 @@ require('_header.php');
       <h2>Mobile versus desktop web access: World and South Africa</h2>
     </header>
 
-    <table summary="Balance of web traffic between mobile and desktop access">          
+    <table>          
     <caption>Mobile versus desktop web access: World and South Africa</caption>
 
       <thead>
@@ -121,7 +121,7 @@ require('_header.php');
       <h2>Mobile only versus desktop and mobile web access: World and South Africa</h2>
     </header>
 
-    <table summary="Number of users who only access the web using a mobile device">          
+    <table>          
     <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
 
       <thead>
@@ -170,7 +170,7 @@ require('_header.php');
       <h2>Feature phones vs smartphones: World and South Africa</h2>
     </header>
 
-    <table summary="Balance of featurephone to smartphones">          
+    <table>          
     <caption>Feature phones vs smartphones: World and South Africa</caption>
 
       <thead>
