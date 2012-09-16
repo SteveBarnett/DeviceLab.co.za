@@ -41,47 +41,48 @@ require('_header.php');
   <p class="tagline"><strong>Nomad Device Lab</strong> is a travelling, curated, collection of mobile devices that helps you to do practical and efficient testing.</p>
 
   <ul class="features">
-  <li class="feature">
-    <div class="feature-precis">
-      <img src="img/travelling.png" alt="" />
-      <strong>A travelling lab.</strong>
-    </div>
 
-    <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited, so please contact the lab or the host for that day.</p>
+    <li class="feature">
+      <div class="feature-precis">
+        <img src="img/travelling.png" alt="" />
+        <strong>A travelling lab.</strong>
+      </div>
 
-    <p>If you would like to host the lab for a day or half day session, we'd love to hear from you.</p>
-    
-  </li>
+      <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited, so please contact the lab or the host for that day.</p>
 
-  <li class="feature">
-    <div class="feature-precis">
-      <img src="img/curated.png" alt="" />
-      <strong>A curated collection.</strong>
-    </div>
-    <p>The devices in the lab are selected to match market growth and penetration, with a slant towards South African trends. The selection is based on research and statistics and is regularly, but not frequently, updated. This means that testing on the devices in the lab covers a broad range of your users.</p>
-  </li>
+      <p>If you would like to host the lab for a day or half day session, we'd love to hear from you.</p>
+      
+    </li>
 
-  <li class="feature">
-    <div class="feature-precis">
-      <img src="img/mobile.png" alt="" />
-      <strong>Mobile devices.</strong>
-    </div>
-    <p>Portable, internet-enabled, devices: not traditional desktop computers. The lab contains feature phones, smartphones, tablets, and will contain whatever comes next.</p>
-  </li>
+    <li class="feature">
+      <div class="feature-precis">
+        <img src="img/curated.png" alt="" />
+        <strong>A curated collection.</strong>
+      </div>
+      <p>The devices in the lab are selected to match market growth and penetration, with a slant towards South African trends. The selection is based on research and statistics and is regularly, but not frequently, updated. This means that testing on the devices in the lab covers a broad range of your users.</p>
+    </li>
 
-  <li class="feature">
-    <div class="feature-precis">
-      <img src="img/testing.png" alt="" />
-      <strong>A practical and efficient means of testing.</strong>
-    </div>
-    <p>The curated collection means that the number of devices is kept small enough that testing can be done across the full range in a short period of time. The community aspect of the lab means that other developers will be around to share knowledge and information about the various platforms.</p>
-  </li>
+    <li class="feature">
+      <div class="feature-precis">
+        <img src="img/mobile.png" alt="" />
+        <strong>Mobile devices.</strong>
+      </div>
+      <p>Portable, internet-enabled, devices: not traditional desktop computers. The lab contains feature phones, smartphones, tablets, and will contain whatever comes next.</p>
+    </li>
 
-    </ul>
+    <li class="feature">
+      <div class="feature-precis">
+        <img src="img/testing.png" alt="" />
+        <strong>A practical and efficient means of testing.</strong>
+      </div>
+      <p>The curated collection means that the number of devices is kept small enough that testing can be done across the full range in a short period of time. The community aspect of the lab means that other developers will be around to share knowledge and information about the various platforms.</p>
+    </li>
+
+  </ul>
 
   <p><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6e;&#111;&#x6d;&#97;&#x64;&#64;&#100;&#x65;&#x76;&#x69;&#x63;&#x65;&#108;&#97;&#x62;&#x2e;&#99;&#x6f;&#x2e;&#122;&#97;" class="cta-email">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#116; &#x74;&#x68;&#101; &#x6c;&#x61;&#98;</a></p>
 
-  <p><a href="the-lab.php">Find out more about the lab</a></p>
+  <p><a href="the-lab.php">Find out more about the lab</a> or <a href="schedule.php">check the schedule</a>.</p>
 
 </section>
 
