@@ -83,7 +83,7 @@ require('_header.php');
 <section>
 
   <header>
-    <h1 id="devicesinthelab">Devices in the lab</h1>
+    <h2 id="devicesinthelab">Devices in the lab</h2>
   </header>
 
   <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included.</p>
@@ -103,6 +103,28 @@ require('_header.php');
   <p>Would you like to host the lab for a session?</p>
 
   <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#110;&#x6f;&#109;&#x61;&#100;&#x40;&#100;&#x65;&#118;&#x69;&#99;&#101;&#x6c;&#97;&#98;&#46;&#99;&#x6f;&#46;&#x7a;&#x61;&#63;&#x73;&#x75;&#x62;&#x6a;&#x65;&#99;&#x74;&#61;&#73;&#x25;&#50;&#x30;&#x77;&#111;&#117;&#108;&#100;&#x25;&#50;&#x30;&#108;&#x69;&#x6b;&#101;&#37;&#50;&#x30;&#116;&#x6f;&#37;&#x32;&#x30;&#104;&#x6f;&#115;&#x74;&#37;&#50;&#x30;&#x74;&#x68;&#101;&#x25;&#50;&#48;&#108;&#97;&#98;&#37;&#50;&#x30;&#x66;&#111;&#114;&#x25;&#50;&#x30;&#x61;&#37;&#x32;&#x30;&#115;&#x65;&#x73;&#115;&#x69;&#x6f;&#110;" class="cta-email">&#103;&#101;&#x74; &#105;&#110; &#x74;&#x6f;&#117;&#x63;&#104;</a>
+
+</section>
+
+<section>
+
+  <header>
+    <h2 id="testchecklist">Test Checklist</h2>
+  </header>
+
+  <p>A work-in-progress checklist is available at <a href="http://naga.co.za/checklist-and-tools/">naga.co.za/checklist-and-tools</a>.</p>
+
+  It contains things to look out for under the following topics:
+  <ul>
+    <li>HTML, CSS, and JavaScript.</li>
+    <li>UX, Accessibilty.</li>
+    <li>Mobile-specific concerns.</li>
+    <li>WordPress-specific concerns.</li>
+    <li>A list of tools: validators, performance measurers, reference documentation and resources.</li>
+    <li>Responsive Workflow outline.</li>
+  </ul>
+
+  <p>The <a href="http://naga.co.za/checklist-and-tools/#mobile">mobile section</a> covers some ideas for things to test for during a lab session.</p>
 
 </section>
 
