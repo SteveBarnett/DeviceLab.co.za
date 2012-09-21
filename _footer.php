@@ -22,7 +22,7 @@
  
   </footer>
 
-  <nav role="navigation" id="nav" class="navigation">
+  <nav role="navigation" id="nav" class="navigation" aria-label="Main Navigation">
     <header>
       <h1>Main Navigation</h1>
     </header>
