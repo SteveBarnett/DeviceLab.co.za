@@ -384,6 +384,16 @@ img {
     border-top: solid 1px lighten($primaryColor, 20%);
     border-bottom: solid 1px darken($primaryColor, 20%);
   }
+
+}
+
+#nav {
+  // for accesskeys
+  a {
+    &:first-letter {
+      text-decoration: underline;
+    }
+  }
 }
 
 .nav-active {
