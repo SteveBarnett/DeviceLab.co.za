@@ -91,26 +91,9 @@ require('_header.php');
     <h2 id="labsinothercities">Labs in other cities</h2>
   </header>
 
-  <ul class="labs">
-    <li class="lab"><a href="http://clearleft.com/testlab/">Test Lab</a> at <a href="http://clearleft.com/">Clearleft</a> in Brighton.</li>
-    <li class="lab"><a href="http://www.80beans.com/en/blog/2012/08/07/introducing-our-open-test-lab-for-mobile-device-testing">Open Test Lab</a> at <a href="http://www.80beans.com/en">80beans</a> in Amsterdam</li>
-    <li class="lab"><a href="http://co-up.de/2012/07/31/open-device-lab.html">Open Device Lab</a> at <a href="http://co-up.de/">co.up</a> in Berlin.</li>
-    <li class="lab"><a href="http://opendevicelab.com/">Open Device Lab</a> at <a href="http://kiskolabs.com/">Kisko Labs</a> in Helsinki.</li>
-    <li class="lab"><a href="http://cole007.net/blog/111/setting-up-a-mobile-testing-suite">Mobile Testing Suite</a> at <a href="http://www.theoldchurchschool.co.uk/">The Old Church School</a> in Frome.</li>
+  <p>Jeremy Keith often links to device labs on the <a href="http://adactio.com/links/tags/devices/">devices tag on his links section</a>.</p>
 
-    <li class="lab"><a href="http://suhajdab.github.com/modl/">Open Device Lab</a> in Malmö.</li>
-    <li class="lab"><a href="http://fliptation.ch/#lab">Test Lab</a> at <a href="http://fliptation.ch/">Fliptation</a> in Zurich</li>
-    <li class="lab"><a href="http://www.ajcomputers.com/news/introducing-open-test-lab-mobile-device-testing/">Open Test Lab</a> at <a href="http://www.ajcomputers.com/">A&amp;J Computers</a> in Marietta, GA.</li>
-    <li class="lab"><a href="http://www.exeter-web.org/device-library">Device Library</a> at <a href="http://www.exeter-web.org/">Exter Web</a> in Exeter.</li>
-    <li class="lab"><a href="http://mobileportland.com/device-lab">Device Lab</a> at <a href="http://mobileportland.com/">Mobile Portland</a> in Portland.</li>
-    <li class="lab"><a href="http://shaundunne.github.com/deviceLibrary/">London Device Lab</a> at Mozilla <a href="http://www.mozilla.org/en-US/about/mozilla-spaces/">Open Space</a> in London.</li>
-    <li class="lab"><a href="http://www.netvlies.nl/openbaar-testlab">Public Test Lab</a> at <a href="http://www.netvlies.nl/">Netvlies</a> in Breda.</li>
-
-  </ul>
-
-  <p>Know of any more?</p>
-  
-  <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#58;&#x6e;&#x6f;&#x6d;&#x61;&#100;&#64;&#x64;&#x65;&#118;&#105;&#x63;&#101;&#108;&#97;&#98;&#x3f;&#x73;&#117;&#98;&#106;&#101;&#x63;&#116;&#61;&#65;&#110;&#x6f;&#x74;&#x68;&#101;&#x72;&#37;&#50;&#x30;&#68;&#x65;&#118;&#105;&#99;&#x65;&#37;&#50;&#48;&#x4c;&#97;&#98;&#x25;&#50;&#48;&#x66;&#x6f;&#114;&#37;&#x32;&#x30;&#x79;&#x6f;&#x75;&#x72;&#x25;&#50;&#48;&#x6c;&#x69;&#115;&#116;" class="cta-email">&#x6c;&#x65;&#116; &#x75;&#x73; &#107;&#110;&#111;&#119;</a>
+  <p>Andre Jay Meissner is keeping up a list of Labs across the world on <A href="http://klick-ass.com/awesomeness/avoid-the-tamagotchis-a-list-of-open-device-labs/">a post on his blog</a>, and co-founded <a href="http://lab-up.org/">LabUp</a>, as growing resource to help establish other Open Device Labs.
 
 </section>
 
