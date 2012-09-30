@@ -96,11 +96,11 @@ require('_header.php');
     <li class="device"><strong>Amazon Kindle keyboard</strong> Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!</li>
     <li class="device"><strong>Nokia N97</strong> Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio.</li>
     <li class="device"><strong>iPhone 4</strong> Popular Apple iOS smartphone, high dpi 3.5&quot; screen and a wide range of available browsers.</li>
-    <li class="device"><strong>HcH Generic 7inch Android tablet</strong> Low end tablet with older Android version and mid-size screen.</li>
+    <li class="device"><strong>Google Nexus 7</strong> Mid range tablet with Latest version of Android (.1 Jelly Bean) and mid-size screen.</li>
     <li class="device"><strong>Nokia 5310 XpressMusic</strong> Mid range feature phone from manufacturer popular in Africa, on Series 40 OS, dpad and keypad input, running Opera Mini proxy browser.</li>
   </ul>
 
-  <p><a href="browsers.php">Short reference list of installed browser locations.</a></p>
+  <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="browsers.php">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
 
   <p>Would you like to host the lab for a session?</p>
 
