@@ -17,17 +17,27 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+<?php
+function auto_version($file)
+{
+  if(!file_exists($file))
+    return $file;
+ 
+  $mtime = filemtime($file);
+  return preg_replace('{\\.([^./]+)$}', ".$mtime.\$1", $file);
+}
+?>
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="stylesheets/style.20120930.css" media="screen, handheld"/>
-  <link rel="stylesheet" href="stylesheets/enhanced.20120930.css" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.20120930.css" /> <![endif]-->
+  <link rel="stylesheet" href="<?php echo auto_version('stylesheets/style.css') ?>" media="screen, handheld"/>
+  <link rel="stylesheet" href="stylesheets/<?php echo auto_version('stylesheets/enhanced.css') ?>" media="screen  and (min-width: 40.5em)"/>
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="<?php echo auto_version('stylesheets/ie.css') ?>" /> <![endif]-->
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
        Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
        for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/modernizr.custom.20120522.js"></script>
+  <script src="<?php echo auto_version('js/modernizr.custom.js') ?>"></script>
 
   <!-- Typekit -->
   <script type="text/javascript">

@@ -37,14 +37,6 @@
 
 <p id="back" class="navigation"><a href="#top" accesskey="b">Back to top of page &uarr;</a></p>  
 
-<?php /*
-  <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/script.js"></script>
-  <!-- end scripts -->
-*/ ?>
-
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
   <script>
