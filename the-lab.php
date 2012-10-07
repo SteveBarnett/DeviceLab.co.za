@@ -92,7 +92,7 @@ require('_header.php');
     <li class="device"><strong>Samsung galaxy pocket</strong> Low end smartphone from leading manufacturer, with most popular Android version (2.3 Gingerbread).</li>
     <li class="device"><strong>BB curve 8520</strong> Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input.</li>
     <li class="device"><strong>Alacatel one touch</strong> Mid range smartphone with older Android version (2.2 Froyo).</li>
-    <li class="device"><strong>iPad 2</strong> Popular Apple iOS tablet, with large 10&quot; screen and a wide range of available browsers.</li>
+    <li class="device"><strong>iPad 3</strong> Popular Apple iOS tablet, with large 10&quot; screen, high dpi, and a wide range of available browsers.</li>
     <li class="device"><strong>Amazon Kindle keyboard</strong> Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!</li>
     <li class="device"><strong>Nokia N97</strong> Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio.</li>
     <li class="device"><strong>iPhone 4</strong> Popular Apple iOS smartphone, high dpi 3.5&quot; screen and a wide range of available browsers.</li>
