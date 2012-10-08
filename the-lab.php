@@ -112,6 +112,8 @@ require('_header.php');
 
   <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="browsers.php">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
 
+  <p>For now, testing is done via WiFi internet connections. Testing on cellular networks would be ideal, but isn't financially possible at the moment. If you have SIM cards that you'd like to use for testing purposes, please feel free to bring them along.</p>
+
   <p>Would you like to host the lab for a session?</p>
 
   <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#110;&#x6f;&#109;&#x61;&#100;&#x40;&#100;&#x65;&#118;&#x69;&#99;&#101;&#x6c;&#97;&#98;&#46;&#99;&#x6f;&#46;&#x7a;&#x61;&#63;&#x73;&#x75;&#x62;&#x6a;&#x65;&#99;&#x74;&#61;&#73;&#x25;&#50;&#x30;&#x77;&#111;&#117;&#108;&#100;&#x25;&#50;&#x30;&#108;&#x69;&#x6b;&#101;&#37;&#50;&#x30;&#116;&#x6f;&#37;&#x32;&#x30;&#104;&#x6f;&#115;&#x74;&#37;&#50;&#x30;&#x74;&#x68;&#101;&#x25;&#50;&#48;&#108;&#97;&#98;&#37;&#50;&#x30;&#x66;&#111;&#114;&#x25;&#50;&#x30;&#x61;&#37;&#x32;&#x30;&#115;&#x65;&#x73;&#115;&#x69;&#x6f;&#110;" class="cta-email">&#103;&#101;&#x74; &#105;&#110; &#x74;&#x6f;&#117;&#x63;&#104;</a>
@@ -133,7 +135,6 @@ require('_header.php');
     <li>Mobile-specific concerns.</li>
     <li>WordPress-specific concerns.</li>
     <li>A list of tools: validators, performance measurers, reference documentation and resources.</li>
-    <li>Responsive Workflow outline.</li>
   </ul>
 
   <p>The <a href="http://naga.co.za/checklist-and-tools/#mobile">mobile section</a> covers some ideas for things to test for during a lab session.</p>
