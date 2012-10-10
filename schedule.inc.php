@@ -38,4 +38,12 @@ $schedule = array(
     // )
   // ),
 
+    '2012-11-01T13:00' => array(
+    'dtend' => '2012-09-21T16:00',
+    'location' => 'The Bandwidth Barn',
+    'url' => 'http://bandwidthbarn.org/',
+    'contact' => 'Steve Barnett',
+    'contact-email' => 'nomad@devicelab.co.za'
+  ),
+
 );
