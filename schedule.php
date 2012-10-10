@@ -22,15 +22,23 @@ foreach ($future as $dtstart => $details) {
   if(strtotime($dtstart) < time()) unset($future[$dtstart]);
 }
 
-$next_dtstart = array_search(min($future), $future);
-unset($future[$next_dtstart]);
+if(count($future) > 0) {
+  $next_dtstart = array_search(min($future), $future);
+  unset($future[$next_dtstart]);
+}
 
 ?>
+
+<?php
+if(isset($next_dtstart)) {
+?>
+
 
 <section class="sessions-next">
   <header>
     <h2>Next session</h2>
   </header>
+
 
   <div class="vevent">
     <div class="summary">Nomad Device Lab</div>
@@ -53,7 +61,12 @@ unset($future[$next_dtstart]);
     ?>
 
   </div>
+
 </section>
+
+<?php
+}
+?>
 
 
 <section class="sessions-upcoming">
@@ -64,8 +77,8 @@ unset($future[$next_dtstart]);
   <ul class="schedule">
 
     <?php
-    
-    foreach ($future as $dtstart => $details) {
+    if(count($future) > 0) {
+     foreach ($future as $dtstart => $details) {
 
       $dtstart = strtotime($dtstart);
       ?>
@@ -91,14 +104,13 @@ unset($future[$next_dtstart]);
     </li>
 
       <?php
+      }
     }
     ?>
 
 
   </ul>
-<?php /*
   <p>The schedule is also posted to <a href="https://twitter.com/nomaddevicelab">@NomadDeviceLab on Twitter</a>.</p>
-*/ ?>
 
 </section>
 
