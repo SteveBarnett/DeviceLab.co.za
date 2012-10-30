@@ -64,10 +64,18 @@ require('_header.php');
     <li>Opera Mini. Menu &gt; Applications &gt; Collection</li>
   </ul></li>
 
+  <li>Samsung E250
+  <ul>
+    <li>Native (Open Wave): Menu button, Browser icon.</li>
+    <li>Opera Mini: Menu button, Application icon. 2 - Games and more. Bottom of list: Opera Mini.</li>
+  </ul></li>
+
   <li>Samsung Galaxy Pocket
   <ul>
     <li>Page 1</li>
   </ul></li>
+
+
 
 </ul>
 
@@ -123,7 +131,12 @@ require('_header.php');
 
   <li>Nokia XpressMusic 5310
   <ul>
-    <li>None!</li>
+    <li>None.</li>
+  </ul></li>
+
+    <li>Samsung E250
+  <ul>
+    <li>None.</li>
   </ul></li>
 
   <li>Samsung Galaxy Pocket
