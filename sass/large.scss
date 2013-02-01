@@ -80,11 +80,6 @@ body {
 	@include column-count(3);
 }
 
-.schedule {
-	section {
-		@include threewayfloats;	
-	}
-}
 
 /* ==|== role complementary ==== */
 

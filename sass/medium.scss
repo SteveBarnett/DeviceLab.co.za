@@ -123,14 +123,11 @@
 }
 
 .lab {
-	@include alternatingfloats;	
+	@include alternatingfloats;
 }
 
 .schedule {
 	@include clearfix;
-	section {
-		@include alternatingfloats;	
-	}
 }
 
 
