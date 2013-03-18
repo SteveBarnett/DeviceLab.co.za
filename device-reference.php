@@ -27,7 +27,7 @@ require('_header.php');
 
   <li>Apple iPad
   <ul>
-    <li>safari: tray</li>
+    <li>Safari: tray</li>
     <li>other: last page</li>
   </ul></li>
 
@@ -35,6 +35,11 @@ require('_header.php');
   <ul>
     <li>Safari: front page</li>
     <li>others: last page</li>
+  </ul></li>
+
+  <li>Apple iPhone 5
+  <ul>
+    <li>Safari, Chrome: front page</li>
   </ul></li>
 
   <li>Blackberry 8520
@@ -68,6 +73,11 @@ require('_header.php');
   <ul>
     <li>Native (Open Wave): Menu button, Browser icon.</li>
     <li>Opera Mini: Menu button, Application icon. 2 - Games and more. Bottom of list: Opera Mini.</li>
+  </ul></li>
+
+  <li>Samsung Galaxy Ace
+  <ul>
+    <li>Page 1</li>
   </ul></li>
 
   <li>Samsung Galaxy Pocket
@@ -109,6 +119,11 @@ require('_header.php');
   </ul></li>
 
   <li>Apple iPhone 4
+  <ul>
+    <li>Front page. Settings &gt; Wi-Fi. Choose a network</li>
+  </ul></li>
+
+  <li>Apple iPhone 5
   <ul>
     <li>Front page. Settings &gt; Wi-Fi. Choose a network</li>
   </ul></li>
