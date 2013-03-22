@@ -96,6 +96,7 @@ require('_header.php');
     <li class="device"><strong>Apple iPhone 5</strong> Recent Apple iOS smartphone, high dpi 4&quot; screen, 16:9 aspect ratio.</li>
     <li class="device"><strong>BlackBerry curve 8520</strong> Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input.</li>
     <li class="device"><strong>Google Nexus 7</strong> Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen.</li>
+    <li class="device"><strong>Nintendo Wii</strong> Gaming console running Opera 9 browser. Hooked up to projector.</li>
     <li class="device"><strong>Nokia N97</strong> Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio.</li>
     <li class="device"><strong>Nokia 5310 XpressMusic</strong> Mid range feature phone from manufacturer popular in Africa, on Series 40 OS, dpad and keypad input, running Opera Mini proxy browser.</li>
     <li class="device"><strong>Samsung galaxy pocket</strong> Low end smartphone from leading manufacturer, with most popular Android version (2.3 Gingerbread).</li>

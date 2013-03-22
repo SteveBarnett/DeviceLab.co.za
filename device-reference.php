@@ -33,7 +33,7 @@ require('_header.php');
 
   <li>Apple iPhone 4
   <ul>
-    <li>Safari: front page</li>
+    <li>Safari, Chrome, Opera mini, UC: front page</li>
     <li>others: last page</li>
   </ul></li>
 
@@ -53,6 +53,11 @@ require('_header.php');
       <li>Page 1</li>
     </ul>
   </li>
+
+  <li>Nintendo Wii
+  <ul>
+    <li>Second screen &gt; Internet Channel</li>
+  </ul></li>
 
   <li>Nokia N97
   <ul>
@@ -163,6 +168,52 @@ require('_header.php');
 
 </section>
 
+<section id="mxit-locations" class="reference">
+  <header>
+    <h2>MXit locations on devices</h2>
+  </header>
+
+<p>Listed alphabetically by manufacturer, then device name.</p>
+
+<ul>
+
+  <li>Alacatel One Touch
+  <ul>
+    <li></li>
+  </ul></li>
+
+
+  <li>Nokia N97
+  <ul>
+    <li></li>
+  </ul></li>
+
+
+  <li>Nokia XpressMusic 5310
+  <ul>
+    <li>Menu &gt; Apps &gt; Games &gt; </li>
+  </ul></li>
+
+  <li>Samsung E250
+  <ul>
+    <li>Menu &gt; Applications &gt; 2 Games and more &gt; MXit</li>
+  </ul></li>
+
+  <li>Samsung Galaxy Ace
+  <ul>
+    <li>Page 1</li>
+  </ul></li>
+
+  <li>Samsung Galaxy Pocket
+  <ul>
+    <li>Page 1</li>
+  </ul></li>
+
+
+
+</ul>
+
+</section>
 
 <?php
 require('_footer.php');
