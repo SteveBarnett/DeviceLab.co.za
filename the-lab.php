@@ -89,19 +89,15 @@ require('_header.php');
   <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included.</p>
 
   <ul class="devices">
-    <li class="device"><strong>Alacatel one touch</strong> Mid range smartphone with older Android version (2.2 Froyo).</li>
-    <li class="device"><strong>Amazon Kindle keyboard</strong> Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!</li>
-    <li class="device"><strong>Apple iPad 3</strong> Popular Apple iOS tablet, with large 10&quot; screen, high dpi, and a wide range of available browsers.</li>
-    <li class="device"><strong>Apple iPhone 4</strong> Popular Apple iOS smartphone, high dpi 3.5&quot; screen and a wide range of available browsers.</li>
-    <li class="device"><strong>Apple iPhone 5</strong> Recent Apple iOS smartphone, high dpi 4&quot; screen, 16:9 aspect ratio.</li>
-    <li class="device"><strong>BlackBerry curve 8520</strong> Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input.</li>
-    <li class="device"><strong>Google Nexus 7</strong> Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen.</li>
-    <li class="device"><strong>Nintendo Wii</strong> Gaming console running Opera 9 browser. Hooked up to projector.</li>
-    <li class="device"><strong>Nokia N97</strong> Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio.</li>
-    <li class="device"><strong>Nokia 5310 XpressMusic</strong> Mid range feature phone from manufacturer popular in Africa, on Series 40 OS, dpad and keypad input, running Opera Mini proxy browser.</li>
-    <li class="device"><strong>Samsung galaxy pocket</strong> Low end smartphone from leading manufacturer, with most popular Android version (2.3 Gingerbread).</li>
-    <li class="device"><strong>Samsung E250</strong> Low end featurephone, very popular in South Africa.</li>
-    <li class="device"><strong>Samsung Galaxy Ace</strong> Mid range smartphone with older Android version (2.3.3 Gingerbread)</li>
+<?php
+  $devices_json = utf8_encode(file_get_contents("devices.json"));
+  $devices = json_decode($devices_json, true);
+
+  foreach ($devices as $device => $details) {
+    echo '<li class="device"><strong>' . $device . '</strong> ' . $details['commentary'] . '</li>';
+  }
+
+?>
   </ul>
 
   <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="device-reference.php">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>

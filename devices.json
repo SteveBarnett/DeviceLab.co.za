@@ -1,0 +1,260 @@
+{
+
+  "Alcatel One Touch": {
+    "brand": "Alcatel",
+    "model": "One Touch",
+    "OS": {
+      "name": "Android",
+      "version": "2.2 (Froyo)"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "4:3",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "okay",
+    "commentary": "Mid range smartphone with older Android version (2.2 Froyo)."
+  },
+
+  "Amazon Kindle keyboard": {
+    "brand": "Amazon",
+    "model": "Kindle keyboard",
+    "OS": {
+      "name": "Linux",
+      "version": "2.6.26"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "medium",
+    "aspect-ratio": "4:3",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "bad",
+    "commentary": "Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!"
+  },
+
+  "Apple iPad 3": {
+    "brand": "Apple",
+    "model": "iPad 3",
+    "OS": {
+      "name": "iOS",
+      "version": "5.1"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "large",
+    "aspect-ratio": "4:3",
+    "high-device-pixel-ratio": true,
+    "web-standards-support": "good",
+    "commentary": "Popular Apple iOS tablet, with large 10 inch screen, high dpi, and a wide range of available browsers."
+  },
+
+  "Apple iPhone 4": {
+    "brand": "Apple",
+    "model": "iPhone 4",
+    "OS": {
+      "name": "iOS",
+      "version": "6.1.3"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "3:2",
+    "high-device-pixel-ratio": true,
+    "web-standards-support": "good",
+    "commentary": "Popular Apple iOS smartphone, high dpi 3.5 inch screen and a wide range of available browsers."
+  },
+
+  "Apple iPhone 5": {
+    "brand": "Apple",
+    "model": "iPhone 5",
+    "OS": {
+      "name": "iOS",
+      "version": "6.1.3"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "16:9",
+    "high-device-pixel-ratio": true,
+    "web-standards-support": "good",
+    "commentary": "Recent Apple iOS smartphone, high dpi 4 inch screen, 16:9 aspect ratio."
+  },
+
+  "Blackberry Curve 8520": {
+    "brand": "Blackberry",
+    "model": "Curve 8520",
+    "OS": {
+      "name": "Blackberry",
+      "version": "5"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": false,
+      "trackpad": true,
+      "qwerty": true
+    },
+    "screen-size": "large",
+    "aspect-ratio": "4:3",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "good",
+    "commentary": "Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input."
+  },
+
+  "Google Nexus 7": {
+    "brand": "Google",
+    "model": "Nexus 7",
+    "OS": {
+      "name": "Android",
+      "version": "4.2.2"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "medium",
+    "aspect-ratio": "3:2",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "good",
+    "commentary": "Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen."
+  },
+
+  "Nintendo Wii": {
+    "brand": "Nintendo",
+    "model": "Wii",
+    "OS": {
+      "name": "Wii",
+      "version": "4.3"
+    },
+    "input-method": {
+      "Wiimote": true
+    },
+    "screen-size": "large",
+    "aspect-ratio": "n/a",
+    "high-device-pixel-ratio": "n/a",
+    "web-standards-support": "okay",
+    "commentary": "Gaming console running Opera 9 browser. Hooked up to projector."
+  },
+
+  "Nokia N97": {
+    "brand": "Nokia",
+    "model": "N97",
+    "OS": {
+      "name": "Symbian",
+      "version": "9.4"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": true
+    },
+    "screen-size": "small",
+    "aspect-ratio": "16:9",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "okay",
+    "commentary": "Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio."
+  },
+
+  "Nokia 5310 XpressMusic": {
+    "brand": "Nokia",
+    "model": "5310 XpressMusic",
+    "OS": {
+      "name": "Series 40",
+      "version": "5"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": true,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "extra small",
+    "aspect-ratio": "4:3",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "bad",
+    "commentary": "Mid range feature phone from manufacturer popular in Africa, on Series 40 OS, dpad and keypad input, running Opera Mini proxy browser."
+  },
+
+  "Samsung Galaxy Pocket": {
+    "brand": "Samsung",
+    "model": "Galaxy Pocket",
+    "OS": {
+      "name": "Android",
+      "version": "2.3 Gingerbread"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "4:#",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "good",
+    "commentary": "Low end smartphone from leading manufacturer, with most popular Android version (2.3 Gingerbread)."
+  },
+
+  "Samsung E250": {
+    "brand": "Samsung",
+    "model": "E250",
+    "OS": {
+      "name": "Samsung",
+      "version": "n/a"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": true,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "extra small",
+    "aspect-ratio": "5:4",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "bad",
+    "commentary": "Low end featurephone, very popular in South Africa."
+  },
+
+  "Samsung Galaxy Ace": {
+    "brand": "Samsung",
+    "model": "Galaxy Ace",
+    "OS": {
+      "name": "Android",
+      "version": "2.3.3"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "3:2",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "good",
+    "commentary": "Mid range smartphone with older Android version (2.3.3 Gingerbread)"
+  }
+
+}
