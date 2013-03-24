@@ -209,9 +209,161 @@ require('_header.php');
     <li>Page 1</li>
   </ul></li>
 
-
-
 </ul>
+
+</section>
+
+<section id="ataglance" class="tabular-data">
+
+ <header>
+    <h2 id="devicedifferences">Device differences</h2>
+  </header>
+
+<?php
+$devices_json = utf8_encode(file_get_contents("devices.json"));
+$devices = json_decode($devices_json, true);
+
+function cb($disabled = true, $checked = false) {
+  $html .= '
+<input type="checkbox"';
+
+  // $html.= $disabled ? ' class="input-disabled" disabled="disabled"' : '';;
+  $html.= $checked ? ' class="feature-yes" checked="checked"' : 'class="feature-no"';
+
+  $html .=
+' />';
+
+return $html;
+}
+
+?>
+
+  <header>
+    <h3>Operating Systems</h3>
+  </header>
+
+  <table caption="List of operating systems of devices in the lab">
+
+    <thead>
+      <th scope="column">Device</th>
+      <th scope="column">iOS</th>
+      <th scope="column">Android</th>
+      <th scope="column">Symbian</th>
+      <th scope="column">Blackberry</th>
+      <th scope="column">Other</th>
+    </thead>
+
+
+<?php foreach ($devices as $device => $details) { ?>
+    <tr scope="row">
+      <th>
+        <?php echo $device; ?>
+      </th>
+      <td data-title="iOS"><?php echo cb(true, $details['OS']['name'] == 'iOS'); ?></td>
+      <td data-title="Android"><?php echo cb(true, $details['OS']['name'] == 'Android') ?></td>
+      <td data-title="Symbian"><?php echo cb(true, $details['OS']['name'] == 'Symbian') ?></td>
+      <td data-title="Blackberry"><?php echo cb(true, $details['OS']['name'] == 'Blackberry'); ?></td>
+      <td data-title="Other"><?php echo cb(true, $details['OS']['name'] != 'iOS' && $details['OS']['name'] != 'Android' && $details['OS']['name'] != 'Symbian' && $details['OS']['name'] != 'Blackberry'); ?></td>
+    </tr>
+<?php } ?>
+
+  </table>
+
+
+  <header>
+    <h3>Input methods</h3>
+  </header>
+
+  <table caption="List of input methods of devices in the lab">
+
+    <thead>
+      <th scope="column">Device</th>
+      <th scope="column">Keypad</th>
+      <th scope="column">Qwerty</th>
+      <th scope="column">Trackpad</th>
+      <th scope="column">Touch</th>
+      <th scope="column">Other</th>
+    </thead>
+
+
+<?php foreach ($devices as $device => $details) { ?>
+    <tr scope="row">
+      <th>
+        <?php echo $device; ?>
+      </th>
+      <td data-title="Keypad"><?php echo cb(true, $details['input-method']['keypad']); ?></td>
+      <td data-title="Qwerty"><?php echo cb(true, $details['input-method']['qwerty']); ?></td>
+      <td data-title="Trackpad"><?php echo cb(true, $details['input-method']['trackpad']); ?></td>
+      <td data-title="Touch"><?php echo cb(true, $details['input-method']['touch']); ?></td>
+      <td data-title="Other"><?php echo cb(true, !$details['input-method']['keypad'] && !$details['input-method']['qwerty'] && !$details['input-method']['trackpad'] && !$details['input-method']['touch']); ?></td>
+    </tr>
+<?php } ?>
+
+  </table>
+
+
+  <header>
+    <h3>Screen sizes</h3>
+  </header>
+
+  <table caption="List of screen sizes of devices in the lab">
+
+    <thead>
+      <th scope="column">Device</th>
+      <th scope="column">Extra small</th>
+      <th scope="column">Small</th>
+      <th scope="column">Medium</th>
+      <th scope="column">Large</th>
+      <th scope="column">Widescreen</th>
+      <th scope="column">High DPI</th>
+    </thead>
+
+
+<?php foreach ($devices as $device => $details) { ?>
+    <tr scope="row">
+      <th>
+        <?php echo $device; ?>
+      </th>
+      <td data-title="Extra Small"><?php echo cb(true, $details['screen-size'] == 'extra small'); ?></td>
+      <td data-title="Small"><?php echo cb(true, $details['screen-size'] == 'small'); ?></td>
+      <td data-title="Medium"><?php echo cb(true, $details['screen-size'] == 'medium'); ?></td>
+      <td data-title="Large"><?php echo cb(true, $details['screen-size'] == 'large'); ?></td>
+      <td data-title="Widescreen"><?php echo cb(true, $details['aspect-ratio'] == 'widescreen'); ?></td>
+      <td data-title="High DPI"><?php echo cb(true, $details['high-device-pixel-ratio']); ?></td>
+    </tr>
+<?php } ?>
+
+  </table>
+
+
+  <header>
+    <h3>Web Standards support</h3>
+  </header>
+
+  <table caption="List of Web Standards support for devices in the lab">
+
+    <thead>
+      <th scope="column">Device</th>
+      <th scope="column">Bad</th>
+      <th scope="column">Okay</th>
+      <th scope="column">Good</th>
+    </thead>
+
+
+<?php foreach ($devices as $device => $details) { ?>
+    <tr scope="row">
+      <th>
+        <?php echo $device; ?>
+      </th>
+      <td data-title="Bad"><?php echo cb(true, $details['web-standards-support'] == 'bad'); ?></td>
+      <td data-title="Okay"><?php echo cb(true, $details['web-standards-support'] == 'okay'); ?></td>
+      <td data-title="Good"><?php echo cb(true, $details['web-standards-support'] == 'good'); ?></td>
+
+    </tr>
+<?php } ?>
+
+  </table>
+
 
 </section>
 
