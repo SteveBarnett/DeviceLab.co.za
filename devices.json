@@ -14,7 +14,7 @@
       "qwerty": false
     },
     "screen-size": "small",
-    "aspect-ratio": "4:3",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "okay",
     "commentary": "Mid range smartphone with older Android version (2.2 Froyo)."
@@ -34,7 +34,7 @@
       "qwerty": false
     },
     "screen-size": "medium",
-    "aspect-ratio": "4:3",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "bad",
     "commentary": "Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!"
@@ -54,7 +54,7 @@
       "qwerty": false
     },
     "screen-size": "large",
-    "aspect-ratio": "4:3",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": true,
     "web-standards-support": "good",
     "commentary": "Popular Apple iOS tablet, with large 10 inch screen, high dpi, and a wide range of available browsers."
@@ -74,7 +74,7 @@
       "qwerty": false
     },
     "screen-size": "small",
-    "aspect-ratio": "3:2",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": true,
     "web-standards-support": "good",
     "commentary": "Popular Apple iOS smartphone, high dpi 3.5 inch screen and a wide range of available browsers."
@@ -94,10 +94,10 @@
       "qwerty": false
     },
     "screen-size": "small",
-    "aspect-ratio": "16:9",
+    "aspect-ratio": "widescreen",
     "high-device-pixel-ratio": true,
     "web-standards-support": "good",
-    "commentary": "Recent Apple iOS smartphone, high dpi 4 inch screen, 16:9 aspect ratio."
+    "commentary": "Recent Apple iOS smartphone, high dpi 4 inch screen, widescreen aspect ratio."
   },
 
   "Blackberry Curve 8520": {
@@ -114,7 +114,7 @@
       "qwerty": true
     },
     "screen-size": "large",
-    "aspect-ratio": "4:3",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
     "commentary": "Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input."
@@ -134,7 +134,7 @@
       "qwerty": false
     },
     "screen-size": "medium",
-    "aspect-ratio": "3:2",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
     "commentary": "Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen."
@@ -171,7 +171,7 @@
       "qwerty": true
     },
     "screen-size": "small",
-    "aspect-ratio": "16:9",
+    "aspect-ratio": "widescreen",
     "high-device-pixel-ratio": false,
     "web-standards-support": "okay",
     "commentary": "Mid range Symbian smartphone from manufacturer popular in Africa, with touchscreen and widescreen aspect ratio."
@@ -191,7 +191,7 @@
       "qwerty": false
     },
     "screen-size": "extra small",
-    "aspect-ratio": "4:3",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "bad",
     "commentary": "Mid range feature phone from manufacturer popular in Africa, on Series 40 OS, dpad and keypad input, running Opera Mini proxy browser."
@@ -211,7 +211,7 @@
       "qwerty": false
     },
     "screen-size": "small",
-    "aspect-ratio": "4:#",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
     "commentary": "Low end smartphone from leading manufacturer, with most popular Android version (2.3 Gingerbread)."
@@ -231,7 +231,7 @@
       "qwerty": false
     },
     "screen-size": "extra small",
-    "aspect-ratio": "5:4",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "bad",
     "commentary": "Low end featurephone, very popular in South Africa."
@@ -251,7 +251,7 @@
       "qwerty": false
     },
     "screen-size": "small",
-    "aspect-ratio": "3:2",
+    "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
     "commentary": "Mid range smartphone with older Android version (2.3.3 Gingerbread)"
