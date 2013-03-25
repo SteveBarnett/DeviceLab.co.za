@@ -20,7 +20,7 @@
 <?php
 function auto_version($file)
 {
-  if(!file_exists($file) || $_SERVER[SERVER_NAME])
+  if(!file_exists($file) || $_SERVER[SERVER_NAME] == 'dev.naga.co.za')
     return $file;
 
   $mtime = filemtime($file);
