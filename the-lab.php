@@ -86,7 +86,7 @@ require('_header.php');
     <h2 id="devicesinthelab">Devices in the lab</h2>
   </header>
 
-  <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included.</p>
+  <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included. <a href="devices.json">View the list in JSON format</a>, or grab <a href="https://gist.github.com/SteveBarnett/5238684">the JSON template</a>.</p>
 
   <ul class="devices">
 <?php
