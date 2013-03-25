@@ -224,16 +224,10 @@ $devices_json = utf8_encode(file_get_contents("devices.json"));
 $devices = json_decode($devices_json, true);
 
 function cb($disabled = true, $checked = false) {
-  $html .= '
-<input type="checkbox"';
-
-  // $html.= $disabled ? ' class="input-disabled" disabled="disabled"' : '';;
-  $html.= $checked ? ' class="feature-yes" checked="checked"' : 'class="feature-no"';
-
-  $html .=
-' />';
-
-return $html;
+  if ($checked === true) {
+    $html .= '&bull;';
+  }
+  return $html;
 }
 
 ?>
