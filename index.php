@@ -91,9 +91,7 @@ require('_header.php');
     <h2 id="labsinothercities">Labs in other cities</h2>
   </header>
 
-  <p>Jeremy Keith often links to device labs on the <a href="http://adactio.com/links/tags/devices/">devices tag on his links section</a>.</p>
-
-  <p>Andre Jay Meissner is keeping up a list of Labs across the world on <A href="http://klick-ass.com/awesomeness/avoid-the-tamagotchis-a-list-of-open-device-labs/">a post on his blog</a>, and co-founded <a href="http://lab-up.org/">LabUp</a>, as growing resource to help establish other Open Device Labs.
+  <p>By far the best place to keep up to date with Open Device Labs around the world is <a href="http://opendevicelab.com/">Open Device Lab.com</a>.</p>
 
 </section>
 
