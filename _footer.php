@@ -30,7 +30,7 @@
       <li<?php if($active == 'index') echo ' class="nav-active"'; ?>><a href="index.php" accesskey="h"><em>h</em>ome</a></li>
       <li<?php if($active == 'mobile-statistics') echo ' class="nav-active"'; ?>><a href="mobile-statistics.php" accesskey="m"><em>m</em>obile statistics</a></li>
       <li<?php if($active == 'testing-on-mobile') echo ' class="nav-active"'; ?>><a href="testing-on-mobile.php" accesskey="t"><em>t</em>esting on mobile</a></li>
-      <li<?php if($active == 'schedule') echo ' class="nav-active"'; ?>><a href="schedule.php" accesskey="s"><em>s</em>chedule</a></li>
+      <li<?php if($active == 'the-lab') echo ' class="nav-active"'; ?>><a href="the-lab.php" accesskey="l">the <em>l</em>ab</a></li>
     </ul>
   </nav>
 
