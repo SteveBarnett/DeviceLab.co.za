@@ -28,10 +28,10 @@
       "version": "2.6.26"
     },
     "input-method": {
-      "touch": true,
-      "keypad": false,
+      "touch": false,
+      "keypad": true,
       "trackpad": false,
-      "qwerty": false
+      "qwerty": true
     },
     "screen-size": "medium",
     "aspect-ratio": "regular",
@@ -113,7 +113,7 @@
       "trackpad": true,
       "qwerty": true
     },
-    "screen-size": "large",
+    "screen-size": "small",
     "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
