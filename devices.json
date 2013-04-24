@@ -255,6 +255,26 @@
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
     "commentary": "Mid range smartphone with older Android version (2.3.3 Gingerbread)"
+  },
+
+  "ZTE X990 (Cell C Branded)": {
+    "brand": "ZTE",
+    "model": "X990",
+    "OS": {
+      "name": "other",
+      "version": "n/a"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": true,
+      "trackpad": false,
+      "qwerty": true
+    },
+    "screen-size": "extra small",
+    "aspect-ratio": "regular",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "bad",
+    "commentary": "Low end, cheap, featurephone. WAP only."
   }
 
 }
