@@ -8,36 +8,26 @@
 <head>
   <meta charset="utf-8">
 
-  <title><?php echo $title; ?></title>
+  <title>{{ page.title }}</title>
   <meta name="description" content="Nomad Device Lab is a collection of mobile devices that helps you do better mobile testing.">
-  <meta name="author" content="Steve Barnett, Monad Device Lab">
+  <meta name="author" content="Steve Barnett, Nomad Device Lab">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-<?php
-function auto_version($file)
-{
-  if(!file_exists($file) || $_SERVER[SERVER_NAME] == 'dev.naga.co.za')
-    return $file;
-
-  $mtime = filemtime($file);
-  return preg_replace('{\\.([^./]+)$}', ".$mtime.\$1", $file);
-}
-?>
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="<?php echo auto_version('stylesheets/style.css') ?>" media="screen, handheld"/>
-  <link rel="stylesheet" href="<?php echo auto_version('stylesheets/enhanced.css') ?>" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="<?php echo auto_version('stylesheets/ie.css') ?>" /> <![endif]-->
+  <link rel="stylesheet" href="stylesheets/style.css" media="screen, handheld"/>
+  <link rel="stylesheet" href="stylesheets/enhanced.css" media="screen  and (min-width: 40.5em)"/>
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.css" /> <![endif]-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
        Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
        for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="<?php echo auto_version('js/modernizr.custom.js') ?>"></script>
+  <script src="js/modernizr.custom.js"></script>
 
   <!-- Typekit -->
   <script type="text/javascript">
@@ -55,18 +45,18 @@ function auto_version($file)
 
 </head>
 
-<body class="<?php echo $active; ?>">
+<body>
 <!-- "Skip to main content," to id, and tabindex="-1" on target -->
 <!-- terrillthompson.com/blog/161 -->
 <a href="#main" id="top" class="visuallyhidden">Skip to main content</a>
 
-	<header role="banner" id="header">
+  <header role="banner" id="header">
     <a href="index.php">
       <img src="img/logo.gif" alt="" />
-		  <h1 class="site-title">Nomad Device Lab</h1>
+      <h1 class="site-title">Nomad Device Lab</h1>
     </a>
-	</header>
+  </header>
 
   <a id="jump" href="#nav">Menu</a>
 
-	<div role="main" id="main" class="maincontent" tabindex="-1">
+  <div role="main" id="main" class="maincontent" tabindex="-1">
