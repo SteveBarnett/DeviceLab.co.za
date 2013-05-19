@@ -60,12 +60,12 @@
     "commentary": "Popular Apple iOS tablet, with large 10 inch screen, high dpi, and a wide range of available browsers."
   },
 
-  "Apple iPhone 4": {
+  "Apple iPhone 3G": {
     "brand": "Apple",
-    "model": "iPhone 4",
+    "model": "iPhone 3",
     "OS": {
       "name": "iOS",
-      "version": "6.1.3"
+      "version": "5.0"
     },
     "input-method": {
       "touch": true,
@@ -75,9 +75,9 @@
     },
     "screen-size": "small",
     "aspect-ratio": "regular",
-    "high-device-pixel-ratio": true,
+    "high-device-pixel-ratio": false,
     "web-standards-support": "good",
-    "commentary": "Popular Apple iOS smartphone, high dpi 3.5 inch screen and a wide range of available browsers."
+    "commentary": "Older Apple iOS smartphone, 3.5 inch, becoming popular as a cheap iOS device."
   },
 
   "Apple iPhone 5": {
@@ -85,7 +85,7 @@
     "model": "iPhone 5",
     "OS": {
       "name": "iOS",
-      "version": "6.1.3"
+      "version": "6.1.4"
     },
     "input-method": {
       "touch": true,
