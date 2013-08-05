@@ -140,6 +140,23 @@
     "commentary": "Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen."
   },
 
+  "Nintendo 3DS XL": {
+    "brand": "Nintendo",
+    "model": "3DS",
+    "OS": {
+      "name": "3DS",
+      "version": "XL"
+    },
+    "input-method": {
+      "touchscreen": true
+    },
+    "screen-size": "medium",
+    "aspect-ratio": "n/a",
+    "high-device-pixel-ratio": "n/a",
+    "web-standards-support": "okay",
+    "commentary": "Portable gaming console, Dual Screen. Unusual User Experience."
+  },
+
   "Nintendo Wii": {
     "brand": "Nintendo",
     "model": "Wii",
