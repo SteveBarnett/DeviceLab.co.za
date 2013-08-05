@@ -1,14 +1,14 @@
 </div><!-- /#main -->
 
   <footer role="contentinfo" id="footer">
-
+ 
     <div id="hcard-Steve-Barnett" class="vcard">
 
       <p><a class="url org" href="http://devicelab.co.za">Nomad Device Lab</a>
-      is run by
+      is run by 
       <span class="fn">Steve Barnett</span> of <a href="http://naga.co.za">Naga</a>.</p>
-
-      <p>To book your place at a session, or to host the lab yourself, get in touch at
+      
+      <p>To book your place at a session, or to host the lab yourself, get in touch at 
       <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a></p>
 
       <span class="tel">
@@ -19,7 +19,7 @@
       </span>
 
     </div>
-
+ 
   </footer>
 
   <nav role="navigation" id="nav" class="navigation" aria-label="Main Navigation">
@@ -27,10 +27,10 @@
       <h1>Main Navigation</h1>
     </header>
     <ul>
-      <li><a href="index.html" accesskey="h"><em>h</em>ome</a></li>
-      <li><a href="mobile-statistics.html" accesskey="m"><em>m</em>obile statistics</a></li>
-      <li><a href="testing-on-mobile.html" accesskey="t"><em>t</em>esting on mobile</a></li>
-      <li><a href="the-lab.html" accesskey="l">the <em>l</em>ab</a></li>
+      <li<?php if($active == 'index') echo ' class="nav-active"'; ?>><a href="index.php" accesskey="h"><em>h</em>ome</a></li>
+      <li<?php if($active == 'mobile-statistics') echo ' class="nav-active"'; ?>><a href="mobile-statistics.php" accesskey="m"><em>m</em>obile statistics</a></li>
+      <li<?php if($active == 'testing-on-mobile') echo ' class="nav-active"'; ?>><a href="testing-on-mobile.php" accesskey="t"><em>t</em>esting on mobile</a></li>
+      <li<?php if($active == 'the-lab') echo ' class="nav-active"'; ?>><a href="the-lab.php" accesskey="l">the <em>l</em>ab</a></li>
     </ul>
   </nav>
 
