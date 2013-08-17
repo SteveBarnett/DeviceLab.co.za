@@ -6,7 +6,7 @@ require('_header.php');
 
 <p>Nomad Device Lab is a collection of mobile devices that helps you do <strong>better mobile testing</strong>.</p>
 
-<p>It's Cape Town&#8217;s answer to Clearleft&#8217;s <a href="http://clearleft.com/testlab/">Test Lab</a>; a community device lab, organised by Steve Barnett of <a href="http://naga.co.za">Naga</a>. Read about what <a href="#nomaddevicelab">this device lab is about</a>, and see what others are doing in <a href="#labsinothercities">other cities</a>.</p>
+<p>It's Cape Town&#8217;s answer to Clearleft&#8217;s <a href="http://clearleft.com/testlab/">Test Lab</a>; a community device lab, organised by Steve Barnett of <a href="http://naga.co.za">Naga</a>. Read about what <a href="#nomaddevicelab">this device lab is about</a>, or keep up to date with Open Device Labs around the world at <a href="http://opendevicelab.com/">Open Device Lab.com</a>.</p>
 
 <p>Use of the lab is free, but space is limited. <a href="schedule.php">View the schedule</a> to see when the next session is, and who to contact to book your slot.</p>
 
@@ -51,7 +51,7 @@ require('_header.php');
       <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited, so please contact the lab or the host for that day.</p>
 
       <p>If you would like to host the lab for a day or half day session, we'd love to hear from you.</p>
-      
+
     </li>
 
     <li class="feature">
@@ -82,16 +82,7 @@ require('_header.php');
 
   <p><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6e;&#111;&#x6d;&#97;&#x64;&#64;&#100;&#x65;&#x76;&#x69;&#x63;&#x65;&#108;&#97;&#x62;&#x2e;&#99;&#x6f;&#x2e;&#122;&#97;" class="cta-email">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#116; &#x74;&#x68;&#101; &#x6c;&#x61;&#98;</a></p>
 
-  <p><a href="the-lab.php">Find out more about the lab</a> or <a href="schedule.php">check the schedule</a>.</p>
-
-</section>
-
-<section>
-  <header>
-    <h2 id="labsinothercities">Labs in other cities</h2>
-  </header>
-
-  <p>By far the best place to keep up to date with Open Device Labs around the world is <a href="http://opendevicelab.com/">Open Device Lab.com</a>.</p>
+  <p><a href="the-lab.php">Find out more about the lab</a> or <a href="testing-on-mobile.php">read some mobile statistics</a>.</p>
 
 </section>
 
