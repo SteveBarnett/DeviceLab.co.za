@@ -1,14 +1,14 @@
 </div><!-- /#main -->
 
   <footer role="contentinfo" id="footer">
- 
+
     <div id="hcard-Steve-Barnett" class="vcard">
 
       <p><a class="url org" href="http://devicelab.co.za">Nomad Device Lab</a>
-      is run by 
-      <span class="fn">Steve Barnett</span> of <a href="http://naga.co.za">Naga</a>.</p>
-      
-      <p>To book your place at a session, or to host the lab yourself, get in touch at 
+      is run by
+      <span class="fn">Steve Barnett</span> of <a href="http://naga.co.za">Naga</a>, and was established in September 2012. </p>
+
+      <p>To book your place at a session, or to host the lab yourself, get in touch at
       <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a></p>
 
       <span class="tel">
