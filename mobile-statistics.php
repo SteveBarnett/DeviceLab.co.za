@@ -9,7 +9,7 @@ require('_header.php');
     <h1 id="mobilestatistics" class="page-title">Mobile Statistics</h1>
   </header>
 
-  <p>Mobile is showing continued and rapid growth across a wide range of metrics: sales, internet usage (especially search), advertising, e-commerce, and social networking. Many users don&#8217;t have access to a fixed-line or a desktop computer, so their mobile device is their only access to the internet. Below are some statistics as a guide to this. More detailed information is available from the sites in the <a href="#statisticssources">sources section</a>.</p>
+  <p>Mobile is showing continued and rapid growth across a wide range of metrics: sales, internet usage (especially search), advertising, e-commerce, and social networking. Many users don&#8217;t have access to a fixed-line or a desktop computer, so their mobile device is their only access to the internet. Below are some statistics from the end of 2012 as a guide to this. More detailed information is available from the sites in the <a href="#statisticssources">sources section</a>.</p>
 
   <article id="number-of-users" class="stat">
 
@@ -17,7 +17,7 @@ require('_header.php');
       <h2>Cell and web stats: World and South Africa</h2>
     </header>
 
-    <table>          
+    <table>
     <caption>Cell and web stats: World and South Africa</caption>
 
       <thead>
@@ -72,7 +72,7 @@ require('_header.php');
       <h2>Mobile versus desktop web access: World and South Africa</h2>
     </header>
 
-    <table>          
+    <table>
     <caption>Mobile versus desktop web access: World and South Africa</caption>
 
       <thead>
@@ -103,7 +103,7 @@ require('_header.php');
 
       <p class="chart-label">World</p>
       <img src="img/web-access-world.png" alt="" />
-  
+
     </div>
 
     <div class="chart">
@@ -121,7 +121,7 @@ require('_header.php');
       <h2>Mobile only versus desktop and mobile web access: World and South Africa</h2>
     </header>
 
-    <table>          
+    <table>
     <caption>Mobile only versus desktop and mobile web access: World and South Africa</caption>
 
       <thead>
@@ -152,7 +152,7 @@ require('_header.php');
 
       <p class="chart-label">World</p>
       <img src="img/mobile-only-world.png" alt="" />
-   
+
     </div>
 
     <div class="chart">
@@ -170,7 +170,7 @@ require('_header.php');
       <h2>Feature phones vs smartphones: World and South Africa</h2>
     </header>
 
-    <table>          
+    <table>
     <caption>Feature phones vs smartphones: World and South Africa</caption>
 
       <thead>
@@ -233,7 +233,7 @@ require('_header.php');
     <h2 id="statisticssources">Statistics sources</h2>
   </header>
 
-  
+
 
   <p><a href="http://blog.cloudfour.com/a-comprehensive-guide-to-mobile-statistics/">A “Comprehensive” Guide to Mobile Statistics</a> by Jason Grigsby of Cloud Four provides a great starting point for research and statistics sources.</p>
 
