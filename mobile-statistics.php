@@ -238,6 +238,8 @@ require('_header.php');
   <p><a href="http://blog.cloudfour.com/a-comprehensive-guide-to-mobile-statistics/">A “Comprehensive” Guide to Mobile Statistics</a> by Jason Grigsby of Cloud Four provides a great starting point for research and statistics sources.</p>
 
   <p>The <a href="http://www.lukew.com/ff/">Writings section of Luke Wroblewski&#8217;s site</a> provides excellent, regular, details of mobile-related news, amongst other things.</p>
+  
+  <p>The folks at ZURB have an excellent stats library: <a href="http://zurb.com/quips">Design Quips from ZURB</a>.</p>
 
   <p>A brief list of sources used for the statistics above:</p>
 
