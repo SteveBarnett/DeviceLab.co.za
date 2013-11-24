@@ -244,6 +244,7 @@ function cb($disabled = true, $checked = false) {
       <th scope="column">Android</th>
       <th scope="column">Symbian</th>
       <th scope="column">Blackberry</th>
+      <th scope="column">Windows Phone</th>
       <th scope="column">Other</th>
     </thead>
 
@@ -257,6 +258,7 @@ function cb($disabled = true, $checked = false) {
       <td data-title="Android"><?php echo cb(true, $details['OS']['name'] == 'Android') ?></td>
       <td data-title="Symbian"><?php echo cb(true, $details['OS']['name'] == 'Symbian') ?></td>
       <td data-title="Blackberry"><?php echo cb(true, $details['OS']['name'] == 'Blackberry'); ?></td>
+      <td data-title="Windows Phone"><?php echo cb(true, $details['OS']['name'] == 'Windows Phone'); ?></td>
       <td data-title="Other"><?php echo cb(true, $details['OS']['name'] != 'iOS' && $details['OS']['name'] != 'Android' && $details['OS']['name'] != 'Symbian' && $details['OS']['name'] != 'Blackberry'); ?></td>
     </tr>
 <?php } ?>

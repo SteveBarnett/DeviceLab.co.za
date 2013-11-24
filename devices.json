@@ -191,6 +191,46 @@
     "commentary": "Gaming console running Opera 9 browser. Hooked up to projector."
   },
 
+  "Nokia Asha 210": {
+    "brand": "Nokia",
+    "model": "Asha 201",
+    "OS": {
+      "name": "Symbian",
+      "version": "4.2"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": true,
+      "trackpad": false,
+      "qwerty": true
+    },
+    "screen-size": "small",
+    "aspect-ratio": "regular",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "bad",
+    "commentary": "Mid-range phone that sits somewhere between featurephone and smartphone."
+  },
+
+  "Nokia Lumia 510": {
+    "brand": "Nokia",
+    "model": "Lumia 510",
+    "OS": {
+      "name": "Windows Phone",
+      "version": "7.5"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "small",
+    "aspect-ratio": "regular",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "okay",
+    "commentary": "Mid-range Windows phone, running Internet Explorer."
+  },
+
   "Nokia N97": {
     "brand": "Nokia",
     "model": "N97",
