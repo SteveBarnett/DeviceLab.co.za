@@ -222,7 +222,7 @@ require('_header.php');
 
   <p>Given that mobile web access is increasingly popular, we should be building site that work well on mobile devices. The big question is: <a href="testing-on-mobile.php">how do we do rigorous testing on mobile?</a></p>
 
-  <p>Doing so is <a href="testing-on-mobile.php#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites. [Why is testing on mobile good for developers?</p>
+  <p>Doing so is <a href="testing-on-mobile.php#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites.</p>
 
   <p>Testing on mobile is also <a href="testing-on-mobile.php#business">good for our clients</a>. If their customers aren&#8217;t already using their site on mobile, they will be soon. Mobile offers a new channel, and new opportunities for businesses to connect with their existing customers and to pull in new ones.</p>
 
@@ -238,7 +238,7 @@ require('_header.php');
   <p><a href="http://blog.cloudfour.com/a-comprehensive-guide-to-mobile-statistics/">A “Comprehensive” Guide to Mobile Statistics</a> by Jason Grigsby of Cloud Four provides a great starting point for research and statistics sources.</p>
 
   <p>The <a href="http://www.lukew.com/ff/">Writings section of Luke Wroblewski&#8217;s site</a> provides excellent, regular, details of mobile-related news, amongst other things.</p>
-  
+
   <p>The folks at ZURB have an excellent stats library: <a href="http://zurb.com/quips">Design Quips from ZURB</a>.</p>
 
   <p>A brief list of sources used for the statistics above:</p>
