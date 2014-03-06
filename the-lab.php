@@ -81,7 +81,7 @@ require('_header.php');
     <li>manufacturer</li>
   </ul>
 
-  <img src="img/device-lab-at-unboxed-large.jpg" alt="A wide selection of devices" />
+  <img src="img/device-lab-at-flow.jpg" alt="A wide selection of devices" />
 
 </section>
 
