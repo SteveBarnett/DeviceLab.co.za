@@ -314,6 +314,26 @@
     "commentary": "Mid range smartphone with older Android version (2.3.3 Gingerbread)"
   },
 
+  "Sony Playstation Vita": {
+    "brand": "Sony",
+    "model": "Playstation Vita",
+    "OS": {
+      "name": "Vita",
+      "version": "3.01"
+    },
+    "input-method": {
+      "touch": true,
+      "keypad": false,
+      "trackpad": false,
+      "qwerty": false
+    },
+    "screen-size": "medium",
+    "aspect-ratio": "widescreen",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "okay",
+    "commentary": "Popular gaming console with front touch screen and rear touchpad, and widescreen display."
+  },
+
   "ZTE X990 (Cell C Branded)": {
     "brand": "ZTE",
     "model": "X990",
