@@ -116,8 +116,29 @@
     "screen-size": "small",
     "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
-    "web-standards-support": "good",
+    "web-standards-support": "bad",
     "commentary": "Older Blackberry (OS 5) with landscape screen, and touchpad / QWERTY input."
+  },
+
+
+  "Blackberry Curve 9360": {
+    "brand": "Blackberry",
+    "model": "Curve 9360",
+    "OS": {
+      "name": "Blackberry",
+      "version": "7"
+    },
+    "input-method": {
+      "touch": false,
+      "keypad": false,
+      "trackpad": true,
+      "qwerty": true
+    },
+    "screen-size": "small",
+    "aspect-ratio": "regular",
+    "high-device-pixel-ratio": false,
+    "web-standards-support": "good",
+    "commentary": "Newer Blackberry (OS 7) with webkit browser."
   },
 
   "Google Nexus 7": {
