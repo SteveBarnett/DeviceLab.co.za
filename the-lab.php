@@ -16,7 +16,7 @@ require('_header.php');
 
   <p>Having the lab open to the community, and sharing knowledge, means you'll find fixes for your bugs more quickly, and that you'll know what to look out for next time.</p>
 
-  <p>The lab has a permanent home at my workplace: <a href="http://www.unboxedconsulting.com/">Unboxed Consulting</a> in Constantia. <a href="http://goo.gl/maps/SxLkY">View Google Map of the location</a>.<br />
+  <p>The lab has a permanent home at my workplace: <a href="http://www.userexperience.co.za/">Flow Interactive</a> in Claremont. <a href="http://maps.google.com/maps?ll=-33.977739,18.462378&z=14&t=m&hl=en-GB&gl=US&mapclient=embed&q=18%20Cavendish%20St%20Cape%20Town%207708%20South%20Africa">View Google Map of the location</a>.<br />
   If you'd like to come and do some testing, please <strong>make an appointment</strong> by dropping me a line to <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a>.</p>
 
 </section>
