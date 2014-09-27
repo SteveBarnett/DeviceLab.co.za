@@ -4,11 +4,12 @@ $active = 'index';
 require('_header.php');
 ?>
 
-<p>Nomad Device Lab is a collection of mobile devices that helps you do <strong>better mobile testing</strong>.</p>
+<p class="tagline">Nomad Device Lab is a shared community pool of internet-connected devices.<br />It is <strong>free to use</strong> for testing purposes by web and app developers.</p>
 
-<p>It's Cape Town&#8217;s answer to Clearleft&#8217;s <a href="http://clearleft.com/testlab/">Test Lab</a>; a community device lab, organised by Steve Barnett of <a href="http://naga.co.za">Naga</a>. Read about what <a href="#nomaddevicelab">this device lab is about</a>, or keep up to date with Open Device Labs around the world at <a href="http://opendevicelab.com/">Open Device Lab.com</a>.</p>
 
-<p><strong>Use of the lab is free</strong>, but space is limited. <a href="schedule.php">View the schedule</a> to see when the next session is, and who to contact to book your slot.</p>
+<p>The Lab is a collection of mobile devices that helps you do <strong>better mobile testing</strong>. It's Cape Town&#8217;s answer to Clearleft&#8217;s <a href="http://clearleft.com/testlab/">Test Lab</a>; a community device lab, organised by Steve Barnett of <a href="http://naga.co.za">Naga</a>. Read about what <a href="#nomaddevicelab">this device lab is about</a>, or keep up to date with Open Device Labs around the world at <a href="http://opendevicelab.com/">Open Device Lab.com</a>.</p>
+
+<p><a href="mailto:nomad@devicelab.co.za" class="cta-email">Contact the lab to make an appointment.</a></p>
 
 <section>
   <header>
@@ -48,7 +49,7 @@ require('_header.php');
         <strong>A travelling lab.</strong>
       </div>
 
-      <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited, so please contact the lab or the host for that day.</p>
+      <p>The lab is open to the community at locations around Cape Town. Use of the lab is free, but space is limited.</p>
 
       <p>If you would like to host the lab for a day or half day session, we'd love to hear from you.</p>
 

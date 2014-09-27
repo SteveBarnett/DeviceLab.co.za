@@ -16,8 +16,7 @@ require('_header.php');
 
   <p>Having the lab open to the community, and sharing knowledge, means you'll find fixes for your bugs more quickly, and that you'll know what to look out for next time.</p>
 
-  <p>The lab has a permanent home at my workplace: <a href="http://www.userexperience.co.za/">Flow Interactive</a> in Claremont. <a href="http://maps.google.com/maps?ll=-33.977739,18.462378&z=14&t=m&hl=en-GB&gl=US&mapclient=embed&q=18%20Cavendish%20St%20Cape%20Town%207708%20South%20Africa">View Google Map of the location</a>.<br />
-  If you'd like to come and do some testing, please <strong>make an appointment</strong> by dropping me a line to <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a>.</p>
+  <p>If you'd like to come and do some testing, please <strong>make an appointment</strong> by dropping a line to <a class="email" href="mailto:nomad@devicelab.co.za">nomad@devicelab.co.za</a>.</p>
 
 </section>
 
@@ -93,7 +92,7 @@ require('_header.php');
 
   <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included. <a href="devices.json">View the list in JSON format</a>, or grab <a href="https://gist.github.com/SteveBarnett/5238684">the JSON template</a>.</p>
 
-  <ul class="devices">
+  <ol class="devices">
 <?php
   $devices_json = utf8_encode(file_get_contents("devices.json"));
   $devices = json_decode($devices_json, true);
@@ -103,7 +102,7 @@ require('_header.php');
   }
 
 ?>
-  </ul>
+  </ol>
 
   <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="device-reference.php">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
 

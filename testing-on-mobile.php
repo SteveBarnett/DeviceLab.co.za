@@ -9,7 +9,7 @@ require('_header.php');
     <h1 id="testingonmobile" class="page-title">Testing on mobile</h1>
   </header>
 
-  <p><a href="mobile-statistics.php">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important, and challenging.</p>
+  <p><a href="mobile-statistics.php">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important and challenging.</p>
 
   <p>For developers, it&#8217;s <a href="#philosophy">exciting, challenging, and offers new problems to solve</a>. Testing on mobile is needs to be more aggressive than testing on desktop. You may find more bugs than you would for desktop, but fixing them means <a href="#business">better value for the client</a>, and an end product that will be more robust and long-lasting. Testing on mobile before desktop allows you to catch these bugs earlier in the process, reducing risk to the company, and saving time and money later in the development cycle.</p>
 
@@ -22,7 +22,7 @@ require('_header.php');
     <h2 id="philosophy">Philosophy</h2>
   </header>
 
-  <p>Developing for the mobile web is a big challenge, but is very exciting. Approaching development from a <a href="#oneweb">One Web</a> perspective, with an eye to being <a href="#futurefriendly">Future Friendly</a>, will lead to strong, durable, products. Adopting a <a href="#mobilefirst">Mobile First</a> strategy will help focus the content and performance of the site.</p>
+  <p>Developing for the mobile web is a big challenge, but is very exciting. Approaching development from a <strong>One Web</strong> perspective, with an eye to being <strong>Future Friendly</strong>, will lead to strong, durable, products. Adopting a <strong>Mobile First</strong> strategy will help focus the content and performance of the site.</p>
 
   <article>
     <header>
