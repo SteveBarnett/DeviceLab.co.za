@@ -1,25 +1,5 @@
 {
 
-  "Alcatel One Touch": {
-    "brand": "Alcatel",
-    "model": "One Touch",
-    "OS": {
-      "name": "Android",
-      "version": "2.2 (Froyo)"
-    },
-    "input-method": {
-      "touch": true,
-      "keypad": false,
-      "trackpad": false,
-      "qwerty": false
-    },
-    "screen-size": "small",
-    "aspect-ratio": "regular",
-    "high-device-pixel-ratio": false,
-    "web-standards-support": "okay",
-    "commentary": "Mid range smartphone with older Android version (2.2 Froyo)."
-  },
-
   "Alcatel One Touch Fire E": {
     "brand": "Alcatel",
     "model": "One Touch Fire E",
