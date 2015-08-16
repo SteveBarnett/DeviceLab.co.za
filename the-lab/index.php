@@ -104,9 +104,9 @@ require('../_header.php');
 ?>
   </ol>
 
-  <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="device-reference.php">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
+  <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="/device-reference/">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
 
-  <p>There are also <a href="device-reference.php#ataglance">tables for at-a-glance comparisons</a> of the devices in the lab.</p>
+  <p>There are also <a href="/device-reference/#ataglance">tables for at-a-glance comparisons</a> of the devices in the lab.</p>
 
   <p>For now, testing is done via WiFi internet connections. Testing on cellular networks would be ideal, but isn't financially possible at the moment. If you have SIM cards that you'd like to use for testing purposes, please feel free to bring them along.</p>
 

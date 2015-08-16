@@ -1,4 +1,4 @@
 <?php
 header ('HTTP/1.1 301 Moved Permanently');
-header ('Location: testing-on-mobile/');
+header ('Location: /testing-on-mobile/');
 ?>

@@ -22,11 +22,11 @@ require('../_header.php');
     <h2 id="whatweshoulddoaboutit">What we should do about it</h2>
   </header>
 
-  <p>Given that mobile web access is increasingly popular, we should be building sites that work well on mobile devices. The big question is: <a href="testing-on-mobile.php">how do we do rigorous testing on mobile?</a></p>
+  <p>Given that mobile web access is increasingly popular, we should be building sites that work well on mobile devices. The big question is: <a href="/testing-on-mobile/">how do we do rigorous testing on mobile?</a></p>
 
-  <p>Doing so is <a href="testing-on-mobile.php#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites.</p>
+  <p>Doing so is <a href="/testing-on-mobile/#philosophy">good for developers</a> because it helps our sites reach as many people, on as many devices, as possible. The focus that mobile brings also helps us produce lighter, leaner, sites.</p>
 
-  <p>Testing on mobile is also <a href="testing-on-mobile.php#business">good for our clients</a>. If their customers aren&#8217;t already using their site on mobile, they will be soon. Mobile offers a new channel, and new opportunities for businesses to connect with their existing customers and to pull in new ones.</p>
+  <p>Testing on mobile is also <a href="/testing-on-mobile/#business">good for our clients</a>. If their customers aren&#8217;t already using their site on mobile, they will be soon. Mobile offers a new channel, and new opportunities for businesses to connect with their existing customers and to pull in new ones.</p>
 
 </section>
 

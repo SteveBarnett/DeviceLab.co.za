@@ -1,4 +1,4 @@
 <?php
 header ('HTTP/1.1 301 Moved Permanently');
-header ('Location: device-reference.php');
+header ('Location: /device-reference/');
 ?>

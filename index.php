@@ -83,7 +83,7 @@ require('_header.php');
 
   <p><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6e;&#111;&#x6d;&#97;&#x64;&#64;&#100;&#x65;&#x76;&#x69;&#x63;&#x65;&#108;&#97;&#x62;&#x2e;&#99;&#x6f;&#x2e;&#122;&#97;" class="cta-email">&#x63;&#111;&#x6e;&#116;&#97;&#x63;&#116; &#x74;&#x68;&#101; &#x6c;&#x61;&#98;</a></p>
 
-  <p><a href="the-lab.php">Find out more about the lab</a> or <a href="testing-on-mobile.php">read some mobile statistics</a>.</p>
+  <p><a href="/the-lab/">Find out more about the lab</a> or <a href="/testing-on-mobile/">read some mobile statistics</a>.</p>
 
 </section>
 

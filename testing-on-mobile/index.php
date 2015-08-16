@@ -9,7 +9,7 @@ require('../_header.php');
     <h1 id="testingonmobile" class="page-title">Testing on mobile</h1>
   </header>
 
-  <p><a href="mobile-statistics.php">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important and challenging.</p>
+  <p><a href="/mobile-statistics/">Looking at the statistics</a>, it&#8217;s clear that mobile is a big concern for web workers. Rigorous testing on mobile is especially important and challenging.</p>
 
   <p>For developers, it&#8217;s <a href="#philosophy">exciting, challenging, and offers new problems to solve</a>. Testing on mobile is needs to be more aggressive than testing on desktop. You may find more bugs than you would for desktop, but fixing them means <a href="#business">better value for the client</a>, and an end product that will be more robust and long-lasting. Testing on mobile before desktop allows you to catch these bugs earlier in the process, reducing risk to the company, and saving time and money later in the development cycle.</p>
 
@@ -117,7 +117,7 @@ require('../_header.php');
     <h2 id="howdowetestonmobile">How do we test on mobile?</h2>
   </header>
 
-  <p>The best way to test is with <a href="the-lab.php#whytestonrealdevices">real devices</a>. Given the range and variety this is no easy task. Nomad Device Lab provides a practical and efficient way of conducting testing across a broad range of operating systems, browsers, and more. It does this by curating <a href="the-lab.php#deviceselection">a small selection of devices</a> that covers a broad range.</p>
+  <p>The best way to test is with <a href="/the-lab/#whytestonrealdevices">real devices</a>. Given the range and variety this is no easy task. Nomad Device Lab provides a practical and efficient way of conducting testing across a broad range of operating systems, browsers, and more. It does this by curating <a href="/the-lab/#deviceselection">a small selection of devices</a> that covers a broad range.</p>
 
 </section>
 
