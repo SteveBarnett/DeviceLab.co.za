@@ -94,7 +94,7 @@ require('../_header.php');
 
   <ol class="devices">
 <?php
-  $devices_json = utf8_encode(file_get_contents("/devices.json"));
+  $devices_json = utf8_encode(file_get_contents("../devices.json"));
   $devices = json_decode($devices_json, true);
 
   foreach ($devices as $device => $details) {
