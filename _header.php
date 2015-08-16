@@ -61,7 +61,7 @@ function auto_version($file)
 <a href="#main" id="top" class="visuallyhidden">Skip to main content</a>
 
 	<header role="banner" id="header">
-    <a href="index.php">
+    <a href="/">
       <img src="/img/logo.gif" alt="" />
 		  <h1 class="site-title">Nomad Device Lab</h1>
     </a>
