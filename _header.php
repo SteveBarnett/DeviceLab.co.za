@@ -28,16 +28,16 @@ function auto_version($file)
 }
 ?>
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
-  <link rel="stylesheet" href="<?php echo auto_version('stylesheets/style.css') ?>" media="screen, handheld"/>
-  <link rel="stylesheet" href="<?php echo auto_version('stylesheets/enhanced.css') ?>" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="<?php echo auto_version('stylesheets/ie.css') ?>" /> <![endif]-->
+  <link rel="stylesheet" href="/<?php echo auto_version('stylesheets/style.css') ?>" media="screen, handheld"/>
+  <link rel="stylesheet" href="/<?php echo auto_version('stylesheets/enhanced.css') ?>" media="screen  and (min-width: 40.5em)"/>
+  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="/<?php echo auto_version('stylesheets/ie.css') ?>" /> <![endif]-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
        Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
        for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="<?php echo auto_version('js/modernizr.custom.js') ?>"></script>
+  <script src="/<?php echo auto_version('js/modernizr.custom.js') ?>"></script>
 
   <!-- Typekit -->
   <script type="text/javascript">
@@ -62,7 +62,7 @@ function auto_version($file)
 
 	<header role="banner" id="header">
     <a href="index.php">
-      <img src="img/logo.gif" alt="" />
+      <img src="/img/logo.gif" alt="" />
 		  <h1 class="site-title">Nomad Device Lab</h1>
     </a>
 	</header>
