@@ -1,3 +1,6 @@
+---
+---
+
 /*
  * HTML5 ✰ Boilerplate
  *
@@ -215,7 +218,6 @@ td { vertical-align: top; }
    Author: Steve Barnett | Naga
    ========================================================================== */
 
-@import "compass";
 @import "config";
 
 :not(a):focus {
@@ -240,24 +242,14 @@ a {
 
   @include link-colours(darken($secondaryColor,20%), darken($secondaryColor,20%), darken($secondaryColor, 50%), darken($primaryColor,10%), darken($primaryColor,10%));
   margin: 1em 0;
-  // border: solid 1px $secondaryColor;
   border-radius: 0.25em;
-  // text-decoration: none;
   padding: 0.5em 1em;
   display: block;
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
-  // @include background-image(linear-gradient(top, $white, lighten($secondaryColor, 60%)));
-  // @include single-text-shadow(0, 1px, 0px, false, lighten($primaryColor,50%));
   background: darken($secondaryColor, 25%);
   @include link-colours(white, white, white, white, white);
-  @include background-image(linear-gradient(left,
-    darken($secondaryColor, 20%),
-    darken($secondaryColor, 25%) 33%,
-    darken($secondaryColor, 25%) 66%,
-    darken($secondaryColor, 20%))
-  );
 }
 
 /* ==|== Typography ==== */
@@ -318,8 +310,8 @@ img {
 /* ==|== Tables ==== */
 
   table {
-    @include table-scaffolding;
-    @include inner-table-borders(1px, lighten($secondaryColor, 50%));
+    // @include table-scaffolding;
+    // @include inner-table-borders(1px, lighten($secondaryColor, 50%));
     width: 100%;
   }
 
@@ -402,7 +394,6 @@ img {
   // text-align: center;
   padding: 0.5em;
   background: $secondaryColor;
-  @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
   color: $white;
   border-radius: 1em;
 
@@ -417,7 +408,6 @@ img {
   img {
     // border: solid 0.25em $black;
     // border-radius: 1em;
-    @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em);
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -483,7 +473,6 @@ img {
 .feature-precis {
   padding: 1em;
   background: $secondaryColor;
-  @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em inset);
   color: $white;
   border-radius: 1em;
   // max-width: 20em;
@@ -495,7 +484,6 @@ img {
   }
   img {
     border-radius: 1em;
-    @include box-shadow(darken($secondaryColor,10%) 0 0.25em 0.5em);
   }
 }
 
@@ -504,7 +492,6 @@ img {
   background: $primaryColor;
   padding: 0.5em 1em;
   border-radius: 0.25em;
-  @include background-image(linear-gradient($primaryColor, darken($primaryColor,5%)));
   border: solid 1px darken($primaryColor, 10%);
 }
 

@@ -1,8 +1,7 @@
-<?php
-$title = 'The Lab | Nomad Device Lab';
-$active = 'the-lab';
-require('../_header.php');
-?>
+---
+layout: default
+permalink: /the-lab/
+---
 
 <section>
 
@@ -92,21 +91,9 @@ require('../_header.php');
 
   <p>Below is a list of devices currently in the lab, and a short description of why they&#8217;re included. <a href="/devices.json">View the list in JSON format</a>, or grab <a href="https://gist.github.com/SteveBarnett/5238684">the JSON template</a>.</p>
 
-  <ol class="devices">
-<?php
-  $devices_json = utf8_encode(file_get_contents("../devices.json"));
-  $devices = json_decode($devices_json, true);
+  {% include devices.html %}
 
-  foreach ($devices as $device => $details) {
-    echo '<li class="device"><strong>' . $device . '</strong> ' . $details['commentary'] . '</li>';
-  }
-
-?>
-  </ol>
-
-  <p>The differences in operating systems and inputs can be a little overwhelming, so I've put together some <a href="/device-reference/">reference documentation for the devices</a> detailing browser locations, Wi-Fi settings, and quirks.</p>
-
-  <p>There are also <a href="/device-reference/#ataglance">tables for at-a-glance comparisons</a> of the devices in the lab.</p>
+  <p>I've made <a href="/device-reference/#ataglance">tables for at-a-glance comparisons</a> of the devices in the lab.</p>
 
   <p>For now, testing is done via WiFi internet connections. Testing on cellular networks would be ideal, but isn't financially possible at the moment. If you have SIM cards that you'd like to use for testing purposes, please feel free to bring them along.</p>
 
@@ -136,6 +123,3 @@ require('../_header.php');
   <p>The <a href="http://naga.co.za/checklist-and-tools/#mobile">mobile section</a> covers some ideas for things to test for during a lab session.</p>
 
 </section>
-
-<?php
-require('../_footer.php');

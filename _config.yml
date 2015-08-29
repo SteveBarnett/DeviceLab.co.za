@@ -1,0 +1,8 @@
+# Site settings
+title: Device Lab
+description: Nomad Device Lab is a collection of mobile devices that helps you do better mobile testing.
+baseurl: ""
+url: "http://devicelab.co.za"
+
+# Build settings
+markdown: kramdown
