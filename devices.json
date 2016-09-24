@@ -21,24 +21,24 @@
   },
 
 
-  "Amazon Kindle keyboard": {
+  "Amazon Kindle Touch": {
     "brand": "Amazon",
-    "model": "Kindle keyboard",
+    "model": "Kindle Touch",
     "OS": {
-      "name": "Linux",
-      "version": "2.6.26"
+      "name": "Linux-ish",
+      "version": "5.3.7.3"
     },
     "input-method": {
-      "touch": false,
-      "keypad": true,
+      "touch": true,
+      "keypad": false,
       "trackpad": false,
-      "qwerty": true
+      "qwerty": false
     },
     "screen-size": "medium",
     "aspect-ratio": "regular",
-    "high-device-pixel-ratio": false,
+    "high-device-pixel-ratio": true,
     "web-standards-support": "bad",
-    "commentary": "Popular e-reader with low capability browser and 16-level grayscale e-ink display. Oddball, good for being Future Friendly!"
+    "commentary": "Popular e-reader with low capability browser and grayscale e-ink display. Oddball, good for being Future Friendly!"
   },
 
   "Apple iPad 3": {
