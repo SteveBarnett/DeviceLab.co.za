@@ -46,8 +46,7 @@
     "model": "iPad 3",
     "OS": {
       "name": "iOS",
-      "version": "5.1"
-    },
+      "version": "8.1"    },
     "input-method": {
       "touch": true,
       "keypad": false,
