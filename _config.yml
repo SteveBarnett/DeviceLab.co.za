@@ -6,3 +6,8 @@ url: "http://devicelab.co.za"
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed
+
+css-version: 1.5.0
