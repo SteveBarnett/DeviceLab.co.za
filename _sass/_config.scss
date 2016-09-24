@@ -8,10 +8,7 @@ $smallscreenmargin: 0.5em;
 $breakpointL: '60em';
 
 $headings: 'futura-pt';
-$paragraphs: 'pragmatica-web';
-$paragraphs: 'franklin-gothic-urw';
-$paragraphs: 'pt-sans';
-
+$paragraphs: 'futura-pt';
 
 @mixin link-colours($link, $visited, $hover, $focus, $active) {
 	&:link {
