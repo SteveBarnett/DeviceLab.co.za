@@ -339,6 +339,16 @@ img {
   //   }
   // }
 
+  tbody {
+    tr:nth-of-type(2n) {
+      background-color: desaturate(lighten($secondaryColor, 30%), 80%);
+      color: white;
+      th {
+        font-weight: normal;
+      }
+    }
+  }
+
 /* ==|== role navigation ==== */
 
 #top {
