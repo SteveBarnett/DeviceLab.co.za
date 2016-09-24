@@ -99,11 +99,11 @@
 
 .devices {
 	@include clearfix;
+	column-count: 2;
 }
 
 .device {
-	@include alternatingfloats;
-	margin-bottom: 1em;
+	margin: 0 0 1em 1em;
 	strong {
 		display: block;
 	}
