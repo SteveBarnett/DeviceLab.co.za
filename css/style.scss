@@ -5,7 +5,9 @@
 
 @import "config";
 
-@import "medium";
+@media screen and (min-width: $breakpointM) {
+	@import "medium";
+}
 
 @media screen and (min-width: $breakpointL) {
 	@import "large";
