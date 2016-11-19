@@ -141,12 +141,12 @@
     "commentary": "Newer Blackberry (OS 7) with webkit browser."
   },
 
-  "Google Nexus 7": {
-    "brand": "Google",
-    "model": "Nexus 7",
+  "Vodacom Smart Tab 2": {
+    "brand": "Vodacom",
+    "model": "Smart Tab 2",
     "OS": {
       "name": "Android",
-      "version": "4.4"
+      "version": "6.0"
     },
     "input-method": {
       "touch": true,
@@ -158,7 +158,7 @@
     "aspect-ratio": "regular",
     "high-device-pixel-ratio": false,
     "web-standards-support": "good",
-    "commentary": "Mid range tablet with Latest version of Android (4.1 Jelly Bean) and mid-size screen."
+    "commentary": "Cheap and cheerful tablet with latest version of Android and mid-size screen."
   },
 
   "Motorola Moto G": {
