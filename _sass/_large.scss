@@ -12,17 +12,30 @@ body {
 	display: none;
 }
 
-#nav {
+[role="banner"] {
+	margin-bottom: 3em;
+}
+
+[role="navigation"] {
 	position: absolute;
-	top: 0;
+	top: 5em;
+	left: 1em;
 	right: $smallscreenmargin;
-	width: 27%;
+	// width: 27%;
+
+	li {
+		display: inline-block;
+		margin-right: 1em;
+	}
 
 	a {
 		background: $white;
 		border: none;
 		@include link-colours($secondaryColor, $secondaryColor, darken($secondaryColor, 30%), $primaryColor, $primaryColor);
 		padding: 0.05em;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	.nav-active a {
@@ -30,10 +43,8 @@ body {
 	}
 }
 
-/* ==|== role banner ==== */
-
-[role="banner"] {
-	width: 66%;
+.navigation {
+	background-color: $white;
 }
 
 /* ==|== role main ==== */

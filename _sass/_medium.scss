@@ -10,7 +10,7 @@
 /* ==|== role navigation ==== */
 
 #jump {
-	top: 2em;
+	top: 1em;
 	right: 3em;
 	font-size: 1.5em;
 	 &:after {
@@ -23,31 +23,11 @@
     }
 }
 
-/* ==|== role banner ==== */
-
-[role="banner"] {
-
-	a {
-		float: left;
-		width: 66%;
-		margin-top: 0;
-	}
-
-	img {
-		float: left;
-		width: auto;
-		height: auto;
-		border-radius: 1em;
-		margin-right: 1em;
-	}
-
-	@include clearfix;
-}
-
 .site-title {
-	display: block;
-	margin-top: 0.75em;
 	font-size: 2em;
+	position: relative;
+	top: 0.25em;
+	left: 0.25em;
 }
 
 /* ==|== role main ==== */
