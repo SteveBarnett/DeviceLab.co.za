@@ -10,4 +10,4 @@ markdown: kramdown
 sass:
   style: compressed
 
-css-version: 1.6.2
+css-version: 1.7
