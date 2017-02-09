@@ -401,7 +401,7 @@ img {
 
 /* ==|== role banner ==== */
 
-#header {
+[role="banner"] {
 
   margin: $smallscreenmargin;
   // text-align: center;
@@ -431,7 +431,7 @@ img {
 
 @media screen and (min-width: 20em) {
 
-  #header {
+  [role="banner"] {
     a {
       margin-top: 0;
     }
