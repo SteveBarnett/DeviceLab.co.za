@@ -734,3 +734,16 @@ img {
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+/* archive mode */
+
+html:before {
+  display: block;
+  content: "Please note! The lab closed in February 2019.";
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", Ubuntu, sans-serif;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  background-color: #d20;
+  color: #fff;
+}
